@@ -1,0 +1,35 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Javascript - Tag - Netwezen</title>
+        <link>http://example.org/tags/javascript/</link>
+        <description>Javascript - Tag - Netwezen</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 30 Dec 2017 12:13:17 &#43;0800</lastBuildDate><atom:link href="http://example.org/tags/javascript/" rel="self" type="application/rss+xml" /><item>
+    <title>Menggunakan Yarn pada Angular CLI</title>
+    <link>http://example.org/post/angular-yarn/</link>
+    <pubDate>Sat, 30 Dec 2017 12:13:17 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/angular-yarn/</guid>
+    <description><![CDATA[Angular default-nya menggunakan NPM. Apabila ingin mengganti package manager ke Yarn, cukup ketik perintah ini:
+ng set --global packageManager=yarn Percobaan:
+Untuk mengembalikan ke NPM:
+ng set --global packageManager=npm Kenapa Pakai Yarn?
+Menurut saya Yarn lebih cepat daripada NPM dan Yarn bisa digunakan Offline.
+Sumber: https://medium.com/@beeman/using-yarn-with-angular-cli-db2e318e43c5]]></description>
+</item><item>
+    <title>Langkah Awal: Belajar Reactjs</title>
+    <link>http://example.org/post/belajar-reactjs/</link>
+    <pubDate>Fri, 29 Dec 2017 04:24:49 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/belajar-reactjs/</guid>
+    <description><![CDATA[Saya telat ikut kulgram Reactjs di @lombokjs, karena kehabisan kuota 😢.
+Tapi tak masalah, di Telegram masih tersimpan arsipnya.
+Langkah awal belajar React, ya pertama harus kenalan dulu dengan React-nya.
+Bagaimana sejarahnya?
+Kenapa harus menggunakan React?
+Bagaimana konsep React?
+Kira-kira itulah isi dari kulgram semalam yang nggak saya ikuti.
+Tapi pagi ini, saya mau coba-coba langsung&hellip;
+Coba nginstall aja, siapa tau mau belajar lebih lanjut.
+Memulai Project React Saya akan menggunakan yarn dan create-react-app untuk memulai.]]></description>
+</item></channel>
+</rss>

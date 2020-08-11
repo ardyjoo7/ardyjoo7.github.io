@@ -1,0 +1,19 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Surge - Tag - Netwezen</title>
+        <link>http://example.org/tags/surge/</link>
+        <description>Surge - Tag - Netwezen</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 13 Jan 2018 17:59:45 &#43;0800</lastBuildDate><atom:link href="http://example.org/tags/surge/" rel="self" type="application/rss+xml" /><item>
+    <title>Cara Deploy Hugo dari Gitlab ke Surge</title>
+    <link>http://example.org/post/hugo-gitlab-surge/</link>
+    <pubDate>Sat, 13 Jan 2018 17:59:45 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/hugo-gitlab-surge/</guid>
+    <description><![CDATA[Saya punya project pembuatan template untuk web company profile. Sewaktu ingin memperlihatkan demo, saya menggunakan layanan hosting Surge. Karen sangat mudah sekali.
+Cukup dengan mengetik perintah:
+surge ./publicWebsite suda di-deploy ke Surge.
+Namun, tiap kali deploy, kita akan upload semua file public ke surge. Ini saya rasa kurang bagus, karena koneksi internet saya sangat terbatas (lambat dan kuota tinggal sedikit hahaha 😄).
+Karena itu, saya memanfaatkan Gitlab CI:
+Worflownya menjadi begini:]]></description>
+</item></channel>
+</rss>

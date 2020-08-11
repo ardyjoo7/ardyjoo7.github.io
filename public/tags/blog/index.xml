@@ -1,0 +1,126 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>blog - Tag - Netwezen</title>
+        <link>http://example.org/tags/blog/</link>
+        <description>blog - Tag - Netwezen</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 19 Jan 2020 23:02:17 &#43;0800</lastBuildDate><atom:link href="http://example.org/tags/blog/" rel="self" type="application/rss+xml" /><item>
+    <title>Tips Hugo: Agar Gambar Tampil di Preview Markdown VS Code</title>
+    <link>http://example.org/post/hugo-img/</link>
+    <pubDate>Sun, 19 Jan 2020 23:02:17 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/hugo-img/</guid>
+    <description><![CDATA[Saya biasanya menulis blog dengan VS Code. Tapi saat menggunakan fitur preview markdown di VS Code, gambar tidak mau tampil.
+Ini karena alamat path gambar pada Hugo menggunakan static/img/.
+Sementara pada markdown harus ditulis seperti ini:
+![Teks Caption](/img/nama-gambar.jpg) Karena nanti saat di-render akan menggunakan alamat itu. Tapi untuk VS Code, alamat ini tidak ditemukan.
+Lalu bagaimana caranya agar VS Code juga bisa baca alamat gambar dari Hugo?
+Caranya kita bisa buat simbolik link pada root direktori hugo.]]></description>
+</item><item>
+    <title>Partial Penghitung Kata pada Hugo</title>
+    <link>http://example.org/post/hugo-wordscounter/</link>
+    <pubDate>Sat, 08 Sep 2018 22:15:58 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/hugo-wordscounter/</guid>
+    <description><![CDATA[Setiap menulis blog, Saya jarang memperhatikan jumlah kata yang ditulis.
+Rencananya saya ingin menulis 1000+ kata untuk setiap artikel.
+Karena itu, saya perlu bantuan penghitung kata pada tulisa.
+Saya menggunakan teks editor VS Code untuk menulis. Kadang menggunakan VIM.
+Di VS Code, saya tidak ingin menginstal ekstensi untuk menghitung jumlah kata.
+Karena di artikel yang ditulis terdapat front-matter yang juga akan masuk hitungan.
+Karena itu, solusinya membuat partial penghitung kata.]]></description>
+</item><item>
+    <title>Error 520: Petanikode Down!</title>
+    <link>http://example.org/post/dns-netlify/</link>
+    <pubDate>Tue, 04 Sep 2018 18:05:05 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/dns-netlify/</guid>
+    <description><![CDATA[Beberapa hari ini saya sering mendapatkan laporan error 520 dari pengunjung Petanikode.
+Apakah mungkin karena trafiknya terlalu ramai?
+Ataukah Netlify yang tidak mau akur dengan cloudflare?
+Saya tidak tahu penyebabnya apa&hellip;
+Namun, screenshot di atas menujukan kalau server tempat Petanikode di-hosting telah down.
+Sedangkan Cloudflare berusaha melayani request dengan cache yang ada.
+Hmmm&hellip;.
+Apakah Bandwidth-nya habis? Netlify memberikan kuota bandwidth sampai 100GB per bulan. Kalau dilihat dari analytic Cloudflare&hellip;
+Kuota bandwidth yang dihabiskan Petanikode selama sehari sekitar 500MB.]]></description>
+</item><item>
+    <title>Melanjutkan Pembuatan Template Blogger dengan Bootstrap</title>
+    <link>http://example.org/post/template-bs4blogger/</link>
+    <pubDate>Wed, 25 Apr 2018 21:22:40 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/template-bs4blogger/</guid>
+    <description><![CDATA[Sudah cukup lama saya mulai pembuatan template ini. Namun, belum sempat dilanjutkan lagi.
+Kemarin saya coba otak-atik lagi&hellip;
+&hellip;dan ini hasilnya:
+Terlhat bagus 😄
+Template ini sebenarnya replika dari template Petani Kode. Karena banyak yang meminta saya untuk membuat versi Bloggernya.
+Template ini saya persembahkan untuk kawan-kawan yang ingin membuat blognya terlihat:
+ Bersih Rapi Elegan Sederhana dan profesional.  Tertarik? Cek demonya di sini: https://bs4blogger.blogspot.co.id/
+Oya, template ini masih belum jadi&hellip;]]></description>
+</item><item>
+    <title>Agar Hugo tidak melakukan HTTP Request saat Offline</title>
+    <link>http://example.org/post/hugo-offline/</link>
+    <pubDate>Sun, 18 Mar 2018 00:37:25 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/hugo-offline/</guid>
+    <description><![CDATA[Saya menggunakan shortcode twitter dan instagram di dalam postingan. Setiap kali mau render, pasti akan melakukan HTTP Request ke API twitter dan instagram.
+Sehingga, apabila kita render saat dalam keadaan offline, maka akan menghasilkan error seperti ini:
+Cara mencegahnya:
+Kita cukup mengisi alamat baseurl dengan localhost:
+baseurl = &#34;http://localhost&#34; Atau bisa juga diberikan saat me-render atau menjalankan server Hugo dengan flag -b atau --baseURL.
+hugo server -b http://localhost Maka Hugo tidak akan melakukan HTTP Request lagi.]]></description>
+</item><item>
+    <title>Rasio Pentalan Terjun Bebas! dan Saya tidak tahu mengapa?</title>
+    <link>http://example.org/post/rasio-pentalan/</link>
+    <pubDate>Tue, 13 Feb 2018 23:11:24 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/rasio-pentalan/</guid>
+    <description><![CDATA[Bulan Januari tahun 2017 yang lalu, saya migrasi dari platform Blogger ke Hugo. Sejak saat itu, masih banyak yang harus dikerjakan seperti mendasain ulang template, memperbaiki konten, memperbaiki broken link, dsb.
+Yang paling lama adalah memperbaiki kontentnya. Karena saya menemukan banyak konten yang kualitasnya rendah. Hingga saat ini pekerjaan memperbaiki konten masih belum selsai dan akan terus dilakukan.
+Saat itu, rasio pentalan (bounce rate) blog saya sekitar 50%&ndash;70%. Menurut saya ini hal yang wajar.]]></description>
+</item><item>
+    <title>Eksperimen Membuat Template Blogger dengan Bootstrap 4</title>
+    <link>http://example.org/post/template-blogger/</link>
+    <pubDate>Thu, 25 Jan 2018 20:30:53 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/template-blogger/</guid>
+    <description><![CDATA[Tadi malam saya coba eksperimen membuat template blogger dengan Bootstrap 4. Saya membuat blog baru (https://bs4blogger.blogspot.com) untuk eksperimen ini.
+Membuat template blog sepertinya lebih sulit daripada membuat template Hugo. Karena dokumentasi template blogger sangat minim.
+Berikut ini link dokumentasi yang bisa digunakan:
+ Pengenalan konsep dasar template blogger Penjelasan tentang CSS di Template Penjelasan tentang kode widget Variabel data di template  Saya juga menggunakan semacam cheatsheet untuk mempermudah dalam mengetahui isi dari variabel data.]]></description>
+</item><item>
+    <title>Tahapan Menulis Artikel di Blog</title>
+    <link>http://example.org/post/menulis-blog/</link>
+    <pubDate>Wed, 24 Jan 2018 03:01:24 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/menulis-blog/</guid>
+    <description><![CDATA[Saya baru menyadari, kalau selama ini cara saya menulis memang salah. Saya menulis draft, sekaligus mengedit, dan membuat gambar ilustrasinya.
+Jadi kurang fokus pada menuangkan isi pikiran yang akan ditulis. Akibatnya pembutan artikel jadi lama dan berakhir menjadi draft.
+Setelah saya mencoba untuk fokus di satu saja, ternyata hasilnya lumayan berbeda.
+Pertama: Menulis Draft Saya menulis apa yang sedang terlintas dipikiran tanpa memperhatikan typo dan kalimat yang bagus. Tulis saja apa adanya.]]></description>
+</item><item>
+    <title>Migrasi Front-matter Hugo dengan sed</title>
+    <link>http://example.org/post/migrasi-frontmatter/</link>
+    <pubDate>Fri, 19 Jan 2018 20:05:09 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/migrasi-frontmatter/</guid>
+    <description><![CDATA[Saya berencana memperbaiki template dan front-matter Petanikode. Ada 300 lebih artikelnya yang harus dimodifikasi.
+Saya rasa ini cukup merepotkan, mengedit satu-persatu front-matter setiap artikel. Apalagi jumlahnya cukup banyak.
+Akhirnyta saya menemukan sed (Stream Editor).
+Berawal dari coba-coba dari perintah ini, Front-matternya menjadi rusak. Untungnya menggunakan git, jadi masih bisa dikembalikan lagi.
+Lalu biar mudah saya membuat branch baru bernama theme-migration.
+git checkout -b theme-migration Sekarang saya bebas memodifikasinya dengan sed tanpa harus takut rusak lagi.]]></description>
+</item><item>
+    <title>Cara Deploy Hugo dari Gitlab ke Surge</title>
+    <link>http://example.org/post/hugo-gitlab-surge/</link>
+    <pubDate>Sat, 13 Jan 2018 17:59:45 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/hugo-gitlab-surge/</guid>
+    <description><![CDATA[Saya punya project pembuatan template untuk web company profile. Sewaktu ingin memperlihatkan demo, saya menggunakan layanan hosting Surge. Karen sangat mudah sekali.
+Cukup dengan mengetik perintah:
+surge ./publicWebsite suda di-deploy ke Surge.
+Namun, tiap kali deploy, kita akan upload semua file public ke surge. Ini saya rasa kurang bagus, karena koneksi internet saya sangat terbatas (lambat dan kuota tinggal sedikit hahaha 😄).
+Karena itu, saya memanfaatkan Gitlab CI:
+Worflownya menjadi begini:]]></description>
+</item></channel>
+</rss>

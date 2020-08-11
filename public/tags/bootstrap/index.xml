@@ -1,0 +1,31 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Bootstrap - Tag - Netwezen</title>
+        <link>http://example.org/tags/bootstrap/</link>
+        <description>Bootstrap - Tag - Netwezen</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 25 Apr 2018 21:22:40 &#43;0800</lastBuildDate><atom:link href="http://example.org/tags/bootstrap/" rel="self" type="application/rss+xml" /><item>
+    <title>Melanjutkan Pembuatan Template Blogger dengan Bootstrap</title>
+    <link>http://example.org/post/template-bs4blogger/</link>
+    <pubDate>Wed, 25 Apr 2018 21:22:40 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/template-bs4blogger/</guid>
+    <description><![CDATA[Sudah cukup lama saya mulai pembuatan template ini. Namun, belum sempat dilanjutkan lagi.
+Kemarin saya coba otak-atik lagi&hellip;
+&hellip;dan ini hasilnya:
+Terlhat bagus 😄
+Template ini sebenarnya replika dari template Petani Kode. Karena banyak yang meminta saya untuk membuat versi Bloggernya.
+Template ini saya persembahkan untuk kawan-kawan yang ingin membuat blognya terlihat:
+ Bersih Rapi Elegan Sederhana dan profesional.  Tertarik? Cek demonya di sini: https://bs4blogger.blogspot.co.id/
+Oya, template ini masih belum jadi&hellip;]]></description>
+</item><item>
+    <title>Eksperimen Membuat Template Blogger dengan Bootstrap 4</title>
+    <link>http://example.org/post/template-blogger/</link>
+    <pubDate>Thu, 25 Jan 2018 20:30:53 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/template-blogger/</guid>
+    <description><![CDATA[Tadi malam saya coba eksperimen membuat template blogger dengan Bootstrap 4. Saya membuat blog baru (https://bs4blogger.blogspot.com) untuk eksperimen ini.
+Membuat template blog sepertinya lebih sulit daripada membuat template Hugo. Karena dokumentasi template blogger sangat minim.
+Berikut ini link dokumentasi yang bisa digunakan:
+ Pengenalan konsep dasar template blogger Penjelasan tentang CSS di Template Penjelasan tentang kode widget Variabel data di template  Saya juga menggunakan semacam cheatsheet untuk mempermudah dalam mengetahui isi dari variabel data.]]></description>
+</item></channel>
+</rss>

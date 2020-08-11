@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>Git Push, Lalu Tiba-tiba Matilampu! - Netwezen</title><meta name="Description" content="Apa yang akan terjadi saat menjalankan perintah git push lalu ditengah-tengah mati lampu?"><meta property="og:title" content="Git Push, Lalu Tiba-tiba Matilampu!" />
+<meta property="og:description" content="Apa yang akan terjadi saat menjalankan perintah git push lalu ditengah-tengah mati lampu?" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/post/git-push-matilampu/" />
+<meta property="article:published_time" content="2017-12-20T00:59:23+08:00" />
+<meta property="article:modified_time" content="2017-12-20T00:59:23+08:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Git Push, Lalu Tiba-tiba Matilampu!"/>
+<meta name="twitter:description" content="Apa yang akan terjadi saat menjalankan perintah git push lalu ditengah-tengah mati lampu?"/>
+<meta name="application-name" content="Netwezen">
+<meta name="apple-mobile-web-app-title" content="Netwezen"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://example.org/post/git-push-matilampu/" /><link rel="prev" href="http://example.org/post/ekstensi-hugofy/" /><link rel="next" href="http://example.org/post/template-lombokfoss/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Git Push, Lalu Tiba-tiba Matilampu!",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/example.org\/post\/git-push-matilampu\/"
+        },"genre": "post","keywords": "Git","wordcount":  990 ,
+        "url": "http:\/\/example.org\/post\/git-push-matilampu\/","datePublished": "2017-12-20T00:59:23+08:00","dateModified": "2017-12-20T00:59:23+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": "Ardy Johan"},"author": {
+                "@type": "Person",
+                "name": "Ardy Johan"
+            },"description": "Apa yang akan terjadi saat menjalankan perintah git push lalu ditengah-tengah mati lampu?"
+    }
+    </script></head>
+    <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : '' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Netwezen"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="https://ryk.my.id/images/favicon.png"
+        data-srcset="https://ryk.my.id/images/favicon.png, https://ryk.my.id/images/favicon.png 1.5x, https://ryk.my.id/images/favicon.png 2x"
+        data-sizes="auto"
+        alt="https://ryk.my.id/images/favicon.png"
+        title="https://ryk.my.id/images/favicon.png" /><span id="id-1" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/post/"> Post </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/categories/documentation/"> Docs </a><a class="menu-item" href="/about/"> About </a><a class="menu-item" href="https://github.com/dillonzq/LoveIt" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Netwezen"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="https://ryk.my.id/images/favicon.png"
+        data-srcset="https://ryk.my.id/images/favicon.png, https://ryk.my.id/images/favicon.png 1.5x, https://ryk.my.id/images/favicon.png 2x"
+        data-sizes="auto"
+        alt="https://ryk.my.id/images/favicon.png"
+        title="https://ryk.my.id/images/favicon.png" /><span id="id-2" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/post/" title="">Post</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/categories/documentation/" title="">Docs</a><a class="menu-item" href="/about/" title="">About</a><a class="menu-item" href="https://github.com/dillonzq/LoveIt" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="page single special"><h1 class="single-title animated pulse faster">Git Push, Lalu Tiba-tiba Matilampu!</h1><div class="content" id="content"><p>Apa yang akan terjadi saat menjalankan perintah <code>git push</code> lalu
+ditengah-tengah mati lampu?</p>
+<p>Jika pakai laptop nggak masalah, karena daya masih bisa
+ngambil dari baterai.</p>
+<p>Tapi yang pakai komputer?</p>
+<p>atau yang laptopnya nggak bisa nyala tanpa cas?</p>
+<p>Ini masalah!</p>
+<p>Sebenarnya kejadian ini sudah pernah saya alami sebelumnya.</p>
+<p>Repositori jadi rusak dan tidak bisa melakukan apa-apa.</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img/git-matilampu/repo-rusak.png"
+        data-srcset="/img/git-matilampu/repo-rusak.png, /img/git-matilampu/repo-rusak.png 1.5x, /img/git-matilampu/repo-rusak.png 2x"
+        data-sizes="auto"
+        alt="/img/git-matilampu/repo-rusak.png"
+        title="Repositori Git Rusak" /></p>
+<p>Solusi &ldquo;bodohnya&rdquo; kita harus membuat repositori baru.</p>
+<p>Hapus dulu database git yang sudah ada:</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">rm -rf .git
+rm .gitignore
+</code></pre></div><p>Lalu bikin lagi yang baru:</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">git init .
+git add .
+git commit -m <span class="s2">&#34;first commit&#34;</span>
+</code></pre></div><p>Lalu untuk push ke github, kita pakai <code>--force</code>. Sebenarnya ini bahaya, karena
+dapat menghapus semua log yang ada di repo github.</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">git push origin master --force
+</code></pre></div><p>Maka semua revisi yang ada di Github akan ditindih dengan yang baru.</p>
+<p>Lalu, karena repositori ini saya pakai untuk Hugo, maka
+harus buat sub-modul lagi untuk deploy ke Github.</p>
+<p>Tutorialnya ada di sini: <a href="https://www.petanikode.com/hugo-hosting-github/" target="_blank" rel="noopener noreffer">Cara Hosting Hugo di Github</a></p>
+<p>Setelah itu, coba tes deploy lagi.</p>
+<p>Pasti bisa!</p>
+<p>Berikut ini log perintah yang saya ketik di terminal:</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">petanikode@imajinasi ~/ardianta-pargo $ rm -rf .git
+petanikode@imajinasi ~/ardianta-pargo $ git status 
+fatal: Not a git repository <span class="o">(</span>or any parent up to mount point /home<span class="o">)</span>
+Stopping at filesystem boundary <span class="o">(</span>GIT_DISCOVERY_ACROSS_FILESYSTEM not <span class="nb">set</span><span class="o">)</span>.
+petanikode@imajinasi ~/ardianta-pargo $ git init .
+Initialized empty Git repository in /home/petanikode/ardianta-pargo/.git/
+petanikode@imajinasi ~/ardianta-pargo $ rm -R public/
+petanikode@imajinasi ~/ardianta-pargo $ git add .
+petanikode@imajinasi ~/ardianta-pargo $ git commit -m <span class="s2">&#34;first commit&#34;</span>
+<span class="o">[</span>master <span class="o">(</span>root-commit<span class="o">)</span> e5cb7d3<span class="o">]</span> first commit
+ <span class="m">54</span> files changed, <span class="m">14823</span> insertions<span class="o">(</span>+<span class="o">)</span>
+ create mode <span class="m">100644</span> .gitignore
+ create mode <span class="m">100644</span> .gitmodules
+ create mode <span class="m">100644</span> archetypes/default.md
+ create mode <span class="m">100644</span> config.toml
+ create mode <span class="m">100644</span> content/about.md
+ create mode <span class="m">100644</span> content/post/_ilmu-2017.md
+ create mode <span class="m">100644</span> content/post/_migrasi-ke-hugo-firebase.md
+ create mode <span class="m">100644</span> content/post/ekstensi-hugofy.md
+ create mode <span class="m">100644</span> content/post/hello-world.md
+ create mode <span class="m">100644</span> content/post/hp-cooling-fan.md
+ create mode <span class="m">100644</span> content/post/lombokdev-meetup-3.md
+ create mode <span class="m">100644</span> content/post/tema-baru-hugo.md
+ create mode <span class="m">100644</span> content/project.md
+ create mode <span class="m">100755</span> deploy.sh
+ create mode <span class="m">100644</span> static/README.md
+ create mode <span class="m">100644</span> static/img/ardianta-logo.svg
+ create mode <span class="m">100644</span> static/img/hugofy/error-server.png
+ create mode <span class="m">100644</span> static/img/hugofy/install-hugofy.png
+ create mode <span class="m">100644</span> static/img/hugofy/perintah-hugofy.png
+ create mode <span class="m">100644</span> static/img/tema-baru/index.png
+ create mode <span class="m">100644</span> static/img/tema-baru/single.png
+ create mode <span class="m">100644</span> themes/ardianta/LICENSE.md
+ create mode <span class="m">100644</span> themes/ardianta/archetypes/default.md
+ create mode <span class="m">100644</span> themes/ardianta/layouts/404.html
+ create mode <span class="m">100644</span> themes/ardianta/layouts/_default/list.html
+ create mode <span class="m">100644</span> themes/ardianta/layouts/_default/single.html
+ create mode <span class="m">100644</span> themes/ardianta/layouts/index.html
+ create mode <span class="m">100644</span> themes/ardianta/layouts/partials/disqus.html
+ create mode <span class="m">100644</span> themes/ardianta/layouts/partials/footer.html
+ create mode <span class="m">100644</span> themes/ardianta/layouts/partials/head.html
+ create mode <span class="m">100644</span> themes/ardianta/layouts/partials/header.html
+ create mode <span class="m">100644</span> themes/ardianta/static/css/bootstrap-grid.css
+ create mode <span class="m">100644</span> themes/ardianta/static/css/bootstrap-grid.css.map
+ create mode <span class="m">100644</span> themes/ardianta/static/css/bootstrap-grid.min.css
+ create mode <span class="m">100644</span> themes/ardianta/static/css/bootstrap-grid.min.css.map
+ create mode <span class="m">100644</span> themes/ardianta/static/css/bootstrap-reboot.css
+ create mode <span class="m">100644</span> themes/ardianta/static/css/bootstrap-reboot.css.map
+ create mode <span class="m">100644</span> themes/ardianta/static/css/bootstrap-reboot.min.css
+ create mode <span class="m">100644</span> themes/ardianta/static/css/bootstrap-reboot.min.css.map
+ create mode <span class="m">100644</span> themes/ardianta/static/css/bootstrap.css
+ create mode <span class="m">100644</span> themes/ardianta/static/css/bootstrap.css.map
+ create mode <span class="m">100644</span> themes/ardianta/static/css/bootstrap.min.css
+ create mode <span class="m">100644</span> themes/ardianta/static/css/bootstrap.min.css.map
+ create mode <span class="m">100644</span> themes/ardianta/static/css/prism.css
+ create mode <span class="m">100644</span> themes/ardianta/static/css/style.css
+ create mode <span class="m">100644</span> themes/ardianta/static/img/ardianta.jpg
+ create mode <span class="m">100644</span> themes/ardianta/static/js/bootstrap.js
+ create mode <span class="m">100644</span> themes/ardianta/static/js/bootstrap.min.js
+ create mode <span class="m">100644</span> themes/ardianta/static/js/jquery-3.2.1.slim.min.js
+ create mode <span class="m">100644</span> themes/ardianta/static/js/lazysizes.min.js
+ create mode <span class="m">100644</span> themes/ardianta/static/js/popper.min.js
+ create mode <span class="m">100644</span> themes/ardianta/static/js/prism.js
+ create mode <span class="m">100644</span> themes/ardianta/static/js/twemoji.min.js
+ create mode <span class="m">100644</span> themes/ardianta/theme.toml
+petanikode@imajinasi ~/ardianta-pargo $ git status 
+On branch master
+nothing to commit, working directory clean
+petanikode@imajinasi ~/ardianta-pargo $ git remote add origin git@github.com:ardianta/blog.git
+petanikode@imajinasi ~/ardianta-pargo $ git remote -v
+origin	git@github.com:ardianta/blog.git <span class="o">(</span>fetch<span class="o">)</span>
+origin	git@github.com:ardianta/blog.git <span class="o">(</span>push<span class="o">)</span>
+petanikode@imajinasi ~/ardianta-pargo $ git push origin master --force
+Counting objects: 72, <span class="k">done</span>.
+Delta compression using up to <span class="m">4</span> threads.
+Compressing objects: 100% <span class="o">(</span>65/65<span class="o">)</span>, <span class="k">done</span>.
+Writing objects: 100% <span class="o">(</span>72/72<span class="o">)</span>, 450.71 KiB <span class="p">|</span> <span class="m">0</span> bytes/s, <span class="k">done</span>.
+Total <span class="m">72</span> <span class="o">(</span>delta 7<span class="o">)</span>, reused <span class="m">0</span> <span class="o">(</span>delta 0<span class="o">)</span>
+remote: Resolving deltas: 100% <span class="o">(</span>7/7<span class="o">)</span>, <span class="k">done</span>.
+To git@github.com:ardianta/blog.git
+ + eaff54b...e5cb7d3 master -&gt; master <span class="o">(</span>forced update<span class="o">)</span>
+petanikode@imajinasi ~/ardianta-pargo $ git submodule add -b master git@github.com:ardianta/ardianta.github.io.git public
+Cloning into <span class="s1">&#39;public&#39;</span>...
+remote: Counting objects: 634, <span class="k">done</span>.
+remote: Compressing objects: 100% <span class="o">(</span>111/111<span class="o">)</span>, <span class="k">done</span>.
+remote: Total <span class="m">634</span> <span class="o">(</span>delta 113<span class="o">)</span>, reused <span class="m">168</span> <span class="o">(</span>delta 64<span class="o">)</span>, pack-reused <span class="m">415</span>
+Receiving objects: 100% <span class="o">(</span>634/634<span class="o">)</span>, 1.20 MiB <span class="p">|</span> 465.00 KiB/s, <span class="k">done</span>.
+Resolving deltas: 100% <span class="o">(</span>303/303<span class="o">)</span>, <span class="k">done</span>.
+Checking connectivity... <span class="k">done</span>.
+petanikode@imajinasi ~/ardianta-pargo $ hugo
+Started building sites ...
+ERROR 2017/12/20 00:55:27 Page<span class="s1">&#39;s Now is deprecated and will be removed in Hugo 0.27. Use now (the template func).
+</span><span class="s1">Built site for language en:
+</span><span class="s1">0 of 2 drafts rendered
+</span><span class="s1">0 future content
+</span><span class="s1">0 expired content
+</span><span class="s1">7 regular pages created
+</span><span class="s1">8 other pages created
+</span><span class="s1">0 non-page files copied
+</span><span class="s1">0 paginator pages created
+</span><span class="s1">0 tags created
+</span><span class="s1">0 categories created
+</span><span class="s1">total in 11 ms
+</span><span class="s1">petanikode@imajinasi ~/ardianta-pargo $ cd public/
+</span><span class="s1">petanikode@imajinasi ~/ardianta-pargo/public $ git add .
+</span><span class="s1">petanikode@imajinasi ~/ardianta-pargo/public $ git commit -m &#34;deploy setelah kerusakan&#34;
+</span><span class="s1">On branch master
+</span><span class="s1">Your branch is up-to-date with &#39;</span>origin/master<span class="s1">&#39;.
+</span><span class="s1">nothing to commit, working directory clean
+</span><span class="s1">petanikode@imajinasi ~/ardianta-pargo/public $ git push origin master 
+</span><span class="s1">Everything up-to-date
+</span><span class="s1">petanikode@imajinasi ~/ardianta-pargo/public $ cd ..
+</span><span class="s1">petanikode@imajinasi ~/ardianta-pargo $ ./deploy.sh 
+</span><span class="s1">Deploying updates to GitHub...
+</span><span class="s1">Started building sites ...
+</span><span class="s1">ERROR 2017/12/20 00:56:11 Page&#39;</span>s Now is deprecated and will be removed in Hugo 0.27. Use now <span class="o">(</span>the template func<span class="o">)</span>.
+Built site <span class="k">for</span> language en:
+<span class="m">0</span> of <span class="m">2</span> drafts rendered
+<span class="m">0</span> future content
+<span class="m">0</span> expired content
+<span class="m">7</span> regular pages created
+<span class="m">8</span> other pages created
+<span class="m">0</span> non-page files copied
+<span class="m">0</span> paginator pages created
+<span class="m">0</span> categories created
+<span class="m">0</span> tags created
+total in <span class="m">13</span> ms
+On branch master
+Your branch is up-to-date with <span class="s1">&#39;origin/master&#39;</span>.
+nothing to commit, working directory clean
+Everything up-to-date
+petanikode@imajinasi ~/ardianta-pargo $ ./deploy.sh 
+Deploying updates to GitHub...
+Started building sites ...
+ERROR 2017/12/20 00:56:42 Page<span class="err">&#39;</span>s Now is deprecated and will be removed in Hugo 0.27. Use now <span class="o">(</span>the template func<span class="o">)</span>.
+Built site <span class="k">for</span> language en:
+<span class="m">0</span> of <span class="m">2</span> drafts rendered
+<span class="m">0</span> future content
+<span class="m">0</span> expired content
+<span class="m">7</span> regular pages created
+<span class="m">8</span> other pages created
+<span class="m">0</span> non-page files copied
+<span class="m">0</span> paginator pages created
+<span class="m">0</span> tags created
+<span class="m">0</span> categories created
+total in <span class="m">13</span> ms
+<span class="o">[</span>master 241711f<span class="o">]</span> rebuilding http://ardianta.github.io Wed Dec <span class="m">20</span> 00:56:42 WITA <span class="m">2017</span>
+ <span class="m">1</span> file changed, <span class="m">2</span> insertions<span class="o">(</span>+<span class="o">)</span>
+Counting objects: 5, <span class="k">done</span>.
+Delta compression using up to <span class="m">4</span> threads.
+Compressing objects: 100% <span class="o">(</span>4/4<span class="o">)</span>, <span class="k">done</span>.
+Writing objects: 100% <span class="o">(</span>5/5<span class="o">)</span>, <span class="m">468</span> bytes <span class="p">|</span> <span class="m">0</span> bytes/s, <span class="k">done</span>.
+Total <span class="m">5</span> <span class="o">(</span>delta 3<span class="o">)</span>, reused <span class="m">0</span> <span class="o">(</span>delta 0<span class="o">)</span>
+remote: Resolving deltas: 100% <span class="o">(</span>3/3<span class="o">)</span>, completed with <span class="m">3</span> <span class="nb">local</span> objects.
+To git@github.com:ardianta/ardianta.github.io.git
+   99a9edb..241711f  master -&gt; master
+petanikode@imajinasi ~/ardianta-pargo $
+</code></pre></div><p>Untungnya repositori ini bukan project besar. Jadi tak masalah Git-nya mengulang dari awal.</p>
+<p>Sebenarnya ada cara lain, yaitu dengan clone ulang yang sudah ada.</p>
+<p>Akan tentapi, ada banyak perubahan yang sudah dilakukan.</p>
+<p>Capek juga ulang lagi&hellip; 😄</p>
+</div></div></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.74.3">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2020</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Ardy Johan</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/algoliasearch/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/typeit/typeit.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{},"data":{"id-1":"Netwezen","id-2":"Netwezen"},"search":{"algoliaAppID":"PASDMWALPK","algoliaIndex":"index.en","algoliaSearchKey":"b42948e51daaa93df92381c8e2ac0f93","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"algolia"},"typeit":{"cursorChar":null,"cursorSpeed":null,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":null,"speed":null}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

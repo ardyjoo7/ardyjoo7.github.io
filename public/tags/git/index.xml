@@ -1,0 +1,38 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Git - Tag - Netwezen</title>
+        <link>http://example.org/tags/git/</link>
+        <description>Git - Tag - Netwezen</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 26 Dec 2017 04:13:15 &#43;0800</lastBuildDate><atom:link href="http://example.org/tags/git/" rel="self" type="application/rss+xml" /><item>
+    <title>Clone Commit Terakhir dari Repository Git</title>
+    <link>http://example.org/post/git-clone-depth/</link>
+    <pubDate>Tue, 26 Dec 2017 04:13:15 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/git-clone-depth/</guid>
+    <description><![CDATA[Banyangkan ada 12283192311 commit yang sudah dilakukan pada repository. Lalu kita ingin clone ke lokal.
+Berapa besar file yang akan di-download?
+Pastinya cukup besar.
+Nah, bagaimana caranya clone hanya commit terakhir saja?
+Cukup dengan perintah ini:
+git clone --depth=1 &lt;remote_repo_url&gt; Referensi:
+ https://git-scm.com/docs/git-clone https://stackoverflow.com/a/1210012/2658551  Contoh:
+Ada 1221 commit yang sudah dibuat pada repository ini:
+Lalu tinggal di-clone aja dengan perintah tadi.]]></description>
+</item><item>
+    <title>Git Push, Lalu Tiba-tiba Matilampu!</title>
+    <link>http://example.org/post/git-push-matilampu/</link>
+    <pubDate>Wed, 20 Dec 2017 00:59:23 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/git-push-matilampu/</guid>
+    <description><![CDATA[Apa yang akan terjadi saat menjalankan perintah git push lalu ditengah-tengah mati lampu?
+Jika pakai laptop nggak masalah, karena daya masih bisa ngambil dari baterai.
+Tapi yang pakai komputer?
+atau yang laptopnya nggak bisa nyala tanpa cas?
+Ini masalah!
+Sebenarnya kejadian ini sudah pernah saya alami sebelumnya.
+Repositori jadi rusak dan tidak bisa melakukan apa-apa.
+Solusi &ldquo;bodohnya&rdquo; kita harus membuat repositori baru.
+Hapus dulu database git yang sudah ada:
+rm -rf .]]></description>
+</item></channel>
+</rss>

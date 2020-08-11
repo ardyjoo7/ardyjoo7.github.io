@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>laravel - Tag - Netwezen</title>
+        <link>http://example.org/tags/laravel/</link>
+        <description>laravel - Tag - Netwezen</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 30 May 2018 04:42:41 &#43;0800</lastBuildDate><atom:link href="http://example.org/tags/laravel/" rel="self" type="application/rss+xml" /><item>
+    <title>Masalah Saat Install Laravel</title>
+    <link>http://example.org/post/install-laravel/</link>
+    <pubDate>Wed, 30 May 2018 04:42:41 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/install-laravel/</guid>
+    <description><![CDATA[Server tidak bisa dijalankan: $ php artisan serve PHP Warning: require(/home/petanikode/tmp/mikroblog/vendor/autoload.php): failed to open stream: No such file or directory in /home/petanikode/tmp/mikroblog/artisan on line 18 PHP Fatal error: require(): Failed opening required &#39;/home/petanikode/tmp/mikroblog/vendor/autoload.php&#39; (include_path=&#39;.:/usr/share/php&#39;) in /home/petanikode/tmp/mikroblog/artisan on line 18 Solusi:
+Coba jalankan perintah:
+composer install Versi PHP masih Versi Lama Muncul masalah lagi, ternyata versi PHP yang saya gunakan masih versi lama:
+$ composer install Loading composer repositories with package information Updating dependencies (including require-dev) Your requirements could not be resolved to an installable set of packages.]]></description>
+</item></channel>
+</rss>

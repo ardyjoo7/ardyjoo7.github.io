@@ -1,0 +1,22 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>netlify - Tag - Netwezen</title>
+        <link>http://example.org/tags/netlify/</link>
+        <description>netlify - Tag - Netwezen</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 04 Sep 2018 18:05:05 &#43;0800</lastBuildDate><atom:link href="http://example.org/tags/netlify/" rel="self" type="application/rss+xml" /><item>
+    <title>Error 520: Petanikode Down!</title>
+    <link>http://example.org/post/dns-netlify/</link>
+    <pubDate>Tue, 04 Sep 2018 18:05:05 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/dns-netlify/</guid>
+    <description><![CDATA[Beberapa hari ini saya sering mendapatkan laporan error 520 dari pengunjung Petanikode.
+Apakah mungkin karena trafiknya terlalu ramai?
+Ataukah Netlify yang tidak mau akur dengan cloudflare?
+Saya tidak tahu penyebabnya apa&hellip;
+Namun, screenshot di atas menujukan kalau server tempat Petanikode di-hosting telah down.
+Sedangkan Cloudflare berusaha melayani request dengan cache yang ada.
+Hmmm&hellip;.
+Apakah Bandwidth-nya habis? Netlify memberikan kuota bandwidth sampai 100GB per bulan. Kalau dilihat dari analytic Cloudflare&hellip;
+Kuota bandwidth yang dihabiskan Petanikode selama sehari sekitar 500MB.]]></description>
+</item></channel>
+</rss>

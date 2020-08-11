@@ -1,0 +1,21 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>firebase - Tag - Netwezen</title>
+        <link>http://example.org/tags/firebase/</link>
+        <description>firebase - Tag - Netwezen</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 23 Dec 2017 22:25:46 &#43;0800</lastBuildDate><atom:link href="http://example.org/tags/firebase/" rel="self" type="application/rss+xml" /><item>
+    <title>Deploy Hugo ke Firebase dengan Gitlab CI</title>
+    <link>http://example.org/post/hugo-gitlab-firebase/</link>
+    <pubDate>Sat, 23 Dec 2017 22:25:46 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/hugo-gitlab-firebase/</guid>
+    <description><![CDATA[Biasanya saya melakukan deploy dengan perintah firebase deploy. Akan tetapi perintah ini sama persis seperti FTP.
+Semua file akan di-upload ke Firebase. Hal ini akan membuat kuota internet saya cepat habis 😄, resiko pakai paket data.
+Lalu sebaiknya bagaimana?
+Saya ingin mencoba workflow pak Ariya. Beliau deploy Hugo ke Firebase melalui Gitlab CI.
+Gambarannya seperti ini:
+Sumber: ariya.io
+Lalu, pada repo Gitlab, saya menggunakan konfigurasi CI seperti ini:
+image:nohitme/hugo-firebase:0.31.1before_script:- hugoversion- firebase--versionhugo_firebase:stage:deployonly:- masterexcept:- devscript:- rm-rfpublic- hugo--configconfig.]]></description>
+</item></channel>
+</rss>

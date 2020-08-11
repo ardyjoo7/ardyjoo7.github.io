@@ -1,0 +1,68 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>buku - Tag - Netwezen</title>
+        <link>http://example.org/tags/buku/</link>
+        <description>buku - Tag - Netwezen</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 30 Jun 2020 23:02:16 &#43;0800</lastBuildDate><atom:link href="http://example.org/tags/buku/" rel="self" type="application/rss+xml" /><item>
+    <title>Membuat Buku dengan Honkit</title>
+    <link>http://example.org/post/honkit/</link>
+    <pubDate>Tue, 30 Jun 2020 23:02:16 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/honkit/</guid>
+    <description><![CDATA[Rencananya saya mau membuat ebook, tapi masih bingung dengan tools yang akan digunakan.
+Kalau gampangnya sih bisa pakai Ms. Writer, tapi saya kurang suka menulis di aplikasi office. Saya lebih senang menulis di teks editor.
+Mencoba cari-cari info di Google, saya menemukan Gitbook Toolchain, tapi proyek ini sudah dihentikan. Ini mungkin model bisnis dari Gitbook sudah berubah.
+Sebagai alternatif, saya menemukan Honkit.
+Apa itu Honkit? Hon diambil dari bahasa jepang, yang artinya buku.]]></description>
+</item><item>
+    <title>9 Buku yang Saya Borong Hari ini</title>
+    <link>http://example.org/post/9-buku/</link>
+    <pubDate>Thu, 11 Oct 2018 21:17:26 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/9-buku/</guid>
+    <description><![CDATA[Siang ini panas sekali, suhu di tempat saya mencapai 32° C.
+Rencananya:
+Hari ini saya mau pergi ke bank untuk transfer pembayaran pre-order Kelas Design Sprint dari Techinasia.
+Mengapa tidak transfer via ATM?
+Sejak kartu saya ditelan mesin ATM, kini tak bisa digunakan untuk transfer.
+Makannya saya pergi ke bank.
+Tapi untungnya di bank tidak begitu ramai. Sehingga begitu saya selesai mengisi slip, teller bank langsung melayani saya.
+Habis dari bank, saya langsung banting stir ke toko buku.]]></description>
+</item><item>
+    <title>[Challenge 2018] Buku #1: Craetive Writing</title>
+    <link>http://example.org/post/buku-creative-writing/</link>
+    <pubDate>Mon, 19 Feb 2018 20:15:20 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/buku-creative-writing/</guid>
+    <description><![CDATA[Buku ini adalah buku pertama yang saya selesaikan tahun ini. Sebenarnya mulai dibaca sejak tahun lalu, namun karena tidak pernah dibuka lagi, jadi terbengkalai 😄.
+Buku ini saya beli di Playstore dengan harga yang sangat murah. Karena saat itu sedang ada diskon besar-besaran.
+Bayarnya via pulsa. Asik kan.
+Sebenarnya pingin juga punya versi cetaknya, buat dijadikan koleksi.
+Buku ini biasanya saya baca saat mau tidur untuk memancing rasa ngantuk.
+Bukan karena bukunya membosankan, namun biasanya saya kalau baca buku akan mengantuk 😄.]]></description>
+</item><item>
+    <title>Belajar Menulis Buku dengan Pandoc</title>
+    <link>http://example.org/post/buku-pandoc/</link>
+    <pubDate>Tue, 23 Jan 2018 20:01:12 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/buku-pandoc/</guid>
+    <description><![CDATA[Salah satu goal saya di tahun 2018 adalah membuat buku. Setidaknya bisa membuat ebook untuk catatan pribadi.
+Syukur-syukur kalau ada yang mau baca 😄.
+Pertama saya coba-coba lihat info di leanpub tentang cara menulis di sana. Namun, sepertinya berbayar $99 untuk bisa menulis di sana.
+Dulu saya juga pernah coba-coba gitbook, tapi sudah lupa.
+Nah sekarang saya menemukan Pandoc yang merupakan sebuah program CLI untuk konversi dokumen ke beberapa format seperti HTML, EPUB, dll.]]></description>
+</item><item>
+    <title>Kegagalan yang Saya Lakukan di Tahun 2017</title>
+    <link>http://example.org/post/buku-2017/</link>
+    <pubDate>Tue, 02 Jan 2018 18:39:53 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/buku-2017/</guid>
+    <description><![CDATA[Kegagalan yang SUKSESS saya lakukan di tahun 2017 adalah tidak bisa menyelesaikan tantangan Goodreads 😄.
+Padahal hanya membaca 10 buku dalam setahun.
+Sebenarnya saya sudah menyelsaikan beberapa buku, cuma lupa diinputkan ke Goodreads. Akhirnya tidak berhasil menyelesaikan Goodreads Challenge.
+Tidak apa-apa&hellip;
+Kita coba lagi tahun ini.
+Tahun ini saya ingin membaca 10 buku, bahkan lebih.
+Semoga berhasil!]]></description>
+</item></channel>
+</rss>

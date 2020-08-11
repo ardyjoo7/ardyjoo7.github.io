@@ -1,0 +1,19 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Angular - Tag - Netwezen</title>
+        <link>http://example.org/tags/angular/</link>
+        <description>Angular - Tag - Netwezen</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 30 Dec 2017 12:13:17 &#43;0800</lastBuildDate><atom:link href="http://example.org/tags/angular/" rel="self" type="application/rss+xml" /><item>
+    <title>Menggunakan Yarn pada Angular CLI</title>
+    <link>http://example.org/post/angular-yarn/</link>
+    <pubDate>Sat, 30 Dec 2017 12:13:17 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/angular-yarn/</guid>
+    <description><![CDATA[Angular default-nya menggunakan NPM. Apabila ingin mengganti package manager ke Yarn, cukup ketik perintah ini:
+ng set --global packageManager=yarn Percobaan:
+Untuk mengembalikan ke NPM:
+ng set --global packageManager=npm Kenapa Pakai Yarn?
+Menurut saya Yarn lebih cepat daripada NPM dan Yarn bisa digunakan Offline.
+Sumber: https://medium.com/@beeman/using-yarn-with-angular-cli-db2e318e43c5]]></description>
+</item></channel>
+</rss>

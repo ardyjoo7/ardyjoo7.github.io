@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>DNS - Tag - Netwezen</title>
+        <link>http://example.org/tags/dns/</link>
+        <description>DNS - Tag - Netwezen</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 24 Dec 2017 18:31:41 &#43;0800</lastBuildDate><atom:link href="http://example.org/tags/dns/" rel="self" type="application/rss+xml" /><item>
+    <title>Serius Nih! Cloudflare tidak Melakukan Propagasi</title>
+    <link>http://example.org/post/cloudflare-propagasi/</link>
+    <pubDate>Sun, 24 Dec 2017 18:31:41 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/cloudflare-propagasi/</guid>
+    <description><![CDATA[Biasanya kalau kita ganti server hosting, lalu alamat IP domain diganti dengan server yang baru, maka membutuhkan masa propagasi.
+Propagasi bertujuan untuk mengumumkan alamat IP baru ke semua jaringan internet. Propagasi biasanya membutuhkan waktu 24 jam sampai bahkan 1 minggu.
+Pengalaman kemarin, saya pindah-pindah server hosting dari Blogger ke Gitlab, dari Gitlab ke Github.
+Propagasinya lama dan domain belum bisa diakses sampai masa propagasi selesai. Kira-kira 2&ndash;3 hari baru bisa selesai.]]></description>
+</item></channel>
+</rss>

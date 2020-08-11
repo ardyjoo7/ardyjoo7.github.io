@@ -1,0 +1,126 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Hugo - Tag - Netwezen</title>
+        <link>http://example.org/tags/hugo/</link>
+        <description>Hugo - Tag - Netwezen</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 19 Jan 2020 23:02:17 &#43;0800</lastBuildDate><atom:link href="http://example.org/tags/hugo/" rel="self" type="application/rss+xml" /><item>
+    <title>Tips Hugo: Agar Gambar Tampil di Preview Markdown VS Code</title>
+    <link>http://example.org/post/hugo-img/</link>
+    <pubDate>Sun, 19 Jan 2020 23:02:17 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/hugo-img/</guid>
+    <description><![CDATA[Saya biasanya menulis blog dengan VS Code. Tapi saat menggunakan fitur preview markdown di VS Code, gambar tidak mau tampil.
+Ini karena alamat path gambar pada Hugo menggunakan static/img/.
+Sementara pada markdown harus ditulis seperti ini:
+![Teks Caption](/img/nama-gambar.jpg) Karena nanti saat di-render akan menggunakan alamat itu. Tapi untuk VS Code, alamat ini tidak ditemukan.
+Lalu bagaimana caranya agar VS Code juga bisa baca alamat gambar dari Hugo?
+Caranya kita bisa buat simbolik link pada root direktori hugo.]]></description>
+</item><item>
+    <title>Partial Penghitung Kata pada Hugo</title>
+    <link>http://example.org/post/hugo-wordscounter/</link>
+    <pubDate>Sat, 08 Sep 2018 22:15:58 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/hugo-wordscounter/</guid>
+    <description><![CDATA[Setiap menulis blog, Saya jarang memperhatikan jumlah kata yang ditulis.
+Rencananya saya ingin menulis 1000+ kata untuk setiap artikel.
+Karena itu, saya perlu bantuan penghitung kata pada tulisa.
+Saya menggunakan teks editor VS Code untuk menulis. Kadang menggunakan VIM.
+Di VS Code, saya tidak ingin menginstal ekstensi untuk menghitung jumlah kata.
+Karena di artikel yang ditulis terdapat front-matter yang juga akan masuk hitungan.
+Karena itu, solusinya membuat partial penghitung kata.]]></description>
+</item><item>
+    <title>Agar Hugo tidak melakukan HTTP Request saat Offline</title>
+    <link>http://example.org/post/hugo-offline/</link>
+    <pubDate>Sun, 18 Mar 2018 00:37:25 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/hugo-offline/</guid>
+    <description><![CDATA[Saya menggunakan shortcode twitter dan instagram di dalam postingan. Setiap kali mau render, pasti akan melakukan HTTP Request ke API twitter dan instagram.
+Sehingga, apabila kita render saat dalam keadaan offline, maka akan menghasilkan error seperti ini:
+Cara mencegahnya:
+Kita cukup mengisi alamat baseurl dengan localhost:
+baseurl = &#34;http://localhost&#34; Atau bisa juga diberikan saat me-render atau menjalankan server Hugo dengan flag -b atau --baseURL.
+hugo server -b http://localhost Maka Hugo tidak akan melakukan HTTP Request lagi.]]></description>
+</item><item>
+    <title>Rasio Pentalan Terjun Bebas! dan Saya tidak tahu mengapa?</title>
+    <link>http://example.org/post/rasio-pentalan/</link>
+    <pubDate>Tue, 13 Feb 2018 23:11:24 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/rasio-pentalan/</guid>
+    <description><![CDATA[Bulan Januari tahun 2017 yang lalu, saya migrasi dari platform Blogger ke Hugo. Sejak saat itu, masih banyak yang harus dikerjakan seperti mendasain ulang template, memperbaiki konten, memperbaiki broken link, dsb.
+Yang paling lama adalah memperbaiki kontentnya. Karena saya menemukan banyak konten yang kualitasnya rendah. Hingga saat ini pekerjaan memperbaiki konten masih belum selsai dan akan terus dilakukan.
+Saat itu, rasio pentalan (bounce rate) blog saya sekitar 50%&ndash;70%. Menurut saya ini hal yang wajar.]]></description>
+</item><item>
+    <title>Binding Server Hugo ke IP LAN</title>
+    <link>http://example.org/post/hugo-server/</link>
+    <pubDate>Tue, 23 Jan 2018 02:03:56 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/hugo-server/</guid>
+    <description><![CDATA[Jadi ceritanya hari ini saya dapat feedback untuk revisi pekerjaan pembuatan template Hugo.
+Kebanyakan masalahnya pada tata letak dan responsive.
+Saya ingin mengetes langsung dengan HP. Sebenarnya bisa langsung dilakukan di browser, tapi saya maunya langsung dari HP saja.
+Kondisi topologi jraingan saya:
+Modem Wifi --- Laptop||HPAlamat IP laptop saya 192.168.1.104 bisa diakses melalui LAN.
+Ketika mencoba mengakses alamat IP tersebut dari HP, yang muncul adalah server Apache.]]></description>
+</item><item>
+    <title>Migrasi Front-matter Hugo dengan sed</title>
+    <link>http://example.org/post/migrasi-frontmatter/</link>
+    <pubDate>Fri, 19 Jan 2018 20:05:09 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/migrasi-frontmatter/</guid>
+    <description><![CDATA[Saya berencana memperbaiki template dan front-matter Petanikode. Ada 300 lebih artikelnya yang harus dimodifikasi.
+Saya rasa ini cukup merepotkan, mengedit satu-persatu front-matter setiap artikel. Apalagi jumlahnya cukup banyak.
+Akhirnyta saya menemukan sed (Stream Editor).
+Berawal dari coba-coba dari perintah ini, Front-matternya menjadi rusak. Untungnya menggunakan git, jadi masih bisa dikembalikan lagi.
+Lalu biar mudah saya membuat branch baru bernama theme-migration.
+git checkout -b theme-migration Sekarang saya bebas memodifikasinya dengan sed tanpa harus takut rusak lagi.]]></description>
+</item><item>
+    <title>Cara Deploy Hugo dari Gitlab ke Surge</title>
+    <link>http://example.org/post/hugo-gitlab-surge/</link>
+    <pubDate>Sat, 13 Jan 2018 17:59:45 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/hugo-gitlab-surge/</guid>
+    <description><![CDATA[Saya punya project pembuatan template untuk web company profile. Sewaktu ingin memperlihatkan demo, saya menggunakan layanan hosting Surge. Karen sangat mudah sekali.
+Cukup dengan mengetik perintah:
+surge ./publicWebsite suda di-deploy ke Surge.
+Namun, tiap kali deploy, kita akan upload semua file public ke surge. Ini saya rasa kurang bagus, karena koneksi internet saya sangat terbatas (lambat dan kuota tinggal sedikit hahaha 😄).
+Karena itu, saya memanfaatkan Gitlab CI:
+Worflownya menjadi begini:]]></description>
+</item><item>
+    <title>Experimen Deploy Hugo dari Gitlab CI ke Github Pages</title>
+    <link>http://example.org/post/gitlab-github-pages/</link>
+    <pubDate>Mon, 01 Jan 2018 09:39:08 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/gitlab-github-pages/</guid>
+    <description><![CDATA[Di awal tahun baru, sepertinya pegawai Travis CI sedang liburan. Hal ini munkin menyebabkan gangguan build di Travis CI. Akibanya lama menunggu Queue build-nya.
+Sebagai alternatif, saya menggunakan CI milik Gitlab.
+Ini adalah isi file .gitlab-ci.yml di repo blog saya:
+image:andthensome/alpine-hugo-git-bash:0.31.2before_script:- hugoversiongithub_pages:script:- rm-rfpublic- gitclone--depth1https://ardianta:$GITHUB_ACCESS_TOKEN@github.com/ardianta/ardianta.github.io.gitpublic- hugo--configconfig.production.toml- cdpublic- gitconfiguser.email&#34;&lt;your git email&gt;&#34;- gitconfig--globaluser.name&#34;&lt;your git name&gt;&#34;- gitadd-A- gitcommit-m&#34;Build from $CI_SERVER_NAME $CI_PIPELINE_ID&#34;- gitpushartifacts:paths:- publiconly:- masterSaya menggunakan image docker andthensome/alpine-hugo-git-bash, karena membutuhkan perintah hugo dan git saat melakukan build.]]></description>
+</item><item>
+    <title>Sekarang Blog ini Menggunakan Travis CI</title>
+    <link>http://example.org/post/hugo-travis-ci/</link>
+    <pubDate>Sun, 24 Dec 2017 06:05:11 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/hugo-travis-ci/</guid>
+    <description><![CDATA[Blog ini di-hosting di Github pada repositori ini: https://github.com/ardianta/ardianta.github.io.
+Setiap kali saya ingin deploy, saya harus melakukan push ke sana.
+Tapi sekarang sudah tidak lagi, karena sudah dibantu sama Travis CI. yay! 😄
+Travis CI ini bertugas untuk melakuakn build dan deploy.
+Adapun skrip yang saya gunakan adalah sebagai berikut:
+File deploy-ci.sh
+#!/bin/bash  set -e DEPLOY_REPO=&#34;https://${DEPLOY_BLOG_TOKEN}@github.com/ardianta/ardianta.github.io.git&#34; function main { clean get_current_site build_site deploy } function clean { echo &#34;cleaning public folder&#34; if [ -d &#34;public&#34; ]; then rm -rf public; fi } function get_current_site { echo &#34;getting latest site&#34; git clone --depth 1 $DEPLOY_REPO public } function build_site { echo &#34;building site.]]></description>
+</item><item>
+    <title>Deploy Hugo ke Firebase dengan Gitlab CI</title>
+    <link>http://example.org/post/hugo-gitlab-firebase/</link>
+    <pubDate>Sat, 23 Dec 2017 22:25:46 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/hugo-gitlab-firebase/</guid>
+    <description><![CDATA[Biasanya saya melakukan deploy dengan perintah firebase deploy. Akan tetapi perintah ini sama persis seperti FTP.
+Semua file akan di-upload ke Firebase. Hal ini akan membuat kuota internet saya cepat habis 😄, resiko pakai paket data.
+Lalu sebaiknya bagaimana?
+Saya ingin mencoba workflow pak Ariya. Beliau deploy Hugo ke Firebase melalui Gitlab CI.
+Gambarannya seperti ini:
+Sumber: ariya.io
+Lalu, pada repo Gitlab, saya menggunakan konfigurasi CI seperti ini:
+image:nohitme/hugo-firebase:0.31.1before_script:- hugoversion- firebase--versionhugo_firebase:stage:deployonly:- masterexcept:- devscript:- rm-rfpublic- hugo--configconfig.]]></description>
+</item></channel>
+</rss>

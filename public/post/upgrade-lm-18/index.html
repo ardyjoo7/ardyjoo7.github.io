@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>Masalah Saat Upgrade Linux Mint 18 - Netwezen</title><meta name="Description" content="Hari ini saya pergi ke tempat Wifi.id dan melakukan upgrade Linux Mint. Akan tetapi dapat sedikit masalah dengan `mysql-server"><meta property="og:title" content="Masalah Saat Upgrade Linux Mint 18" />
+<meta property="og:description" content="Hari ini saya pergi ke tempat Wifi.id dan melakukan upgrade Linux Mint. Akan tetapi dapat sedikit masalah dengan `mysql-server" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/post/upgrade-lm-18/" />
+<meta property="article:published_time" content="2018-01-31T04:18:56+08:00" />
+<meta property="article:modified_time" content="2018-01-31T04:18:56+08:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Masalah Saat Upgrade Linux Mint 18"/>
+<meta name="twitter:description" content="Hari ini saya pergi ke tempat Wifi.id dan melakukan upgrade Linux Mint. Akan tetapi dapat sedikit masalah dengan `mysql-server"/>
+<meta name="application-name" content="Netwezen">
+<meta name="apple-mobile-web-app-title" content="Netwezen"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://example.org/post/upgrade-lm-18/" /><link rel="prev" href="http://example.org/post/template-blogger/" /><link rel="next" href="http://example.org/post/verifikasi-upwork/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Masalah Saat Upgrade Linux Mint 18",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/example.org\/post\/upgrade-lm-18\/"
+        },"genre": "post","keywords": "Linux","wordcount":  4602 ,
+        "url": "http:\/\/example.org\/post\/upgrade-lm-18\/","datePublished": "2018-01-31T04:18:56+08:00","dateModified": "2018-01-31T04:18:56+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": "Ardy Johan"},"author": {
+                "@type": "Person",
+                "name": "Ardy Johan"
+            },"description": "Hari ini saya pergi ke tempat Wifi.id dan melakukan upgrade Linux Mint. Akan tetapi dapat sedikit masalah dengan `mysql-server"
+    }
+    </script></head>
+    <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : '' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Netwezen"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="https://ryk.my.id/images/favicon.png"
+        data-srcset="https://ryk.my.id/images/favicon.png, https://ryk.my.id/images/favicon.png 1.5x, https://ryk.my.id/images/favicon.png 2x"
+        data-sizes="auto"
+        alt="https://ryk.my.id/images/favicon.png"
+        title="https://ryk.my.id/images/favicon.png" /><span id="id-1" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/post/"> Post </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/categories/documentation/"> Docs </a><a class="menu-item" href="/about/"> About </a><a class="menu-item" href="https://github.com/dillonzq/LoveIt" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Netwezen"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="https://ryk.my.id/images/favicon.png"
+        data-srcset="https://ryk.my.id/images/favicon.png, https://ryk.my.id/images/favicon.png 1.5x, https://ryk.my.id/images/favicon.png 2x"
+        data-sizes="auto"
+        alt="https://ryk.my.id/images/favicon.png"
+        title="https://ryk.my.id/images/favicon.png" /><span id="id-2" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/post/" title="">Post</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/categories/documentation/" title="">Docs</a><a class="menu-item" href="/about/" title="">About</a><a class="menu-item" href="https://github.com/dillonzq/LoveIt" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="page single special"><h1 class="single-title animated pulse faster">Masalah Saat Upgrade Linux Mint 18</h1><div class="content" id="content"><p>Kemarin saya pergi ke tempat Wifi.id dan melakukan upgrade Linux Mint.
+Akan tetapi dapat sedikit masalah dengan <code>mysql-server</code>.</p>
+<p>Entah mengapa ini bisa terjadi&hellip;</p>
+<p>Sebenarnya ini yang membuat saya malas upgrade Linux. 
+Kadang sering terjadi error karena ada beberapa bugs yang 
+belum diperbaiki.</p>
+<p>Namun, untungnya sudah <em>solved</em> dengan solusi dari <a href="https://askubuntu.com/a/762432/235594">https://askubuntu.com/a/762432/235594</a>.</p>
+<p>Berikut ini log Terminal saya:</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">petanikode@imajinasi ~ $ apt install shutter 
+<span class="o">[</span>sudo<span class="o">]</span> password <span class="k">for</span> petanikode: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+shutter is already the newest version <span class="o">(</span>0.93.1-1ubuntu1<span class="o">)</span>.
+<span class="m">0</span> upgraded, <span class="m">0</span> newly installed, <span class="m">0</span> to remove and <span class="m">21</span> not upgraded.
+<span class="m">2</span> not fully installed or removed.
+After this operation, <span class="m">0</span> B of additional disk space will be used.
+Do you want to <span class="k">continue</span>? <span class="o">[</span>Y/n<span class="o">]</span> y
+Setting up mysql-server-5.7 <span class="o">(</span>5.7.21-0ubuntu0.16.04.1<span class="o">)</span> ...
+insserv: warning: current start runlevel<span class="o">(</span>s<span class="o">)</span> <span class="o">(</span>empty<span class="o">)</span> of script <span class="sb">`</span>mysql<span class="s1">&#39; overrides LSB defaults (2 3 4 5).
+</span><span class="s1">insserv: warning: current stop runlevel(s) (0 1 2 3 4 5 6) of script `mysql&#39;</span> overrides LSB defaults <span class="o">(</span><span class="m">0</span> <span class="m">1</span> 6<span class="o">)</span>.
+mysql_upgrade: Got error: 2002: Can<span class="s1">&#39;t connect to local MySQL server through socket &#39;</span>/var/run/mysqld/mysqld.sock<span class="s1">&#39; (2) while connecting to the MySQL server
+</span><span class="s1">Upgrade process encountered error and will not continue.
+</span><span class="s1">mysql_upgrade failed with exit status 11
+</span><span class="s1">dpkg: error processing package mysql-server-5.7 (--configure):
+</span><span class="s1"> subprocess installed post-installation script returned error exit status 1
+</span><span class="s1">dpkg: dependency problems prevent configuration of mysql-server:
+</span><span class="s1"> mysql-server depends on mysql-server-5.7; however:
+</span><span class="s1">  Package mysql-server-5.7 is not configured yet.
+</span><span class="s1">
+</span><span class="s1">dpkg: error processing package mysql-server (--configure):
+</span><span class="s1"> dependency problems - leaving unconfigured
+</span><span class="s1">Errors were encountered while processing:
+</span><span class="s1"> mysql-server-5.7
+</span><span class="s1"> mysql-server
+</span><span class="s1">E: Sub-process /usr/bin/dpkg returned an error code (1)
+</span><span class="s1">petanikode@imajinasi ~ $ apt remove mysql
+</span><span class="s1">Reading package lists... Done
+</span><span class="s1">Building dependency tree       
+</span><span class="s1">Reading state information... Done
+</span><span class="s1">E: Unable to locate package mysql
+</span><span class="s1">petanikode@imajinasi ~ $ apt remove mysql-server
+</span><span class="s1">Reading package lists... Done
+</span><span class="s1">Building dependency tree       
+</span><span class="s1">Reading state information... Done
+</span><span class="s1">The following packages will be REMOVED:
+</span><span class="s1">  mysql-server
+</span><span class="s1">0 upgraded, 0 newly installed, 1 to remove and 21 not upgraded.
+</span><span class="s1">2 not fully installed or removed.
+</span><span class="s1">After this operation, 166 kB disk space will be freed.
+</span><span class="s1">Do you want to continue? [Y/n] n
+</span><span class="s1">Abort.
+</span><span class="s1">petanikode@imajinasi ~ $ apt install mysql-server --resintall
+</span><span class="s1">E: Command line option --resintall is not understood in combination with the other options
+</span><span class="s1">petanikode@imajinasi ~ $ apt install mysql-server
+</span><span class="s1">mysql-server           mysql-server-5.7       mysql-server-core-5.7
+</span><span class="s1">petanikode@imajinasi ~ $ apt install mysql-server
+</span><span class="s1">mysql-server           mysql-server-5.7       mysql-server-core-5.7
+</span><span class="s1">petanikode@imajinasi ~ $ apt install mysql-server
+</span><span class="s1">Reading package lists... Done
+</span><span class="s1">Building dependency tree       
+</span><span class="s1">Reading state information... Done
+</span><span class="s1">mysql-server is already the newest version (5.7.21-0ubuntu0.16.04.1).
+</span><span class="s1">0 upgraded, 0 newly installed, 0 to remove and 21 not upgraded.
+</span><span class="s1">2 not fully installed or removed.
+</span><span class="s1">After this operation, 0 B of additional disk space will be used.
+</span><span class="s1">Do you want to continue? [Y/n] y
+</span><span class="s1">Setting up mysql-server-5.7 (5.7.21-0ubuntu0.16.04.1) ...
+</span><span class="s1">insserv: warning: current start runlevel(s) (empty) of script `mysql&#39;</span> overrides LSB defaults <span class="o">(</span><span class="m">2</span> <span class="m">3</span> <span class="m">4</span> 5<span class="o">)</span>.
+insserv: warning: current stop runlevel<span class="o">(</span>s<span class="o">)</span> <span class="o">(</span><span class="m">0</span> <span class="m">1</span> <span class="m">2</span> <span class="m">3</span> <span class="m">4</span> <span class="m">5</span> 6<span class="o">)</span> of script <span class="sb">`</span>mysql<span class="s1">&#39; overrides LSB defaults (0 1 6).
+</span><span class="s1">mysql_upgrade: Got error: 2002: Can&#39;</span>t connect to <span class="nb">local</span> MySQL server through socket <span class="s1">&#39;/var/run/mysqld/mysqld.sock&#39;</span> <span class="o">(</span>2<span class="o">)</span> <span class="k">while</span> connecting to the MySQL server
+Upgrade process encountered error and will not <span class="k">continue</span>.
+mysql_upgrade failed with <span class="nb">exit</span> status <span class="m">11</span>
+dpkg: error processing package mysql-server-5.7 <span class="o">(</span>--configure<span class="o">)</span>:
+ subprocess installed post-installation script returned error <span class="nb">exit</span> status <span class="m">1</span>
+dpkg: dependency problems prevent configuration of mysql-server:
+ mysql-server depends on mysql-server-5.7<span class="p">;</span> however:
+  Package mysql-server-5.7 is not configured yet.
+
+dpkg: error processing package mysql-server <span class="o">(</span>--configure<span class="o">)</span>:
+ dependency problems - leaving unconfigured
+Errors were encountered <span class="k">while</span> processing:
+ mysql-server-5.7
+ mysql-server
+E: Sub-process /usr/bin/dpkg returned an error code <span class="o">(</span>1<span class="o">)</span>
+petanikode@imajinasi ~ $ sudo service mysql start 
+petanikode@imajinasi ~ $ apt install mysql-server
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+mysql-server is already the newest version <span class="o">(</span>5.7.21-0ubuntu0.16.04.1<span class="o">)</span>.
+<span class="m">0</span> upgraded, <span class="m">0</span> newly installed, <span class="m">0</span> to remove and <span class="m">21</span> not upgraded.
+<span class="m">2</span> not fully installed or removed.
+After this operation, <span class="m">0</span> B of additional disk space will be used.
+Do you want to <span class="k">continue</span>? <span class="o">[</span>Y/n<span class="o">]</span> y
+Setting up mysql-server-5.7 <span class="o">(</span>5.7.21-0ubuntu0.16.04.1<span class="o">)</span> ...
+insserv: warning: current start runlevel<span class="o">(</span>s<span class="o">)</span> <span class="o">(</span>empty<span class="o">)</span> of script <span class="sb">`</span>mysql<span class="s1">&#39; overrides LSB defaults (2 3 4 5).
+</span><span class="s1">insserv: warning: current stop runlevel(s) (0 1 2 3 4 5 6) of script `mysql&#39;</span> overrides LSB defaults <span class="o">(</span><span class="m">0</span> <span class="m">1</span> 6<span class="o">)</span>.
+mysql_upgrade: Got error: 2002: Can<span class="s1">&#39;t connect to local MySQL server through socket &#39;</span>/var/run/mysqld/mysqld.sock<span class="s1">&#39; (2) while connecting to the MySQL server
+</span><span class="s1">Upgrade process encountered error and will not continue.
+</span><span class="s1">mysql_upgrade failed with exit status 11
+</span><span class="s1">dpkg: error processing package mysql-server-5.7 (--configure):
+</span><span class="s1"> subprocess installed post-installation script returned error exit status 1
+</span><span class="s1">dpkg: dependency problems prevent configuration of mysql-server:
+</span><span class="s1"> mysql-server depends on mysql-server-5.7; however:
+</span><span class="s1">  Package mysql-server-5.7 is not configured yet.
+</span><span class="s1">
+</span><span class="s1">dpkg: error processing package mysql-server (--configure):
+</span><span class="s1"> dependency problems - leaving unconfigured
+</span><span class="s1">Errors were encountered while processing:
+</span><span class="s1"> mysql-server-5.7
+</span><span class="s1"> mysql-server
+</span><span class="s1">E: Sub-process /usr/bin/dpkg returned an error code (1)
+</span><span class="s1">petanikode@imajinasi ~ $ sudo apt dist-upgrade 
+</span><span class="s1">Reading package lists... Done
+</span><span class="s1">Building dependency tree       
+</span><span class="s1">Reading state information... Done
+</span><span class="s1">Calculating upgrade... Done
+</span><span class="s1">The following packages were automatically installed and are no longer required:
+</span><span class="s1">  libllvm4.0 libllvm4.0:i386
+</span><span class="s1">Use &#39;</span>sudo apt autoremove<span class="s1">&#39; to remove them.
+</span><span class="s1">The following NEW packages will be installed:
+</span><span class="s1">  libllvm5.0 libllvm5.0:i386
+</span><span class="s1">The following packages will be upgraded:
+</span><span class="s1">  hhvm libegl1-mesa libegl1-mesa:i386 libgbm1 libgbm1:i386 libgl1-mesa-dev
+</span><span class="s1">  libgl1-mesa-dri:i386 libgl1-mesa-dri libgl1-mesa-glx libgl1-mesa-glx:i386
+</span><span class="s1">  libglapi-mesa:i386 libglapi-mesa libgles2-mesa libwayland-egl1-mesa
+</span><span class="s1">  libwayland-egl1-mesa:i386 libxatracker2 linux-firmware mesa-common-dev
+</span><span class="s1">  ndiswrapper ndiswrapper-dkms ndiswrapper-utils-1.9
+</span><span class="s1">21 upgraded, 2 newly installed, 0 to remove and 0 not upgraded.
+</span><span class="s1">2 not fully installed or removed.
+</span><span class="s1">Need to get 106 MB of archives.
+</span><span class="s1">After this operation, 155 MB of additional disk space will be used.
+</span><span class="s1">Do you want to continue? [Y/n] y
+</span><span class="s1">Get:1 http://archive.ubuntu.com/ubuntu xenial-updates/main i386 libllvm5.0 i386 1:5.0-3~16.04.1 [15,0 MB]
+</span><span class="s1">Get:2 https://dl.hhvm.com/ubuntu xenial/main amd64 hhvm amd64 3.24.1-1~xenial [17,5 MB]
+</span><span class="s1">Get:3 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libllvm5.0 amd64 1:5.0-3~16.04.1 [13,5 MB]
+</span><span class="s1">Get:4 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgl1-mesa-dev amd64 17.2.4-0ubuntu1~16.04.4 [4.452 B]
+</span><span class="s1">Get:5 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 mesa-common-dev amd64 17.2.4-0ubuntu1~16.04.4 [520 kB]
+</span><span class="s1">Get:6 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgl1-mesa-glx amd64 17.2.4-0ubuntu1~16.04.4 [130 kB]
+</span><span class="s1">Get:7 http://archive.ubuntu.com/ubuntu xenial-updates/main i386 libgl1-mesa-glx i386 17.2.4-0ubuntu1~16.04.4 [138 kB]
+</span><span class="s1">Get:8 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgles2-mesa amd64 17.2.4-0ubuntu1~16.04.4 [13,4 kB]
+</span><span class="s1">Get:9 http://archive.ubuntu.com/ubuntu xenial-updates/main i386 libglapi-mesa i386 17.2.4-0ubuntu1~16.04.4 [23,0 kB]
+</span><span class="s1">Get:10 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libglapi-mesa amd64 17.2.4-0ubuntu1~16.04.4 [22,4 kB]
+</span><span class="s1">Get:11 http://archive.ubuntu.com/ubuntu xenial-updates/main i386 libgbm1 i386 17.2.4-0ubuntu1~16.04.4 [26,4 kB]
+</span><span class="s1">Get:12 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgbm1 amd64 17.2.4-0ubuntu1~16.04.4 [24,6 kB]
+</span><span class="s1">Get:13 http://archive.ubuntu.com/ubuntu xenial-updates/main i386 libgl1-mesa-dri i386 17.2.4-0ubuntu1~16.04.4 [6.256 kB]
+</span><span class="s1">Get:14 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgl1-mesa-dri amd64 17.2.4-0ubuntu1~16.04.4 [5.782 kB]
+</span><span class="s1">Get:15 http://archive.ubuntu.com/ubuntu xenial-updates/main i386 libegl1-mesa i386 17.2.4-0ubuntu1~16.04.4 [92,2 kB]
+</span><span class="s1">Get:16 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libegl1-mesa amd64 17.2.4-0ubuntu1~16.04.4 [84,5 kB]
+</span><span class="s1">Get:17 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libwayland-egl1-mesa amd64 17.2.4-0ubuntu1~16.04.4 [5.874 B]
+</span><span class="s1">Get:18 http://archive.ubuntu.com/ubuntu xenial-updates/main i386 libwayland-egl1-mesa i386 17.2.4-0ubuntu1~16.04.4 [5.964 B]
+</span><span class="s1">Get:19 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libxatracker2 amd64 17.2.4-0ubuntu1~16.04.4 [1.103 kB]
+</span><span class="s1">Get:20 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 linux-firmware all 1.157.15 [45,5 MB]
+</span><span class="s1">Get:21 http://archive.ubuntu.com/ubuntu xenial-updates/universe amd64 ndiswrapper amd64 1.60-3~ubuntu16.04.2 [20,4 kB]
+</span><span class="s1">Get:22 http://archive.ubuntu.com/ubuntu xenial-updates/universe amd64 ndiswrapper-dkms all 1.60-3~ubuntu16.04.2 [140 kB]
+</span><span class="s1">Get:23 http://archive.ubuntu.com/ubuntu xenial-updates/universe amd64 ndiswrapper-utils-1.9 all 1.60-3~ubuntu16.04.2 [1.740 B]
+</span><span class="s1">Fetched 106 MB in 1min 14s (1.422 kB/s)                                        
+</span><span class="s1">Selecting previously unselected package libllvm5.0:i386.
+</span><span class="s1">(Reading database ... 551823 files and directories currently installed.)
+</span><span class="s1">Preparing to unpack .../libllvm5.0_1%3a5.0-3~16.04.1_i386.deb ...
+</span><span class="s1">Unpacking libllvm5.0:i386 (1:5.0-3~16.04.1) ...
+</span><span class="s1">Selecting previously unselected package libllvm5.0:amd64.
+</span><span class="s1">Preparing to unpack .../libllvm5.0_1%3a5.0-3~16.04.1_amd64.deb ...
+</span><span class="s1">Unpacking libllvm5.0:amd64 (1:5.0-3~16.04.1) ...
+</span><span class="s1">Processing triggers for libc-bin (2.23-0ubuntu10) ...
+</span><span class="s1">Setting up libllvm5.0:amd64 (1:5.0-3~16.04.1) ...
+</span><span class="s1">Setting up libllvm5.0:i386 (1:5.0-3~16.04.1) ...
+</span><span class="s1">Processing triggers for libc-bin (2.23-0ubuntu10) ...
+</span><span class="s1">(Reading database ... 551832 files and directories currently installed.)
+</span><span class="s1">Preparing to unpack .../libgl1-mesa-dev_17.2.4-0ubuntu1~16.04.4_amd64.deb ...
+</span><span class="s1">Unpacking libgl1-mesa-dev:amd64 (17.2.4-0ubuntu1~16.04.4) over (17.0.7-0ubuntu0.16.04.2) ...
+</span><span class="s1">Preparing to unpack .../mesa-common-dev_17.2.4-0ubuntu1~16.04.4_amd64.deb ...
+</span><span class="s1">Unpacking mesa-common-dev:amd64 (17.2.4-0ubuntu1~16.04.4) over (17.0.7-0ubuntu0.16.04.2) ...
+</span><span class="s1">Preparing to unpack .../libgl1-mesa-glx_17.2.4-0ubuntu1~16.04.4_i386.deb ...
+</span><span class="s1">De-configuring libgl1-mesa-glx:amd64 (17.0.7-0ubuntu0.16.04.2) ...
+</span><span class="s1">Unpacking libgl1-mesa-glx:i386 (17.2.4-0ubuntu1~16.04.4) over (17.0.7-0ubuntu0.16.04.2) ...
+</span><span class="s1">Preparing to unpack .../libgl1-mesa-glx_17.2.4-0ubuntu1~16.04.4_amd64.deb ...
+</span><span class="s1">Unpacking libgl1-mesa-glx:amd64 (17.2.4-0ubuntu1~16.04.4) over (17.0.7-0ubuntu0.16.04.2) ...
+</span><span class="s1">Preparing to unpack .../libgles2-mesa_17.2.4-0ubuntu1~16.04.4_amd64.deb ...
+</span><span class="s1">Unpacking libgles2-mesa:amd64 (17.2.4-0ubuntu1~16.04.4) over (17.0.7-0ubuntu0.16.04.2) ...
+</span><span class="s1">Preparing to unpack .../libglapi-mesa_17.2.4-0ubuntu1~16.04.4_amd64.deb ...
+</span><span class="s1">De-configuring libglapi-mesa:i386 (17.0.7-0ubuntu0.16.04.2) ...
+</span><span class="s1">Unpacking libglapi-mesa:amd64 (17.2.4-0ubuntu1~16.04.4) over (17.0.7-0ubuntu0.16.04.2) ...
+</span><span class="s1">Preparing to unpack .../libglapi-mesa_17.2.4-0ubuntu1~16.04.4_i386.deb ...
+</span><span class="s1">Unpacking libglapi-mesa:i386 (17.2.4-0ubuntu1~16.04.4) over (17.0.7-0ubuntu0.16.04.2) ...
+</span><span class="s1">Preparing to unpack .../libgbm1_17.2.4-0ubuntu1~16.04.4_amd64.deb ...
+</span><span class="s1">De-configuring libgbm1:i386 (17.0.7-0ubuntu0.16.04.2) ...
+</span><span class="s1">Unpacking libgbm1:amd64 (17.2.4-0ubuntu1~16.04.4) over (17.0.7-0ubuntu0.16.04.2) ...
+</span><span class="s1">Preparing to unpack .../libgbm1_17.2.4-0ubuntu1~16.04.4_i386.deb ...
+</span><span class="s1">Unpacking libgbm1:i386 (17.2.4-0ubuntu1~16.04.4) over (17.0.7-0ubuntu0.16.04.2) ...
+</span><span class="s1">Preparing to unpack .../libgl1-mesa-dri_17.2.4-0ubuntu1~16.04.4_amd64.deb ...
+</span><span class="s1">De-configuring libgl1-mesa-dri:i386 (17.0.7-0ubuntu0.16.04.2) ...
+</span><span class="s1">Unpacking libgl1-mesa-dri:amd64 (17.2.4-0ubuntu1~16.04.4) over (17.0.7-0ubuntu0.16.04.2) ...
+</span><span class="s1">Preparing to unpack .../libgl1-mesa-dri_17.2.4-0ubuntu1~16.04.4_i386.deb ...
+</span><span class="s1">Unpacking libgl1-mesa-dri:i386 (17.2.4-0ubuntu1~16.04.4) over (17.0.7-0ubuntu0.16.04.2) ...
+</span><span class="s1">Preparing to unpack .../libegl1-mesa_17.2.4-0ubuntu1~16.04.4_amd64.deb ...
+</span><span class="s1">De-configuring libegl1-mesa:i386 (17.0.7-0ubuntu0.16.04.2) ...
+</span><span class="s1">Unpacking libegl1-mesa:amd64 (17.2.4-0ubuntu1~16.04.4) over (17.0.7-0ubuntu0.16.04.2) ...
+</span><span class="s1">Preparing to unpack .../libegl1-mesa_17.2.4-0ubuntu1~16.04.4_i386.deb ...
+</span><span class="s1">Unpacking libegl1-mesa:i386 (17.2.4-0ubuntu1~16.04.4) over (17.0.7-0ubuntu0.16.04.2) ...
+</span><span class="s1">Preparing to unpack .../libwayland-egl1-mesa_17.2.4-0ubuntu1~16.04.4_i386.deb ...
+</span><span class="s1">De-configuring libwayland-egl1-mesa:amd64 (17.0.7-0ubuntu0.16.04.2) ...
+</span><span class="s1">Unpacking libwayland-egl1-mesa:i386 (17.2.4-0ubuntu1~16.04.4) over (17.0.7-0ubuntu0.16.04.2) ...
+</span><span class="s1">Preparing to unpack .../libwayland-egl1-mesa_17.2.4-0ubuntu1~16.04.4_amd64.deb ...
+</span><span class="s1">Unpacking libwayland-egl1-mesa:amd64 (17.2.4-0ubuntu1~16.04.4) over (17.0.7-0ubuntu0.16.04.2) ...
+</span><span class="s1">Processing triggers for libc-bin (2.23-0ubuntu10) ...
+</span><span class="s1">Setting up libgbm1:amd64 (17.2.4-0ubuntu1~16.04.4) ...
+</span><span class="s1">Setting up libgbm1:i386 (17.2.4-0ubuntu1~16.04.4) ...
+</span><span class="s1">Setting up libglapi-mesa:amd64 (17.2.4-0ubuntu1~16.04.4) ...
+</span><span class="s1">Setting up libglapi-mesa:i386 (17.2.4-0ubuntu1~16.04.4) ...
+</span><span class="s1">Setting up libgl1-mesa-dri:amd64 (17.2.4-0ubuntu1~16.04.4) ...
+</span><span class="s1">Installing new version of config file /etc/drirc ...
+</span><span class="s1">Setting up libgl1-mesa-dri:i386 (17.2.4-0ubuntu1~16.04.4) ...
+</span><span class="s1">Setting up libegl1-mesa:amd64 (17.2.4-0ubuntu1~16.04.4) ...
+</span><span class="s1">Setting up libegl1-mesa:i386 (17.2.4-0ubuntu1~16.04.4) ...
+</span><span class="s1">Setting up libwayland-egl1-mesa:amd64 (17.2.4-0ubuntu1~16.04.4) ...
+</span><span class="s1">Setting up libwayland-egl1-mesa:i386 (17.2.4-0ubuntu1~16.04.4) ...
+</span><span class="s1">Processing triggers for libc-bin (2.23-0ubuntu10) ...
+</span><span class="s1">(Reading database ... 551848 files and directories currently installed.)
+</span><span class="s1">Preparing to unpack .../hhvm_3.24.1-1~xenial_amd64.deb ...
+</span><span class="s1">[ ok ] Stopping hhvm (via systemctl): hhvm.service.
+</span><span class="s1">********************************************************************
+</span><span class="s1">* HHVM is being removed. You can remove it from your webserver with:
+</span><span class="s1">* 
+</span><span class="s1">* $ sudo /usr/share/hhvm/uninstall_fastcgi.sh
+</span><span class="s1">* $ sudo /etc/init.d/nginx restart
+</span><span class="s1">* $ sudo /etc/init.d/apache restart
+</span><span class="s1">********************************************************************
+</span><span class="s1">Unpacking hhvm (3.24.1-1~xenial) over (3.24.0-1~xenial) ...
+</span><span class="s1">Preparing to unpack .../libxatracker2_17.2.4-0ubuntu1~16.04.4_amd64.deb ...
+</span><span class="s1">Unpacking libxatracker2:amd64 (17.2.4-0ubuntu1~16.04.4) over (17.0.7-0ubuntu0.16.04.2) ...
+</span><span class="s1">Preparing to unpack .../linux-firmware_1.157.15_all.deb ...
+</span><span class="s1">Unpacking linux-firmware (1.157.15) over (1.157.13) ...
+</span><span class="s1">Preparing to unpack .../ndiswrapper_1.60-3~ubuntu16.04.2_amd64.deb ...
+</span><span class="s1">Unpacking ndiswrapper (1.60-3~ubuntu16.04.2) over (1.60-3~ubuntu16.04.1) ...
+</span><span class="s1">Preparing to unpack .../ndiswrapper-dkms_1.60-3~ubuntu16.04.2_all.deb ...
+</span><span class="s1">
+</span><span class="s1">-------- Uninstall Beginning --------
+</span><span class="s1">Module:  ndiswrapper
+</span><span class="s1">Version: 1.60
+</span><span class="s1">Kernel:  4.4.0-31-generic (x86_64)
+</span><span class="s1">-------------------------------------
+</span><span class="s1">
+</span><span class="s1">Status: Before uninstall, this module version was ACTIVE on this kernel.
+</span><span class="s1">
+</span><span class="s1">ndiswrapper.ko:
+</span><span class="s1"> - Uninstallation
+</span><span class="s1">   - Deleting from: /lib/modules/4.4.0-31-generic/updates/
+</span><span class="s1"> - Original module
+</span><span class="s1">   - No original module was found for this module on this kernel.
+</span><span class="s1">   - Use the dkms install command to reinstall any previous module version.
+</span><span class="s1">
+</span><span class="s1">depmod.........
+</span><span class="s1">
+</span><span class="s1">DKMS: uninstall completed.
+</span><span class="s1">
+</span><span class="s1">-------- Uninstall Beginning --------
+</span><span class="s1">Module:  ndiswrapper
+</span><span class="s1">Version: 1.60
+</span><span class="s1">Kernel:  4.8.0-53-generic (x86_64)
+</span><span class="s1">-------------------------------------
+</span><span class="s1">
+</span><span class="s1">Status: Before uninstall, this module version was ACTIVE on this kernel.
+</span><span class="s1">
+</span><span class="s1">ndiswrapper.ko:
+</span><span class="s1"> - Uninstallation
+</span><span class="s1">   - Deleting from: /lib/modules/4.8.0-53-generic/updates/
+</span><span class="s1"> - Original module
+</span><span class="s1">   - No original module was found for this module on this kernel.
+</span><span class="s1">   - Use the dkms install command to reinstall any previous module version.
+</span><span class="s1">
+</span><span class="s1">depmod..........
+</span><span class="s1">
+</span><span class="s1">DKMS: uninstall completed.
+</span><span class="s1">
+</span><span class="s1">------------------------------
+</span><span class="s1">Deleting module version: 1.60
+</span><span class="s1">completely from the DKMS tree.
+</span><span class="s1">------------------------------
+</span><span class="s1">Done.
+</span><span class="s1">Unpacking ndiswrapper-dkms (1.60-3~ubuntu16.04.2) over (1.60-3~ubuntu16.04.1) ...
+</span><span class="s1">Preparing to unpack .../ndiswrapper-utils-1.9_1.60-3~ubuntu16.04.2_all.deb ...
+</span><span class="s1">Unpacking ndiswrapper-utils-1.9 (1.60-3~ubuntu16.04.2) over (1.60-3~ubuntu16.04.1) ...
+</span><span class="s1">Processing triggers for systemd (229-4ubuntu21) ...
+</span><span class="s1">Processing triggers for ureadahead (0.100.0-19) ...
+</span><span class="s1">ureadahead will be reprofiled on next reboot
+</span><span class="s1">Processing triggers for libc-bin (2.23-0ubuntu10) ...
+</span><span class="s1">Processing triggers for man-db (2.7.5-1) ...
+</span><span class="s1">Setting up mysql-server-5.7 (5.7.21-0ubuntu0.16.04.1) ...
+</span><span class="s1">insserv: warning: current start runlevel(s) (empty) of script `mysql&#39;</span> overrides LSB defaults <span class="o">(</span><span class="m">2</span> <span class="m">3</span> <span class="m">4</span> 5<span class="o">)</span>.
+insserv: warning: current stop runlevel<span class="o">(</span>s<span class="o">)</span> <span class="o">(</span><span class="m">0</span> <span class="m">1</span> <span class="m">2</span> <span class="m">3</span> <span class="m">4</span> <span class="m">5</span> 6<span class="o">)</span> of script <span class="sb">`</span>mysql<span class="s1">&#39; overrides LSB defaults (0 1 6).
+</span><span class="s1">mysql_upgrade: Got error: 2002: Can&#39;</span>t connect to <span class="nb">local</span> MySQL server through socket <span class="s1">&#39;/var/run/mysqld/mysqld.sock&#39;</span> <span class="o">(</span>2<span class="o">)</span> <span class="k">while</span> connecting to the MySQL server
+Upgrade process encountered error and will not <span class="k">continue</span>.
+mysql_upgrade failed with <span class="nb">exit</span> status <span class="m">11</span>
+dpkg: error processing package mysql-server-5.7 <span class="o">(</span>--configure<span class="o">)</span>:
+ subprocess installed post-installation script returned error <span class="nb">exit</span> status <span class="m">1</span>
+dpkg: dependency problems prevent configuration of mysql-server:
+ mysql-server depends on mysql-server-5.7<span class="p">;</span> however:
+  Package mysql-server-5.7 is not configured yet.
+
+dpkg: error processing package mysql-server <span class="o">(</span>--configure<span class="o">)</span>:
+ dependency problems - leaving unconfigured
+Setting up mesa-common-dev:amd64 <span class="o">(</span>17.2.4-0ubuntu1~16.04.4<span class="o">)</span> ...
+Setting up libgl1-mesa-glx:amd64 <span class="o">(</span>17.2.4-0ubuntu1~16.04.4<span class="o">)</span> ...
+Setting up libgl1-mesa-glx:i386 <span class="o">(</span>17.2.4-0ubuntu1~16.04.4<span class="o">)</span> ...
+Setting up libgl1-mesa-dev:amd64 <span class="o">(</span>17.2.4-0ubuntu1~16.04.4<span class="o">)</span> ...
+Setting up libgles2-mesa:amd64 <span class="o">(</span>17.2.4-0ubuntu1~16.04.4<span class="o">)</span> ...
+Setting up hhvm <span class="o">(</span>3.24.1-1~xenial<span class="o">)</span> ...
+********************************************************************
+* HHVM is installed.
+*
+* Running PHP web scripts with HHVM is <span class="k">done</span> by having your
+* webserver talk to HHVM over FastCGI. Install nginx or Apache,
+* and <span class="k">then</span>:
+* $ sudo /usr/share/hhvm/install_fastcgi.sh
+* $ sudo /etc/init.d/hhvm restart
+* <span class="o">(</span><span class="k">if</span> using nginx<span class="o">)</span>  $ sudo /etc/init.d/nginx restart
+* <span class="o">(</span><span class="k">if</span> using apache<span class="o">)</span> $ sudo /etc/init.d/apache restart
+*
+* Detailed FastCGI directions are online at:
+* https://github.com/facebook/hhvm/wiki/FastCGI
+*
+* If you<span class="s1">&#39;re using HHVM to run web scripts, you probably want it
+</span><span class="s1">* to start at boot:
+</span><span class="s1">* $ sudo update-rc.d hhvm defaults
+</span><span class="s1">*
+</span><span class="s1">* Running command-line scripts with HHVM requires no special setup:
+</span><span class="s1">* $ hhvm whatever.php
+</span><span class="s1">*
+</span><span class="s1">* You can use HHVM for /usr/bin/php even if you have php-cli
+</span><span class="s1">* installed:
+</span><span class="s1">* $ sudo /usr/bin/update-alternatives \
+</span><span class="s1">*    --install /usr/bin/php php /usr/bin/hhvm 60
+</span><span class="s1">********************************************************************
+</span><span class="s1">Setting up libxatracker2:amd64 (17.2.4-0ubuntu1~16.04.4) ...
+</span><span class="s1">Setting up linux-firmware (1.157.15) ...
+</span><span class="s1">update-initramfs: Generating /boot/initrd.img-4.8.0-53-generic
+</span><span class="s1">Warning: No support for locale: en_US.utf8
+</span><span class="s1">update-initramfs: Generating /boot/initrd.img-4.4.0-31-generic
+</span><span class="s1">Warning: No support for locale: en_US.utf8
+</span><span class="s1">update-initramfs: Generating /boot/initrd.img-4.4.0-21-generic
+</span><span class="s1">Warning: No support for locale: en_US.utf8
+</span><span class="s1">Setting up ndiswrapper (1.60-3~ubuntu16.04.2) ...
+</span><span class="s1">Setting up ndiswrapper-dkms (1.60-3~ubuntu16.04.2) ...
+</span><span class="s1">Loading new ndiswrapper-1.60 DKMS files...
+</span><span class="s1">Building only for 4.8.0-53-generic
+</span><span class="s1">Building initial module for 4.8.0-53-generic
+</span><span class="s1">Done.
+</span><span class="s1">
+</span><span class="s1">ndiswrapper:
+</span><span class="s1">Running module version sanity check.
+</span><span class="s1"> - Original module
+</span><span class="s1">   - No original module exists within this kernel
+</span><span class="s1"> - Installation
+</span><span class="s1">   - Installing to /lib/modules/4.8.0-53-generic/updates/
+</span><span class="s1">
+</span><span class="s1">depmod........
+</span><span class="s1">
+</span><span class="s1">DKMS: install completed.
+</span><span class="s1">Setting up ndiswrapper-utils-1.9 (1.60-3~ubuntu16.04.2) ...
+</span><span class="s1">Processing triggers for libc-bin (2.23-0ubuntu10) ...
+</span><span class="s1">Processing triggers for shim-signed (1.32~16.04.1+0.9+1474479173.6c180c6-1ubuntu1) ...
+</span><span class="s1">Secure Boot not enabled on this system.
+</span><span class="s1">Errors were encountered while processing:
+</span><span class="s1"> mysql-server-5.7
+</span><span class="s1"> mysql-server
+</span><span class="s1">E: Sub-process /usr/bin/dpkg returned an error code (1)
+</span><span class="s1">petanikode@imajinasi ~ $ apt install mysql-server-
+</span><span class="s1">mysql-server-5.7       mysql-server-core-5.7  
+</span><span class="s1">petanikode@imajinasi ~ $ apt install mysql-server-
+</span><span class="s1">mysql-server-5.7       mysql-server-core-5.7  
+</span><span class="s1">petanikode@imajinasi ~ $ apt install mysql-server-5.7 
+</span><span class="s1">Reading package lists... Done
+</span><span class="s1">Building dependency tree       
+</span><span class="s1">Reading state information... Done
+</span><span class="s1">mysql-server-5.7 is already the newest version (5.7.21-0ubuntu0.16.04.1).
+</span><span class="s1">The following packages were automatically installed and are no longer required:
+</span><span class="s1">  libllvm4.0 libllvm4.0:i386
+</span><span class="s1">Use &#39;</span>sudo apt autoremove<span class="s1">&#39; to remove them.
+</span><span class="s1">0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+</span><span class="s1">2 not fully installed or removed.
+</span><span class="s1">After this operation, 0 B of additional disk space will be used.
+</span><span class="s1">Do you want to continue? [Y/n] y
+</span><span class="s1">Setting up mysql-server-5.7 (5.7.21-0ubuntu0.16.04.1) ...
+</span><span class="s1">insserv: warning: current start runlevel(s) (empty) of script `mysql&#39;</span> overrides LSB defaults <span class="o">(</span><span class="m">2</span> <span class="m">3</span> <span class="m">4</span> 5<span class="o">)</span>.
+insserv: warning: current stop runlevel<span class="o">(</span>s<span class="o">)</span> <span class="o">(</span><span class="m">0</span> <span class="m">1</span> <span class="m">2</span> <span class="m">3</span> <span class="m">4</span> <span class="m">5</span> 6<span class="o">)</span> of script <span class="sb">`</span>mysql<span class="s1">&#39; overrides LSB defaults (0 1 6).
+</span><span class="s1">mysql_upgrade: Got error: 2002: Can&#39;</span>t connect to <span class="nb">local</span> MySQL server through socket <span class="s1">&#39;/var/run/mysqld/mysqld.sock&#39;</span> <span class="o">(</span>2<span class="o">)</span> <span class="k">while</span> connecting to the MySQL server
+Upgrade process encountered error and will not <span class="k">continue</span>.
+mysql_upgrade failed with <span class="nb">exit</span> status <span class="m">11</span>
+dpkg: error processing package mysql-server-5.7 <span class="o">(</span>--configure<span class="o">)</span>:
+ subprocess installed post-installation script returned error <span class="nb">exit</span> status <span class="m">1</span>
+dpkg: dependency problems prevent configuration of mysql-server:
+ mysql-server depends on mysql-server-5.7<span class="p">;</span> however:
+  Package mysql-server-5.7 is not configured yet.
+
+dpkg: error processing package mysql-server <span class="o">(</span>--configure<span class="o">)</span>:
+ dependency problems - leaving unconfigured
+Errors were encountered <span class="k">while</span> processing:
+ mysql-server-5.7
+ mysql-server
+E: Sub-process /usr/bin/dpkg returned an error code <span class="o">(</span>1<span class="o">)</span>
+petanikode@imajinasi ~ $ apt -f install
+apt
+Usage: apt <span class="nb">command</span> <span class="o">[</span>options<span class="o">]</span>
+       apt <span class="nb">help</span> <span class="nb">command</span> <span class="o">[</span>options<span class="o">]</span>
+
+Commands:
+  add-repository   - Add entries to apt sources.list
+  autoclean        - Erase old downloaded archive files
+  autoremove       - Remove automatically all unused packages
+  build            - Build binary or <span class="nb">source</span> packages from sources
+  build-dep        - Configure build-dependencies <span class="k">for</span> <span class="nb">source</span> packages
+  changelog        - View a package<span class="s1">&#39;s changelog
+</span><span class="s1">  check            - Verify that there are no broken dependencies
+</span><span class="s1">  clean            - Erase downloaded archive files
+</span><span class="s1">  contains         - List packages containing a file
+</span><span class="s1">  content          - List files contained in a package
+</span><span class="s1">  deb              - Install a .deb package
+</span><span class="s1">  depends          - Show raw dependency information for a package
+</span><span class="s1">  dist-upgrade     - Upgrade the system by removing/installing/upgrading packages
+</span><span class="s1">  download         - Download the .deb file for a package
+</span><span class="s1">  edit-sources     - Edit /etc/apt/sources.list with your preferred text editor
+</span><span class="s1">  dselect-upgrade  - Follow dselect selections
+</span><span class="s1">  full-upgrade     - Same as &#39;</span>dist-upgrade<span class="s1">&#39;
+</span><span class="s1">  held             - List all held packages
+</span><span class="s1">  help             - Show help for a command
+</span><span class="s1">  hold             - Hold a package
+</span><span class="s1">  install          - Install/upgrade packages
+</span><span class="s1">  list             - List packages based on package names
+</span><span class="s1">  policy           - Show policy settings
+</span><span class="s1">  purge            - Remove packages and their configuration files
+</span><span class="s1">  recommends       - List missing recommended packages for a particular package
+</span><span class="s1">  rdepends         - Show reverse dependency information for a package
+</span><span class="s1">  reinstall        - Download and (possibly) reinstall a currently installed package
+</span><span class="s1">  remove           - Remove packages
+</span><span class="s1">  search           - Search for a package by name and/or expression
+</span><span class="s1">  show             - Display detailed information about a package
+</span><span class="s1">  showhold         - Same as &#39;</span>held<span class="s1">&#39;
+</span><span class="s1">  source           - Download source archives
+</span><span class="s1">  sources          - Same as &#39;</span>edit-sources<span class="s1">&#39;
+</span><span class="s1">  unhold           - Unhold a package
+</span><span class="s1">  update           - Download lists of new/upgradable packages
+</span><span class="s1">  upgrade          - Perform a safe upgrade
+</span><span class="s1">  version          - Show the installed version of a package
+</span><span class="s1">
+</span><span class="s1">petanikode@imajinasi ~ $ sudo apt install -f
+</span><span class="s1">Reading package lists... Done
+</span><span class="s1">Building dependency tree       
+</span><span class="s1">Reading state information... Done
+</span><span class="s1">The following packages were automatically installed and are no longer required:
+</span><span class="s1">  libllvm4.0 libllvm4.0:i386
+</span><span class="s1">Use &#39;</span>sudo apt autoremove<span class="s1">&#39; to remove them.
+</span><span class="s1">0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+</span><span class="s1">2 not fully installed or removed.
+</span><span class="s1">After this operation, 0 B of additional disk space will be used.
+</span><span class="s1">Setting up mysql-server-5.7 (5.7.21-0ubuntu0.16.04.1) ...
+</span><span class="s1">insserv: warning: current start runlevel(s) (empty) of script `mysql&#39;</span> overrides LSB defaults <span class="o">(</span><span class="m">2</span> <span class="m">3</span> <span class="m">4</span> 5<span class="o">)</span>.
+insserv: warning: current stop runlevel<span class="o">(</span>s<span class="o">)</span> <span class="o">(</span><span class="m">0</span> <span class="m">1</span> <span class="m">2</span> <span class="m">3</span> <span class="m">4</span> <span class="m">5</span> 6<span class="o">)</span> of script <span class="sb">`</span>mysql<span class="s1">&#39; overrides LSB defaults (0 1 6).
+</span><span class="s1">mysql_upgrade: Got error: 2002: Can&#39;</span>t connect to <span class="nb">local</span> MySQL server through socket <span class="s1">&#39;/var/run/mysqld/mysqld.sock&#39;</span> <span class="o">(</span>2<span class="o">)</span> <span class="k">while</span> connecting to the MySQL server
+Upgrade process encountered error and will not <span class="k">continue</span>.
+mysql_upgrade failed with <span class="nb">exit</span> status <span class="m">11</span>
+dpkg: error processing package mysql-server-5.7 <span class="o">(</span>--configure<span class="o">)</span>:
+ subprocess installed post-installation script returned error <span class="nb">exit</span> status <span class="m">1</span>
+dpkg: dependency problems prevent configuration of mysql-server:
+ mysql-server depends on mysql-server-5.7<span class="p">;</span> however:
+  Package mysql-server-5.7 is not configured yet.
+
+dpkg: error processing package mysql-server <span class="o">(</span>--configure<span class="o">)</span>:
+ dependency problems - leaving unconfigured
+Errors were encountered <span class="k">while</span> processing:
+ mysql-server-5.7
+ mysql-server
+E: Sub-process /usr/bin/dpkg returned an error code <span class="o">(</span>1<span class="o">)</span>
+petanikode@imajinasi ~ $ sudo mysql -u root -p
+Enter password: 
+ERROR <span class="m">2002</span> <span class="o">(</span>HY000<span class="o">)</span>: Can<span class="s1">&#39;t connect to local MySQL server through socket &#39;</span>/var/run/mysqld/mysqld.sock<span class="s1">&#39; (2)
+</span><span class="s1">petanikode@imajinasi ~ $ sudo service mysql status
+</span><span class="s1">● mysql.service - MySQL Community Server
+</span><span class="s1">   Loaded: loaded (/lib/systemd/system/mysql.service; disabled; vendor preset: e
+</span><span class="s1">   Active: inactive (dead)
+</span><span class="s1">
+</span><span class="s1">Jan 31 04:02:43 imajinasi systemd[1]: Started MySQL Community Server.
+</span><span class="s1">Jan 31 04:02:49 imajinasi systemd[1]: Stopping MySQL Community Server...
+</span><span class="s1">Jan 31 04:02:50 imajinasi systemd[1]: Stopped MySQL Community Server.
+</span><span class="s1">Jan 31 04:02:51 imajinasi systemd[1]: Stopped MySQL Community Server.
+</span><span class="s1">Jan 31 04:06:28 imajinasi systemd[1]: Stopped MySQL Community Server.
+</span><span class="s1">Jan 31 04:06:31 imajinasi systemd[1]: Stopped MySQL Community Server.
+</span><span class="s1">Jan 31 04:09:08 imajinasi systemd[1]: Stopped MySQL Community Server.
+</span><span class="s1">Jan 31 04:09:11 imajinasi systemd[1]: Stopped MySQL Community Server.
+</span><span class="s1">Jan 31 04:09:27 imajinasi systemd[1]: Stopped MySQL Community Server.
+</span><span class="s1">Jan 31 04:09:28 imajinasi systemd[1]: Stopped MySQL Community Server.
+</span><span class="s1">petanikode@imajinasi ~ $ sudo service mysql start
+</span><span class="s1">petanikode@imajinasi ~ $ sudo service mysql status
+</span><span class="s1">● mysql.service - MySQL Community Server
+</span><span class="s1">   Loaded: loaded (/lib/systemd/system/mysql.service; disabled; vendor preset: e
+</span><span class="s1">   Active: active (running) since Wed 2018-01-31 04:11:00 WITA; 1s ago
+</span><span class="s1">  Process: 5307 ExecStartPost=/usr/share/mysql/mysql-systemd-start post (code=ex
+</span><span class="s1">  Process: 5298 ExecStartPre=/usr/share/mysql/mysql-systemd-start pre (code=exit
+</span><span class="s1"> Main PID: 5306 (mysqld)
+</span><span class="s1">    Tasks: 28
+</span><span class="s1">   Memory: 135.3M
+</span><span class="s1">      CPU: 251ms
+</span><span class="s1">   CGroup: /system.slice/mysql.service
+</span><span class="s1">           └─5306 /usr/sbin/mysqld
+</span><span class="s1">
+</span><span class="s1">Jan 31 04:10:59 imajinasi systemd[1]: Starting MySQL Community Server...
+</span><span class="s1">Jan 31 04:11:00 imajinasi systemd[1]: Started MySQL Community Server.
+</span><span class="s1">petanikode@imajinasi ~ $ sudo mysql -u root -p
+</span><span class="s1">Enter password: 
+</span><span class="s1">Welcome to the MySQL monitor.  Commands end with ; or \g.
+</span><span class="s1">Your MySQL connection id is 3
+</span><span class="s1">Server version: 5.7.21-0ubuntu0.16.04.1 (Ubuntu)
+</span><span class="s1">
+</span><span class="s1">Copyright (c) 2000, 2018, Oracle and/or its affiliates. All rights reserved.
+</span><span class="s1">
+</span><span class="s1">Oracle is a registered trademark of Oracle Corporation and/or its
+</span><span class="s1">affiliates. Other names may be trademarks of their respective
+</span><span class="s1">owners.
+</span><span class="s1">
+</span><span class="s1">Type &#39;</span>help<span class="p">;</span><span class="s1">&#39; or &#39;</span><span class="se">\h</span><span class="s1">&#39; for help. Type &#39;</span><span class="se">\c</span><span class="s1">&#39; to clear the current input statement.
+</span><span class="s1">
+</span><span class="s1">mysql&gt; ^DBye
+</span><span class="s1">petanikode@imajinasi ~ $ sudo apt install -f
+</span><span class="s1">Reading package lists... Done
+</span><span class="s1">Building dependency tree       
+</span><span class="s1">Reading state information... Done
+</span><span class="s1">The following packages were automatically installed and are no longer required:
+</span><span class="s1">  libllvm4.0 libllvm4.0:i386
+</span><span class="s1">Use &#39;</span>sudo apt autoremove<span class="s1">&#39; to remove them.
+</span><span class="s1">0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+</span><span class="s1">2 not fully installed or removed.
+</span><span class="s1">After this operation, 0 B of additional disk space will be used.
+</span><span class="s1">Setting up mysql-server-5.7 (5.7.21-0ubuntu0.16.04.1) ...
+</span><span class="s1">insserv: warning: current start runlevel(s) (empty) of script `mysql&#39;</span> overrides LSB defaults <span class="o">(</span><span class="m">2</span> <span class="m">3</span> <span class="m">4</span> 5<span class="o">)</span>.
+insserv: warning: current stop runlevel<span class="o">(</span>s<span class="o">)</span> <span class="o">(</span><span class="m">0</span> <span class="m">1</span> <span class="m">2</span> <span class="m">3</span> <span class="m">4</span> <span class="m">5</span> 6<span class="o">)</span> of script <span class="sb">`</span>mysql<span class="s1">&#39; overrides LSB defaults (0 1 6).
+</span><span class="s1">mysql_upgrade: Got error: 2002: Can&#39;</span>t connect to <span class="nb">local</span> MySQL server through socket <span class="s1">&#39;/var/run/mysqld/mysqld.sock&#39;</span> <span class="o">(</span>2<span class="o">)</span> <span class="k">while</span> connecting to the MySQL server
+Upgrade process encountered error and will not <span class="k">continue</span>.
+mysql_upgrade failed with <span class="nb">exit</span> status <span class="m">11</span>
+dpkg: error processing package mysql-server-5.7 <span class="o">(</span>--configure<span class="o">)</span>:
+ subprocess installed post-installation script returned error <span class="nb">exit</span> status <span class="m">1</span>
+dpkg: dependency problems prevent configuration of mysql-server:
+ mysql-server depends on mysql-server-5.7<span class="p">;</span> however:
+  Package mysql-server-5.7 is not configured yet.
+
+dpkg: error processing package mysql-server <span class="o">(</span>--configure<span class="o">)</span>:
+ dependency problems - leaving unconfigured
+Errors were encountered <span class="k">while</span> processing:
+ mysql-server-5.7
+ mysql-server
+E: Sub-process /usr/bin/dpkg returned an error code <span class="o">(</span>1<span class="o">)</span>
+petanikode@imajinasi ~ $ sudo service mysql status
+● mysql.service - MySQL Community Server
+   Loaded: loaded <span class="o">(</span>/lib/systemd/system/mysql.service<span class="p">;</span> disabled<span class="p">;</span> vendor preset: e
+   Active: inactive <span class="o">(</span>dead<span class="o">)</span>
+
+Jan <span class="m">31</span> 04:06:31 imajinasi systemd<span class="o">[</span>1<span class="o">]</span>: Stopped MySQL Community Server.
+Jan <span class="m">31</span> 04:09:08 imajinasi systemd<span class="o">[</span>1<span class="o">]</span>: Stopped MySQL Community Server.
+Jan <span class="m">31</span> 04:09:11 imajinasi systemd<span class="o">[</span>1<span class="o">]</span>: Stopped MySQL Community Server.
+Jan <span class="m">31</span> 04:09:27 imajinasi systemd<span class="o">[</span>1<span class="o">]</span>: Stopped MySQL Community Server.
+Jan <span class="m">31</span> 04:09:28 imajinasi systemd<span class="o">[</span>1<span class="o">]</span>: Stopped MySQL Community Server.
+Jan <span class="m">31</span> 04:10:59 imajinasi systemd<span class="o">[</span>1<span class="o">]</span>: Starting MySQL Community Server...
+Jan <span class="m">31</span> 04:11:00 imajinasi systemd<span class="o">[</span>1<span class="o">]</span>: Started MySQL Community Server.
+Jan <span class="m">31</span> 04:11:17 imajinasi systemd<span class="o">[</span>1<span class="o">]</span>: Stopping MySQL Community Server...
+Jan <span class="m">31</span> 04:11:19 imajinasi systemd<span class="o">[</span>1<span class="o">]</span>: Stopped MySQL Community Server.
+Jan <span class="m">31</span> 04:11:20 imajinasi systemd<span class="o">[</span>1<span class="o">]</span>: Stopped MySQL Community Server.
+petanikode@imajinasi ~ $ apt clean
+petanikode@imajinasi ~ $ sudo apt install -f
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libllvm4.0 libllvm4.0:i386
+Use <span class="s1">&#39;sudo apt autoremove&#39;</span> to remove them.
+<span class="m">0</span> upgraded, <span class="m">0</span> newly installed, <span class="m">0</span> to remove and <span class="m">0</span> not upgraded.
+<span class="m">2</span> not fully installed or removed.
+After this operation, <span class="m">0</span> B of additional disk space will be used.
+Setting up mysql-server-5.7 <span class="o">(</span>5.7.21-0ubuntu0.16.04.1<span class="o">)</span> ...
+insserv: warning: current start runlevel<span class="o">(</span>s<span class="o">)</span> <span class="o">(</span>empty<span class="o">)</span> of script <span class="sb">`</span>mysql<span class="s1">&#39; overrides LSB defaults (2 3 4 5).
+</span><span class="s1">insserv: warning: current stop runlevel(s) (0 1 2 3 4 5 6) of script `mysql&#39;</span> overrides LSB defaults <span class="o">(</span><span class="m">0</span> <span class="m">1</span> 6<span class="o">)</span>.
+mysql_upgrade: Got error: 2002: Can<span class="s1">&#39;t connect to local MySQL server through socket &#39;</span>/var/run/mysqld/mysqld.sock<span class="s1">&#39; (2) while connecting to the MySQL server
+</span><span class="s1">Upgrade process encountered error and will not continue.
+</span><span class="s1">mysql_upgrade failed with exit status 11
+</span><span class="s1">dpkg: error processing package mysql-server-5.7 (--configure):
+</span><span class="s1"> subprocess installed post-installation script returned error exit status 1
+</span><span class="s1">dpkg: dependency problems prevent configuration of mysql-server:
+</span><span class="s1"> mysql-server depends on mysql-server-5.7; however:
+</span><span class="s1">  Package mysql-server-5.7 is not configured yet.
+</span><span class="s1">
+</span><span class="s1">dpkg: error processing package mysql-server (--configure):
+</span><span class="s1"> dependency problems - leaving unconfigured
+</span><span class="s1">Errors were encountered while processing:
+</span><span class="s1"> mysql-server-5.7
+</span><span class="s1"> mysql-server
+</span><span class="s1">E: Sub-process /usr/bin/dpkg returned an error code (1)
+</span><span class="s1">petanikode@imajinasi ~ $ sudo mv /etc/mysql/my.cnf /etc/mysql/my.cnf.bak
+</span><span class="s1">petanikode@imajinasi ~ $ sudo rm -r /etc/mysql/mysql.conf.d/
+</span><span class="s1">petanikode@imajinasi ~ $ sudo find / -name my.cnf
+</span><span class="s1">find: ‘/run/user/1000/gvfs’: Permission denied
+</span><span class="s1">/etc/alternatives/my.cnf
+</span><span class="s1">
+</span><span class="s1">^C
+</span><span class="s1">petanikode@imajinasi ~ $ sudo mv /etc/mysql/debian.cnf /etc/mysql/debian.cnf.bakpetanikode@imajinasi ~ $ sudo apt purge mysql-server mysql-server-5.7 mysql-server-core-5.7
+</span><span class="s1">Reading package lists... Done
+</span><span class="s1">Building dependency tree       
+</span><span class="s1">Reading state information... Done
+</span><span class="s1">The following packages were automatically installed and are no longer required:
+</span><span class="s1">  libevent-core-2.0-5 libllvm4.0 libllvm4.0:i386
+</span><span class="s1">Use &#39;</span>sudo apt autoremove<span class="s1">&#39; to remove them.
+</span><span class="s1">The following packages will be REMOVED:
+</span><span class="s1">  mysql-server* mysql-server-5.7* mysql-server-core-5.7*
+</span><span class="s1">0 upgraded, 0 newly installed, 3 to remove and 0 not upgraded.
+</span><span class="s1">2 not fully installed or removed.
+</span><span class="s1">After this operation, 94,7 MB disk space will be freed.
+</span><span class="s1">Do you want to continue? [Y/n] y
+</span><span class="s1">(Reading database ... 551865 files and directories currently installed.)
+</span><span class="s1">Removing mysql-server (5.7.21-0ubuntu0.16.04.1) ...
+</span><span class="s1">Removing mysql-server-5.7 (5.7.21-0ubuntu0.16.04.1) ...
+</span><span class="s1">update-alternatives: using /etc/mysql/my.cnf.fallback to provide /etc/mysql/my.cnf (my.cnf) in auto mode
+</span><span class="s1">Purging configuration files for mysql-server-5.7 (5.7.21-0ubuntu0.16.04.1) ...
+</span><span class="s1">Removing mysql-server-core-5.7 (5.7.21-0ubuntu0.16.04.1) ...
+</span><span class="s1">Processing triggers for man-db (2.7.5-1) ...
+</span><span class="s1">petanikode@imajinasi ~ $ sudo apt install mysql-server
+</span><span class="s1">Reading package lists... Done
+</span><span class="s1">Building dependency tree       
+</span><span class="s1">Reading state information... Done
+</span><span class="s1">The following packages were automatically installed and are no longer required:
+</span><span class="s1">  libllvm4.0 libllvm4.0:i386
+</span><span class="s1">Use &#39;</span>sudo apt autoremove<span class="s1">&#39; to remove them.
+</span><span class="s1">The following additional packages will be installed:
+</span><span class="s1">  mysql-server-5.7 mysql-server-core-5.7
+</span><span class="s1">Suggested packages:
+</span><span class="s1">  mailx tinyca
+</span><span class="s1">Recommended packages:
+</span><span class="s1">  libhtml-template-perl
+</span><span class="s1">The following NEW packages will be installed:
+</span><span class="s1">  mysql-server mysql-server-5.7 mysql-server-core-5.7
+</span><span class="s1">0 upgraded, 3 newly installed, 0 to remove and 0 not upgraded.
+</span><span class="s1">Need to get 10,5 MB of archives.
+</span><span class="s1">After this operation, 94,7 MB of additional disk space will be used.
+</span><span class="s1">Do you want to continue? [Y/n] y
+</span><span class="s1">Get:1 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 mysql-server-core-5.7 amd64 5.7.21-0ubuntu0.16.04.1 [7.809 kB]
+</span><span class="s1">Get:2 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 mysql-server-5.7 amd64 5.7.21-0ubuntu0.16.04.1 [2.724 kB]
+</span><span class="s1">Get:3 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 mysql-server all 5.7.21-0ubuntu0.16.04.1 [10,2 kB]
+</span><span class="s1">Fetched 10,5 MB in 10s (1.047 kB/s)                                            
+</span><span class="s1">Preconfiguring packages ...
+</span><span class="s1">Selecting previously unselected package mysql-server-core-5.7.
+</span><span class="s1">(Reading database ... 551678 files and directories currently installed.)
+</span><span class="s1">Preparing to unpack .../mysql-server-core-5.7_5.7.21-0ubuntu0.16.04.1_amd64.deb ...
+</span><span class="s1">Unpacking mysql-server-core-5.7 (5.7.21-0ubuntu0.16.04.1) ...
+</span><span class="s1">Selecting previously unselected package mysql-server-5.7.
+</span><span class="s1">Preparing to unpack .../mysql-server-5.7_5.7.21-0ubuntu0.16.04.1_amd64.deb ...
+</span><span class="s1">Unpacking mysql-server-5.7 (5.7.21-0ubuntu0.16.04.1) ...
+</span><span class="s1">Selecting previously unselected package mysql-server.
+</span><span class="s1">Preparing to unpack .../mysql-server_5.7.21-0ubuntu0.16.04.1_all.deb ...
+</span><span class="s1">Unpacking mysql-server (5.7.21-0ubuntu0.16.04.1) ...
+</span><span class="s1">Processing triggers for man-db (2.7.5-1) ...
+</span><span class="s1">Processing triggers for systemd (229-4ubuntu21) ...
+</span><span class="s1">Processing triggers for ureadahead (0.100.0-19) ...
+</span><span class="s1">Setting up mysql-server-core-5.7 (5.7.21-0ubuntu0.16.04.1) ...
+</span><span class="s1">Setting up mysql-server-5.7 (5.7.21-0ubuntu0.16.04.1) ...
+</span><span class="s1">update-alternatives: using /etc/mysql/mysql.cnf to provide /etc/mysql/my.cnf (my.cnf) in auto mode
+</span><span class="s1">Renaming removed key_buffer and myisam-recover options (if present)
+</span><span class="s1">Checking if update is needed.
+</span><span class="s1">Checking server version.
+</span><span class="s1">Running queries to upgrade MySQL server.
+</span><span class="s1">Checking system database.
+</span><span class="s1">mysql.columns_priv                                 OK
+</span><span class="s1">mysql.db                                           OK
+</span><span class="s1">mysql.engine_cost                                  OK
+</span><span class="s1">mysql.event                                        OK
+</span><span class="s1">mysql.func                                         OK
+</span><span class="s1">mysql.general_log                                  OK
+</span><span class="s1">mysql.gtid_executed                                OK
+</span><span class="s1">mysql.help_category                                OK
+</span><span class="s1">mysql.help_keyword                                 OK
+</span><span class="s1">mysql.help_relation                                OK
+</span><span class="s1">mysql.help_topic                                   OK
+</span><span class="s1">mysql.innodb_index_stats                           OK
+</span><span class="s1">mysql.innodb_table_stats                           OK
+</span><span class="s1">mysql.ndb_binlog_index                             OK
+</span><span class="s1">mysql.plugin                                       OK
+</span><span class="s1">mysql.proc                                         OK
+</span><span class="s1">mysql.procs_priv                                   OK
+</span><span class="s1">mysql.proxies_priv                                 OK
+</span><span class="s1">mysql.server_cost                                  OK
+</span><span class="s1">mysql.servers                                      OK
+</span><span class="s1">mysql.slave_master_info                            OK
+</span><span class="s1">mysql.slave_relay_log_info                         OK
+</span><span class="s1">mysql.slave_worker_info                            OK
+</span><span class="s1">mysql.slow_log                                     OK
+</span><span class="s1">mysql.tables_priv                                  OK
+</span><span class="s1">mysql.time_zone                                    OK
+</span><span class="s1">mysql.time_zone_leap_second                        OK
+</span><span class="s1">mysql.time_zone_name                               OK
+</span><span class="s1">mysql.time_zone_transition                         OK
+</span><span class="s1">mysql.time_zone_transition_type                    OK
+</span><span class="s1">mysql.user                                         OK
+</span><span class="s1">The sys schema is already up to date (version 1.5.1).
+</span><span class="s1">Checking databases.
+</span><span class="s1">blog_php.artikel                                   OK
+</span><span class="s1">blog_php.user                                      OK
+</span><span class="s1">ci_jamkrida.agen                                   OK
+</span><span class="s1">ci_jamkrida.ci_sessions                            OK
+</span><span class="s1">ci_jamkrida.direksi                                OK
+</span><span class="s1">ci_jamkrida.log                                    OK
+</span><span class="s1">ci_jamkrida.pesan                                  OK
+</span><span class="s1">ci_jamkrida.t_transaksi                            OK
+</span><span class="s1">ci_jamkrida.user                                   OK
+</span><span class="s1">contoh_graf.jalan                                  OK
+</span><span class="s1">contoh_graf.kota                                   OK
+</span><span class="s1">cuitter.status                                     OK
+</span><span class="s1">cuitter.user                                       OK
+</span><span class="s1">dinkop.kegiatan                                    OK
+</span><span class="s1">dinkop.pegawai                                     OK
+</span><span class="s1">dinkop.program                                     OK
+</span><span class="s1">dinkop.spp                                         OK
+</span><span class="s1">dinkop.user                                        OK
+</span><span class="s1">dlmobi.users                                       OK
+</span><span class="s1">epk.bantuan_sosial                                 OK
+</span><span class="s1">epk.groups                                         OK
+</span><span class="s1">epk.kelompok_tani                                  OK
+</span><span class="s1">epk.komoditas                                      OK
+</span><span class="s1">epk.login_attempts                                 OK
+</span><span class="s1">epk.perkembangan                                   OK
+</span><span class="s1">epk.ref_bantuan                                    OK
+</span><span class="s1">epk.ref_desa                                       OK
+</span><span class="s1">epk.ref_kabupaten                                  OK
+</span><span class="s1">epk.ref_kecamatan                                  OK
+</span><span class="s1">epk.ref_kegiatan                                   OK
+</span><span class="s1">epk.ref_pejabat                                    OK
+</span><span class="s1">epk.ref_sumberdana                                 OK
+</span><span class="s1">epk.users                                          OK
+</span><span class="s1">epk.users_groups                                   OK
+</span><span class="s1">epoknak.bansos                                     OK
+</span><span class="s1">epoknak.bantuan_bangunan                           OK
+</span><span class="s1">epoknak.bantuan_sapras                             OK
+</span><span class="s1">epoknak.bantuan_ternak                             OK
+</span><span class="s1">epoknak.desa                                       OK
+</span><span class="s1">epoknak.kabupaten                                  OK
+</span><span class="s1">epoknak.kategori                                   OK
+</span><span class="s1">epoknak.kecamatan                                  OK
+</span><span class="s1">epoknak.kegiatan                                   OK
+</span><span class="s1">epoknak.penjabat                                   OK
+</span><span class="s1">epoknak.perkembangan                               OK
+</span><span class="s1">epoknak.poktan                                     OK
+</span><span class="s1">epoknak.sumberdana                                 OK
+</span><span class="s1">epoknak.tahun                                      OK
+</span><span class="s1">epoknak.user                                       OK
+</span><span class="s1">epoknak_dev.ban_alat_mesin                         OK
+</span><span class="s1">epoknak_dev.ban_bangunan                           OK
+</span><span class="s1">epoknak_dev.ban_pakan                              OK
+</span><span class="s1">epoknak_dev.ban_sosial                             OK
+</span><span class="s1">epoknak_dev.ban_ternak                             OK
+</span><span class="s1">epoknak_dev.groups                                 OK
+</span><span class="s1">epoknak_dev.kelompok_tani                          OK
+</span><span class="s1">epoknak_dev.login_attempts                         OK
+</span><span class="s1">epoknak_dev.perkembangan                           OK
+</span><span class="s1">epoknak_dev.ref_bantuan                            OK
+</span><span class="s1">epoknak_dev.ref_desa                               OK
+</span><span class="s1">epoknak_dev.ref_jenis_kegiatan                     OK
+</span><span class="s1">epoknak_dev.ref_kabupaten                          OK
+</span><span class="s1">epoknak_dev.ref_kecamatan                          OK
+</span><span class="s1">epoknak_dev.ref_pejabat                            OK
+</span><span class="s1">epoknak_dev.ref_sumber_dana                        OK
+</span><span class="s1">epoknak_dev.user                                   OK
+</span><span class="s1">epoknak_dev.users                                  OK
+</span><span class="s1">epoknak_dev.users_groups                           OK
+</span><span class="s1">lab_petanikode.kelas                               OK
+</span><span class="s1">lab_petanikode.learning                            OK
+</span><span class="s1">lab_petanikode.migrations                          OK
+</span><span class="s1">lab_petanikode.modul                               OK
+</span><span class="s1">lab_petanikode.password_resets                     OK
+</span><span class="s1">lab_petanikode.users                               OK
+</span><span class="s1">larablog.migrations                                OK
+</span><span class="s1">larablog.password_resets                           OK
+</span><span class="s1">larablog.posts                                     OK
+</span><span class="s1">larablog.users                                     OK
+</span><span class="s1">lokasi.desa                                        OK
+</span><span class="s1">lokasi.kabupaten                                   OK
+</span><span class="s1">lokasi.kecamatan                                   OK
+</span><span class="s1">mahasiswa.matakul                                  OK
+</span><span class="s1">my_php_project.phinxlog                            OK
+</span><span class="s1">my_php_project.users                               OK
+</span><span class="s1">pendaftaran_siswa.calon_siswa                      OK
+</span><span class="s1">perpustakaan.buku                                  OK
+</span><span class="s1">pesbuk.auth_tokens                                 OK
+</span><span class="s1">pesbuk.users                                       OK
+</span><span class="s1">phpmyadmin.pma__bookmark                           OK
+</span><span class="s1">phpmyadmin.pma__central_columns                    OK
+</span><span class="s1">phpmyadmin.pma__column_info                        OK
+</span><span class="s1">phpmyadmin.pma__designer_settings                  OK
+</span><span class="s1">phpmyadmin.pma__export_templates                   OK
+</span><span class="s1">phpmyadmin.pma__favorite                           OK
+</span><span class="s1">phpmyadmin.pma__history                            OK
+</span><span class="s1">phpmyadmin.pma__navigationhiding                   OK
+</span><span class="s1">phpmyadmin.pma__pdf_pages                          OK
+</span><span class="s1">phpmyadmin.pma__recent                             OK
+</span><span class="s1">phpmyadmin.pma__relation                           OK
+</span><span class="s1">phpmyadmin.pma__savedsearches                      OK
+</span><span class="s1">phpmyadmin.pma__table_coords                       OK
+</span><span class="s1">phpmyadmin.pma__table_info                         OK
+</span><span class="s1">phpmyadmin.pma__table_uiprefs                      OK
+</span><span class="s1">phpmyadmin.pma__tracking                           OK
+</span><span class="s1">phpmyadmin.pma__userconfig                         OK
+</span><span class="s1">phpmyadmin.pma__usergroups                         OK
+</span><span class="s1">phpmyadmin.pma__users                              OK
+</span><span class="s1">praktikumblog.artikel                              OK
+</span><span class="s1">praktikumblog.menu                                 OK
+</span><span class="s1">praktikumblog.user                                 OK
+</span><span class="s1">ruwi.jalan                                         OK
+</span><span class="s1">ruwi.lokasi                                        OK
+</span><span class="s1">ruwi.phinxlog                                      OK
+</span><span class="s1">ruwi.users                                         OK
+</span><span class="s1">si_budaya_sasak.tabel_admin                        OK
+</span><span class="s1">si_budaya_sasak.tabel_informasi                    OK
+</span><span class="s1">si_budaya_sasak.tabel_media                        OK
+</span><span class="s1">sys.sys_config                                     OK
+</span><span class="s1">tangsi_jaya_kom.admin                              OK
+</span><span class="s1">tangsi_jaya_kom.produk                             OK
+</span><span class="s1">tangsi_jaya_kom.setting                            OK
+</span><span class="s1">tokobuku.api_users                                 OK
+</span><span class="s1">tokobuku.books                                     OK
+</span><span class="s1">ujian.mahasiswa                                    OK
+</span><span class="s1">web_a1.tbl_mahasiswa                               OK
+</span><span class="s1">web_a1.user                                        OK
+</span><span class="s1">Upgrade process completed successfully.
+</span><span class="s1">Checking if update is needed.
+</span><span class="s1">Setting up mysql-server (5.7.21-0ubuntu0.16.04.1) ...
+</span><span class="s1">Processing triggers for systemd (229-4ubuntu21) ...
+</span><span class="s1">Processing triggers for ureadahead (0.100.0-19) ...
+</span><span class="s1">petanikode@imajinasi ~ $ sudo service mysql status
+</span><span class="s1">● mysql.service - MySQL Community Server
+</span><span class="s1">   Loaded: loaded (/lib/systemd/system/mysql.service; enabled; vendor preset: en
+</span><span class="s1">   Active: active (running) since Wed 2018-01-31 04:16:21 WITA; 15s ago
+</span><span class="s1"> Main PID: 8541 (mysqld)
+</span><span class="s1">   CGroup: /system.slice/mysql.service
+</span><span class="s1">           └─8541 /usr/sbin/mysqld
+</span><span class="s1">
+</span><span class="s1">Jan 31 04:16:20 imajinasi systemd[1]: Starting MySQL Community Server...
+</span><span class="s1">Jan 31 04:16:21 imajinasi systemd[1]: Started MySQL Community Server.
+</span><span class="s1">petanikode@imajinasi ~ $ mysql -u root -p
+</span><span class="s1">Enter password: 
+</span><span class="s1">Welcome to the MySQL monitor.  Commands end with ; or \g.
+</span><span class="s1">Your MySQL connection id is 4
+</span><span class="s1">Server version: 5.7.21-0ubuntu0.16.04.1 (Ubuntu)
+</span><span class="s1">
+</span><span class="s1">Copyright (c) 2000, 2018, Oracle and/or its affiliates. All rights reserved.
+</span><span class="s1">
+</span><span class="s1">Oracle is a registered trademark of Oracle Corporation and/or its
+</span><span class="s1">affiliates. Other names may be trademarks of their respective
+</span><span class="s1">owners.
+</span><span class="s1">
+</span><span class="s1">Type &#39;</span>help<span class="p">;</span><span class="s1">&#39; or &#39;</span><span class="se">\h</span><span class="s1">&#39; for help. Type &#39;</span><span class="se">\c</span><span class="err">&#39;</span> to clear the current input statement.
+
+mysql&gt; show databases<span class="p">;</span>
++--------------------+
+<span class="p">|</span> Database           <span class="p">|</span>
++--------------------+
+<span class="p">|</span> information_schema <span class="p">|</span>
+<span class="p">|</span> blog_php           <span class="p">|</span>
++--------------------+
+<span class="m">29</span> rows in <span class="nb">set</span> <span class="o">(</span>0,00 sec<span class="o">)</span>
+
+mysql&gt; ^DBye
+petanikode@imajinasi ~ $ 
+</code></pre></div><p>Setelah ini selesai&hellip;</p>
+<p>Sekarang masalahnya pada Shutter!</p>
+<p>Ia tidak mau mengabil screenshot. 😔</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img/upgrade/error-shutter.png"
+        data-srcset="/img/upgrade/error-shutter.png, /img/upgrade/error-shutter.png 1.5x, /img/upgrade/error-shutter.png 2x"
+        data-sizes="auto"
+        alt="/img/upgrade/error-shutter.png"
+        title="Error Shutter" /></p>
+<p><strong>Update:</strong></p>
+<p>Solved, tarnyata harus melakukan setting terlebih dahlulu.</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img/upgrade/shutter-setting.png"
+        data-srcset="/img/upgrade/shutter-setting.png, /img/upgrade/shutter-setting.png 1.5x, /img/upgrade/shutter-setting.png 2x"
+        data-sizes="auto"
+        alt="/img/upgrade/shutter-setting.png"
+        title="Error Shutter" /></p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<blockquote>
+</blockquote>
+</div></div></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.74.3">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2020</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Ardy Johan</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/algoliasearch/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/typeit/typeit.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{},"data":{"id-1":"Netwezen","id-2":"Netwezen"},"search":{"algoliaAppID":"PASDMWALPK","algoliaIndex":"index.en","algoliaSearchKey":"b42948e51daaa93df92381c8e2ac0f93","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"algolia"},"typeit":{"cursorChar":null,"cursorSpeed":null,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":null,"speed":null}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

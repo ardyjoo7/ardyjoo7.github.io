@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Netwezen</title>
+    <link>http://example.org/post/</link>
+    <description>Recent content in Posts on Netwezen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Mon, 06 Jul 2020 18:04:46 +0800</lastBuildDate>
+    
+	<atom:link href="http://example.org/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Masalah saat Upgrade ke Ubuntu 20.04 (Focal)</title>
+      <link>http://example.org/post/upgrade-ubuntu-focal/</link>
+      <pubDate>Mon, 06 Jul 2020 18:04:46 +0800</pubDate>
+      
+      <guid>http://example.org/post/upgrade-ubuntu-focal/</guid>
+      <description>Hari ini saya melakukan upgrade Ubuntu 18.04 ke 20.04, sebenarnya versi ini masih belum stabil. Menurut pengumuman resminya, nanti tanggl 6 agustus akan dirilis versi stabilnya.
+Tapi, saya malah nekat upgrade.. karena ingin mencoba fitur-fitur baru yang ada di sana.
+Hasilnya:
+Mengecewakan!
+Karena saya dapat beberapa masalah.. huh! :triumph:
+1. Dolphin Tidak Bisa buka File Setelah selesai upgrade, saya langsung membuka file manager Dolphin, akan tetapi dapat pesan error.
+Error loading &amp;#39;/usr/lib/qt/plugins/kf5/kio/file.</description>
+    </item>
+    
+    <item>
+      <title>Membuat Buku dengan Honkit</title>
+      <link>http://example.org/post/honkit/</link>
+      <pubDate>Tue, 30 Jun 2020 23:02:16 +0800</pubDate>
+      
+      <guid>http://example.org/post/honkit/</guid>
+      <description>Rencananya saya mau membuat ebook, tapi masih bingung dengan tools yang akan digunakan.
+Kalau gampangnya sih bisa pakai Ms. Writer, tapi saya kurang suka menulis di aplikasi office. Saya lebih senang menulis di teks editor.
+Mencoba cari-cari info di Google, saya menemukan Gitbook Toolchain, tapi proyek ini sudah dihentikan. Ini mungkin model bisnis dari Gitbook sudah berubah.
+Sebagai alternatif, saya menemukan Honkit.
+Apa itu Honkit? Hon diambil dari bahasa jepang, yang artinya buku.</description>
+    </item>
+    
+    <item>
+      <title>Tips Hugo: Agar Gambar Tampil di Preview Markdown VS Code</title>
+      <link>http://example.org/post/hugo-img/</link>
+      <pubDate>Sun, 19 Jan 2020 23:02:17 +0800</pubDate>
+      
+      <guid>http://example.org/post/hugo-img/</guid>
+      <description>Saya biasanya menulis blog dengan VS Code. Tapi saat menggunakan fitur preview markdown di VS Code, gambar tidak mau tampil.
+Ini karena alamat path gambar pada Hugo menggunakan static/img/.
+Sementara pada markdown harus ditulis seperti ini:
+![Teks Caption](/img/nama-gambar.jpg) Karena nanti saat di-render akan menggunakan alamat itu. Tapi untuk VS Code, alamat ini tidak ditemukan.
+Lalu bagaimana caranya agar VS Code juga bisa baca alamat gambar dari Hugo?
+Caranya kita bisa buat simbolik link pada root direktori hugo.</description>
+    </item>
+    
+    <item>
+      <title>1 Day 1 Draw Challenge!</title>
+      <link>http://example.org/post/1d1d/</link>
+      <pubDate>Thu, 06 Jun 2019 19:44:01 +0800</pubDate>
+      
+      <guid>http://example.org/post/1d1d/</guid>
+      <description>Hari ini tanggal 06 Juni 2019 saya memulai challenge iseng-iseng buat diri sendiri, karena jarang latihan menggambar.
+Semoga bisa berjalan lancar&amp;hellip;
+:gift: REWARD: Rasanya kurang seru kalau tidak memberikan reward terhadap diri sendiri. Berikut ini beberapa reward yang mungkin bisa diberikan biar tambah semangat.
+ 50 Gambar: Wacom Glove 100 Gambar: Mungkin buku gambar, buku bacaan 500 Gambar: &amp;hellip; (masih dipikirkan)  01. Bocchi 02. Nanako - Senryuu Shoujo Di hari ke-2, tangan terasa aneh.</description>
+    </item>
+    
+    <item>
+      <title>Takbiran 2019: Mercon di mana-mana</title>
+      <link>http://example.org/post/takbiran-2019/</link>
+      <pubDate>Wed, 05 Jun 2019 22:00:00 +0800</pubDate>
+      
+      <guid>http://example.org/post/takbiran-2019/</guid>
+      <description>Biasanya saya di kamar aja saat malam takbiran, tapi tahun ini saya ikut takbiran di luar.
+Remaja Mushola di kampung saya cukup aktif, mereka mengikuti lomba takbiran yang diselengarakan oleh pemerintah desa.
+Mereka mengusung konsep bulan bintang dan lampu lampion.
+&amp;hellip;dan lampu lampionnya terlihat indah saat dibawa bersama-sama.
+Hasilnya tidak mengecewakan, mereka dapat juara II&amp;hellip; :tada:
+Awas Mercon! Meski sudah dihimbau agar tidak membakar mercon, sepertinya itu tidak ada artinya&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Cegah Ghost Spam di Google Analytic</title>
+      <link>http://example.org/post/ghost-spam/</link>
+      <pubDate>Fri, 01 Mar 2019 20:17:20 +0800</pubDate>
+      
+      <guid>http://example.org/post/ghost-spam/</guid>
+      <description>Pada tanggal 24 kemarin, trafik di petanikode tiba-tiba meningkat 2x lipat dari biasanya.
+Apakah ini bagus?
+Tentu saja tidak, karena trafiknya bersal dari spam.
+Entah ini disengaja atau tidak, laporan page dari web rmco.id masuk ke google analytic petanikode yang membuat saya bingung.
+Tapi untungnya saya menemukan solusinya di https://carloseo.com/removing-google-analytics-spam/
+Langkah-langkah pencegahannya:
+ Masuk ke Admin -&amp;gt; Filter Buat Filter Baru Pilih Include Masukan alamat domain di dalam filter patterrn Simpan  Maka laporan trafik yang akan masuk ke Google Analytic hanya akan menampilkan dari domain www.</description>
+    </item>
+    
+    <item>
+      <title>Hikikomori dan Introvert</title>
+      <link>http://example.org/post/hikikomori/</link>
+      <pubDate>Sun, 24 Feb 2019 22:40:55 +0800</pubDate>
+      
+      <guid>http://example.org/post/hikikomori/</guid>
+      <description>Hasil beberapa tes keperibadian saya adalah INTP (Introversion, Intuition, Thinking, Perceiving). Namun ini bisa saja berubah-ubah, tergantung waktu dan lingkungan.
+Orang introvert biasanya dikenal dengan sifat pemalu. Malu bicara sama orang asing, malu melakukan hal-hal yang konyol.
+Tapi saat berbicara di depan publik, saya tidak malu. Mungkin karena dulu sering latihan saat menjadi asisten dosen.
+Meskipun belum sempurna, kemampuan berbicara di depan umum ini perlu ditingkatkan.
+Ngomong-ngomong tentang introvert&amp;hellip;
+&amp;hellip;sebenarnya ada yang lebih parah lagi, yaitu Hikikomori.</description>
+    </item>
+    
+    <item>
+      <title>Lombokdev Meetup #006: Introduction to Hugo</title>
+      <link>http://example.org/post/lombokdev-meetup-6/</link>
+      <pubDate>Sun, 24 Feb 2019 00:59:50 +0800</pubDate>
+      
+      <guid>http://example.org/post/lombokdev-meetup-6/</guid>
+      <description>Yey! pada Lombokdev Meetup yang ke #006 ini saya menjadi pemateri dan membawakan tentang Hugo.
+Pada meetup kali ini, temanya seputar Web, Kecerdasaran Buatan (AI), dan IoT.
+Tidak ada yang bahas tentang Mobil atau Android Development.
+Yang menarik, si om Rizal yang membuat LumpyBoard ada di sini juga.
+Kronologi Acara ini dimulai sekitar pukul 9 pagi di Kafe Suetjipto 1.0 Ampenan.
+Berikut susunan acaranya:
+   WAKTU PEMBICARA AGENDA     08.</description>
+    </item>
+    
+    <item>
+      <title>Paket Puas Smartfren Nggak Bikin Puas!</title>
+      <link>http://example.org/post/paket-puas-smartfren/</link>
+      <pubDate>Sun, 24 Feb 2019 00:06:44 +0800</pubDate>
+      
+      <guid>http://example.org/post/paket-puas-smartfren/</guid>
+      <description>Sinyal smartfren termasuk yang cukup stabil di rumah saya. Saya sudah mencoba beberapa operator seperti XL dan Telkomsel, tapi sinyalnya kurang stabil.
+XL, kalau mati lampu langsung down&amp;hellip;
+Sinyal 4G yang cuma 1 bar itu langsung hilang, dan akan beralih ke sinyal 2G.
+Saya sebenarnya sudah lama pakai Smartfren&amp;mdash;sejak zaman modem USB, MiFi, Hingga Andromax Prime dan Wi Box&amp;mdash; bukan berarti ngefans banget sama Smartfren.
+Melainkan karena cuma dia aja yang stabil sinyalnya, apalagi saat ini Smarfren mau ngambil frekuensinya Bolt.</description>
+    </item>
+    
+    <item>
+      <title>Pengalaman Ikut TFT Indonesia Bijak NTB</title>
+      <link>http://example.org/post/tft-ib-ntb/</link>
+      <pubDate>Sun, 25 Nov 2018 20:41:52 +0800</pubDate>
+      
+      <guid>http://example.org/post/tft-ib-ntb/</guid>
+      <description>Hari Sabtu sampai minggu tanggal 24&amp;ndash;25 November 2018, saya mengikuti acara TFT (Training For Trainee) Indonesia Bijak NTB.
+Acara ini merupakan pelatihan membuat konten positif semacam meme untuk melawan hoax. Acara ini berlangsung seru, dan bayak wawasan baru yang bisa didapatkan dari sana.
+Salah satu yang membuat saya tertarik adalah data tinggat literasi yang ditampilkan pemateri.
+Di sana Indonesia berada di urutan ke-60 dari 61 negara.
+Menurut saya, ini yang menyebabkan berita hoax cepat menyebar di Indonesia.</description>
+    </item>
+    
+    <item>
+      <title>Evaluasi Livestream Pertama Petanikode</title>
+      <link>http://example.org/post/livestream-pertama/</link>
+      <pubDate>Sun, 18 Nov 2018 20:24:24 +0800</pubDate>
+      
+      <guid>http://example.org/post/livestream-pertama/</guid>
+      <description>Pada hari minggu ku turut ayah ke kota, eh.
+Pada hari minggu tanggal 18 November 2018 telah diadakan workshop Android Jetpack di markasnya Linov.
+Acara ini disiarkan secara live di channel petanikode.
+Tapi, banyak hal yang kurang.
+1. Koneksi Internet Koneksi internet yang digunakan untuk live stream kurang stabil, sehingga video terputus-putus.
+2. Sound Card Rusak Soundcard USB rusak, untungnya ada bang Hayi yang bisa perbaiki. Kalau tidak ada sound card ini, mungkin livestream tidak akan bisa dilaksanakan.</description>
+    </item>
+    
+    <item>
+      <title>Ulang Tahun Komunitas Lombok Phonegraphy yang ke-3</title>
+      <link>http://example.org/post/lombok-phonegraphy-3/</link>
+      <pubDate>Mon, 15 Oct 2018 10:10:42 +0800</pubDate>
+      
+      <guid>http://example.org/post/lombok-phonegraphy-3/</guid>
+      <description>Bisa dibilang&amp;hellip; saya keluarga baru di komunitas ini. Saya bergabung di group facebook Lombok Phonegraphy sekitar satu tahun yang lalu.
+Saya suka dengan karya-karya mereka, apalagi foto-foto yang diambil lokasinya di Lombok.
+Saya mungkin member yang pasif, karena belum bisa berkontribusi banyak di komunitas ini.
+Karena itu&amp;hellip;
+Pada acara perayaan ulang tahun yang ke-3 ini, saya berusaha untuk hadir.
+Meskipun hari itu sangat panas&amp;hellip;
+Di sana saya bertemu dengan banyak orang yang sebagian besar belum saya kenal.</description>
+    </item>
+    
+    <item>
+      <title>9 Buku yang Saya Borong Hari ini</title>
+      <link>http://example.org/post/9-buku/</link>
+      <pubDate>Thu, 11 Oct 2018 21:17:26 +0800</pubDate>
+      
+      <guid>http://example.org/post/9-buku/</guid>
+      <description>Siang ini panas sekali, suhu di tempat saya mencapai 32° C.
+Rencananya:
+Hari ini saya mau pergi ke bank untuk transfer pembayaran pre-order Kelas Design Sprint dari Techinasia.
+Mengapa tidak transfer via ATM?
+Sejak kartu saya ditelan mesin ATM, kini tak bisa digunakan untuk transfer.
+Makannya saya pergi ke bank.
+Tapi untungnya di bank tidak begitu ramai. Sehingga begitu saya selesai mengisi slip, teller bank langsung melayani saya.
+Habis dari bank, saya langsung banting stir ke toko buku.</description>
+    </item>
+    
+    <item>
+      <title>Partial Penghitung Kata pada Hugo</title>
+      <link>http://example.org/post/hugo-wordscounter/</link>
+      <pubDate>Sat, 08 Sep 2018 22:15:58 +0800</pubDate>
+      
+      <guid>http://example.org/post/hugo-wordscounter/</guid>
+      <description>Setiap menulis blog, Saya jarang memperhatikan jumlah kata yang ditulis.
+Rencananya saya ingin menulis 1000+ kata untuk setiap artikel.
+Karena itu, saya perlu bantuan penghitung kata pada tulisa.
+Saya menggunakan teks editor VS Code untuk menulis. Kadang menggunakan VIM.
+Di VS Code, saya tidak ingin menginstal ekstensi untuk menghitung jumlah kata.
+Karena di artikel yang ditulis terdapat front-matter yang juga akan masuk hitungan.
+Karena itu, solusinya membuat partial penghitung kata.</description>
+    </item>
+    
+    <item>
+      <title>Error 520: Petanikode Down!</title>
+      <link>http://example.org/post/dns-netlify/</link>
+      <pubDate>Tue, 04 Sep 2018 18:05:05 +0800</pubDate>
+      
+      <guid>http://example.org/post/dns-netlify/</guid>
+      <description>Beberapa hari ini saya sering mendapatkan laporan error 520 dari pengunjung Petanikode.
+Apakah mungkin karena trafiknya terlalu ramai?
+Ataukah Netlify yang tidak mau akur dengan cloudflare?
+Saya tidak tahu penyebabnya apa&amp;hellip;
+Namun, screenshot di atas menujukan kalau server tempat Petanikode di-hosting telah down.
+Sedangkan Cloudflare berusaha melayani request dengan cache yang ada.
+Hmmm&amp;hellip;.
+Apakah Bandwidth-nya habis? Netlify memberikan kuota bandwidth sampai 100GB per bulan. Kalau dilihat dari analytic Cloudflare&amp;hellip;
+Kuota bandwidth yang dihabiskan Petanikode selama sehari sekitar 500MB.</description>
+    </item>
+    
+    <item>
+      <title>Gempa Bumi di Lombok dan Coding</title>
+      <link>http://example.org/post/gemba-coding/</link>
+      <pubDate>Sun, 29 Jul 2018 10:14:57 +0800</pubDate>
+      
+      <guid>http://example.org/post/gemba-coding/</guid>
+      <description>Minggu, 29 Juli 2018. Pagi ini Lombok diguncang gempa 6 SR.
+Saat itu, saya masih tertidur&amp;hellip;
+&amp;hellip;dan dibangunkan oleh gempa ini.
+Laptop saya masih menyala, karena semalam tiduran sambil ngoding.
+Menyelesaikan tugas submission 4 dari Dicoding.
+Android Studio masih terbuka&amp;hellip;
+Menampilkan baris-baris kode Kotlin.
+Gempa makin besar!
+Yang saya pikirkan pertama kali saat itu:
+&amp;ldquo;Bagaimana nih menyelamatkan laptop saya&amp;rdquo;
+Haha, keselamatan sendiri tidak dipikirkan.
+Sementara ibu saya sudah berteriak menyuruh saya keluar.</description>
+    </item>
+    
+    <item>
+      <title>Animasi Pertamaku: Dibuat dengan Krita dan GIMP</title>
+      <link>http://example.org/post/animasi-pertama/</link>
+      <pubDate>Fri, 22 Jun 2018 03:02:11 +0800</pubDate>
+      
+      <guid>http://example.org/post/animasi-pertama/</guid>
+      <description>Dulu saat masih kecil, saya cuma bisa penasaran:
+&amp;ldquo;Bagaimana sih cara buat kartun/animasi?&amp;rdquo;
+Setelah dewasa, saya akhirnya tahu jawabannya.
+Mulai dari Menggambar dulu&amp;hellip; Beberapa bulan terakhir ini, saya belajar dan berlatih menggambar secara otodidak.
+Saya belajar menggambar di kertas dan di komputer menggunakan MyPaint, Krita, dan GIMP.
+Berjam-jam waktu dihabiskan. Bahkan waktu yang seharusnya dipakai buat kerja dipakai buat gambar.
+Tapi hasilnya:
+Sedikit demi sedikit saya mulai memahami cara menggunakan berbagai macam tools di tiga aplikasi tersebut.</description>
+    </item>
+    
+    <item>
+      <title>Saya Ganti Distro, dari Linux Mint ke Kubuntu</title>
+      <link>http://example.org/post/ganti-distro/</link>
+      <pubDate>Thu, 07 Jun 2018 06:20:39 +0800</pubDate>
+      
+      <guid>http://example.org/post/ganti-distro/</guid>
+      <description>Hari ini saya selesai menginstal distro Kubuntu 18.04 yang instalasinya dimulai dari kemarin tanggal 06/06/2018.
+Momentum banget ini, saat ulang tahun&amp;hellip; saya ganti distro. Hehe, mungkin nanti biar ingat, kapan saat saya ganti distro.
+Sejak hari kemarin, saya melakukan backup semua data ke laptop bapak, karena nanti hardisk laptop saya akan dipartisi ulang.
+Partisi root yang sebelumnya saya gunakan 30GB, sekarang saya pakai sekitar 60GB. Dua kali lipat dari yang sebelumnya.</description>
+    </item>
+    
+    <item>
+      <title>Masalah Saat Install Laravel</title>
+      <link>http://example.org/post/install-laravel/</link>
+      <pubDate>Wed, 30 May 2018 04:42:41 +0800</pubDate>
+      
+      <guid>http://example.org/post/install-laravel/</guid>
+      <description>Server tidak bisa dijalankan: $ php artisan serve PHP Warning: require(/home/petanikode/tmp/mikroblog/vendor/autoload.php): failed to open stream: No such file or directory in /home/petanikode/tmp/mikroblog/artisan on line 18 PHP Fatal error: require(): Failed opening required &amp;#39;/home/petanikode/tmp/mikroblog/vendor/autoload.php&amp;#39; (include_path=&amp;#39;.:/usr/share/php&amp;#39;) in /home/petanikode/tmp/mikroblog/artisan on line 18 Solusi:
+Coba jalankan perintah:
+composer install Versi PHP masih Versi Lama Muncul masalah lagi, ternyata versi PHP yang saya gunakan masih versi lama:
+$ composer install Loading composer repositories with package information Updating dependencies (including require-dev) Your requirements could not be resolved to an installable set of packages.</description>
+    </item>
+    
+    <item>
+      <title>Hasil Latihan Menggambar Menggunakan Pen Tablet Wacom Selama 1 Minggu</title>
+      <link>http://example.org/post/wacom/</link>
+      <pubDate>Mon, 14 May 2018 10:38:39 +0800</pubDate>
+      
+      <guid>http://example.org/post/wacom/</guid>
+      <description>Hari sabtu tanggal 3 Mei kemarin, saya membeli pen tablet wacom milik teman saya.
+Wacom model Intuos CTH-480.
+Ini memang model lama, Dia beli skitar 3 tahun yang lalu. Namun, tidak pernah dipakai.
+Pengalaman Pertama Menggunakan Wacom Dulu saya memang pernah mencoba wacom ini, hasilnya:
+Ini saya gambar sekitar 3 tahun yang lalu&amp;hellip;
+Sekarang saya mencoba lagi menggunakan Wacom.
+Hasilnya:
+Sabtu, 05 Mei 2018 Gambar Pertama:
+Gambar Kedua:
+Gambar Ketiga:</description>
+    </item>
+    
+    <item>
+      <title>Lomba Gambar Tingkat Kecamatan</title>
+      <link>http://example.org/post/lomba-gambar-kecamatan/</link>
+      <pubDate>Sat, 12 May 2018 22:55:39 +0800</pubDate>
+      
+      <guid>http://example.org/post/lomba-gambar-kecamatan/</guid>
+      <description>Dulu saat SD pernah ikut lomba gambar tingkat kecamatan di acara 17-an. Peserta cuma dua orang, saya dan seseorang yang tidak saya kenal.
+Kami disuruh menggambar tentang suasana desa.
+Waktu itu saya menggambar sawah dengan pensil.
+Sementara dia menggunakan cat air.
+Hasilnya:
+ Juara 1: Dia Juara 2: Saya  Saya memang mengakui keahliannya&amp;hellip;
+Saya hanya bisa kagum melihat hasil lukisannya.
+Sementara punya saya jelek dan apa adanya 😄&amp;hellip;
+Saat lomba, saya tidak pernah ngomong dengannya.</description>
+    </item>
+    
+    <item>
+      <title>Melanjutkan Pembuatan Template Blogger dengan Bootstrap</title>
+      <link>http://example.org/post/template-bs4blogger/</link>
+      <pubDate>Wed, 25 Apr 2018 21:22:40 +0800</pubDate>
+      
+      <guid>http://example.org/post/template-bs4blogger/</guid>
+      <description>Sudah cukup lama saya mulai pembuatan template ini. Namun, belum sempat dilanjutkan lagi.
+Kemarin saya coba otak-atik lagi&amp;hellip;
+&amp;hellip;dan ini hasilnya:
+Terlhat bagus 😄
+Template ini sebenarnya replika dari template Petani Kode. Karena banyak yang meminta saya untuk membuat versi Bloggernya.
+Template ini saya persembahkan untuk kawan-kawan yang ingin membuat blognya terlihat:
+ Bersih Rapi Elegan Sederhana dan profesional.  Tertarik? Cek demonya di sini: https://bs4blogger.blogspot.co.id/
+Oya, template ini masih belum jadi&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Hasil Latihan Belajar Menggambar Selama Satu Bulan</title>
+      <link>http://example.org/post/satu-bulan-menggambar/</link>
+      <pubDate>Sat, 21 Apr 2018 15:27:53 +0800</pubDate>
+      
+      <guid>http://example.org/post/satu-bulan-menggambar/</guid>
+      <description>Sejak tanggal 18 maret yang lalu, saya tidak sengaja mencorat-coret kertas bekas dengan pensil. Melihat hasilnya yang cukup bagus, saya tertarik lagi untuk menggambar.
+Nyoba belajar gambar lagi... pic.twitter.com/uK631mVrla
+&amp;mdash; Ardianta (@ArdiantaPargo) March 17, 2018  Menggambar adalah hobi saya sejak SD dan SMP.
+Lalu, saat masuk SMK dan kuliah, saya tidak menggambar lagi. Karena mungkin tidak ada teman yang sehobi dengan saya.
+Lalu beberapa waktu yang lalu, saya menemukan video tutorial menggambar manga di Youtube.</description>
+    </item>
+    
+    <item>
+      <title>2 Minggu Tanpa Coding</title>
+      <link>http://example.org/post/isra-mikraj-2018/</link>
+      <pubDate>Fri, 06 Apr 2018 22:47:33 +0800</pubDate>
+      
+      <guid>http://example.org/post/isra-mikraj-2018/</guid>
+      <description>Dua minggu ini saya nggak pernah coding, karena acara lomba dalam rangka peringatan Isra&amp;rsquo; Mikraj.
+Saya menjadi panitia di acara ini.
+Selama dua minggu ini, jarang online&amp;hellip;
+&amp;hellip;karena acara selesai sampai jam 10, dan beres-beres sampai jam 12.
+Akun github saya menjadi sepi.
+Tapi yang seru di acara ini:
+Bisa ngopi bareng teman-teman.
+Bisa merasakan &amp;ldquo;lelahnya&amp;rdquo; menjadi panitia.
+dan masih banyak lagi.</description>
+    </item>
+    
+    <item>
+      <title>Agar Hugo tidak melakukan HTTP Request saat Offline</title>
+      <link>http://example.org/post/hugo-offline/</link>
+      <pubDate>Sun, 18 Mar 2018 00:37:25 +0800</pubDate>
+      
+      <guid>http://example.org/post/hugo-offline/</guid>
+      <description>Saya menggunakan shortcode twitter dan instagram di dalam postingan. Setiap kali mau render, pasti akan melakukan HTTP Request ke API twitter dan instagram.
+Sehingga, apabila kita render saat dalam keadaan offline, maka akan menghasilkan error seperti ini:
+Cara mencegahnya:
+Kita cukup mengisi alamat baseurl dengan localhost:
+baseurl = &amp;#34;http://localhost&amp;#34; Atau bisa juga diberikan saat me-render atau menjalankan server Hugo dengan flag -b atau --baseURL.
+hugo server -b http://localhost Maka Hugo tidak akan melakukan HTTP Request lagi.</description>
+    </item>
+    
+    <item>
+      <title>[Challenge 2018] Buku #1: Craetive Writing</title>
+      <link>http://example.org/post/buku-creative-writing/</link>
+      <pubDate>Mon, 19 Feb 2018 20:15:20 +0800</pubDate>
+      
+      <guid>http://example.org/post/buku-creative-writing/</guid>
+      <description>Buku ini adalah buku pertama yang saya selesaikan tahun ini. Sebenarnya mulai dibaca sejak tahun lalu, namun karena tidak pernah dibuka lagi, jadi terbengkalai 😄.
+Buku ini saya beli di Playstore dengan harga yang sangat murah. Karena saat itu sedang ada diskon besar-besaran.
+Bayarnya via pulsa. Asik kan.
+Sebenarnya pingin juga punya versi cetaknya, buat dijadikan koleksi.
+Buku ini biasanya saya baca saat mau tidur untuk memancing rasa ngantuk.
+Bukan karena bukunya membosankan, namun biasanya saya kalau baca buku akan mengantuk 😄.</description>
+    </item>
+    
+    <item>
+      <title>Isengin Web Python dan dapat akses Shell Linux Gratis!</title>
+      <link>http://example.org/post/shell-web-python/</link>
+      <pubDate>Fri, 16 Feb 2018 07:15:15 +0800</pubDate>
+      
+      <guid>http://example.org/post/shell-web-python/</guid>
+      <description>Karena habis gentayangan di beberapa cloud workspace seperti c9.io, codenvy, dan glitch saya tiba-tiba kepikiran untuk mengakses shell dari web Python.
+Di website Python, terdapat shell python yang bisa kita gunakan untuk ujicaoba kode python.
+Lalu, bagaimana kalau&amp;hellip;
+Kita akses shell seperti bash atau zsh di sana?
+Ya, itu bisa.
+Caranya:
+Pertama saya coba-coba dulu menjalankan perintah Linux dengan mengimpor modul os.
+Di dalam modul os, terdapat fungsi untuk menjalankan perintah Linux, yaitu: system().</description>
+    </item>
+    
+    <item>
+      <title>Rasio Pentalan Terjun Bebas! dan Saya tidak tahu mengapa?</title>
+      <link>http://example.org/post/rasio-pentalan/</link>
+      <pubDate>Tue, 13 Feb 2018 23:11:24 +0800</pubDate>
+      
+      <guid>http://example.org/post/rasio-pentalan/</guid>
+      <description>Bulan Januari tahun 2017 yang lalu, saya migrasi dari platform Blogger ke Hugo. Sejak saat itu, masih banyak yang harus dikerjakan seperti mendasain ulang template, memperbaiki konten, memperbaiki broken link, dsb.
+Yang paling lama adalah memperbaiki kontentnya. Karena saya menemukan banyak konten yang kualitasnya rendah. Hingga saat ini pekerjaan memperbaiki konten masih belum selsai dan akan terus dilakukan.
+Saat itu, rasio pentalan (bounce rate) blog saya sekitar 50%&amp;ndash;70%. Menurut saya ini hal yang wajar.</description>
+    </item>
+    
+    <item>
+      <title>Satu Minggu Belajar Keymap VIM</title>
+      <link>http://example.org/post/keyboard-vim/</link>
+      <pubDate>Mon, 12 Feb 2018 23:20:53 +0800</pubDate>
+      
+      <guid>http://example.org/post/keyboard-vim/</guid>
+      <description>Kira-kira sudah hampir satu minggu saya membiasakan diri menggunakan keymap VIM dengan menginstall exension VIM di Google Chrome dan VS Code.
+Di Google Chome saya install Vimum. Sedangkan di VS Code saya install vim (emulator).
+Saya mulai terbiasa menggunakan tombol navigasi h,j,k, dan l dan merasakan lebih mudah daripada menekan tombol navigasi panah.
+Biasanya saya menugaskan jari kelingking untuk menekan tomol panah. Namun setelah menggunakan tombol navigasi VIM, saya malah jarang menekan tombol itu.</description>
+    </item>
+    
+    <item>
+      <title>Install Inkscape Terbaru dari PPA Resmi</title>
+      <link>http://example.org/post/ppa-inkscape/</link>
+      <pubDate>Tue, 06 Feb 2018 16:29:16 +0800</pubDate>
+      
+      <guid>http://example.org/post/ppa-inkscape/</guid>
+      <description>Saya menggunakan Inkscape 0.91, kadang sering stuck saat melakukan dragging dengan tombol spasi dan mouse.
+Mungkin saja di versi 0.92 sudah diperbaiki. Oya, versi 0.91 ini dirilis pada tahun 2015, sedangkan 0.92 pada tahun 2017.
+Saya ingin upgrade ke 0.92, namun belum tersedia di repositori resmi.
+Akhirnya menemukan PPA ini:
+sudo add-apt-repository ppa:inkscape.dev/stable sudo apt-get update Dan sekarang saya sudah bisa install Inkscape 0.92, yay!
+Sumber: https://code.launchpad.net/~inkscape.dev/+archive/ubuntu/stable</description>
+    </item>
+    
+    <item>
+      <title>Verifikasi Profil Upwork via Video Chat</title>
+      <link>http://example.org/post/verifikasi-upwork/</link>
+      <pubDate>Wed, 31 Jan 2018 10:52:18 +0800</pubDate>
+      
+      <guid>http://example.org/post/verifikasi-upwork/</guid>
+      <description>Hari ini saya melakukan verifikasi profil upwork 😄&amp;hellip;
+Sebenarnya saya sudah daftar upwork sejak era Odesk dan Elance masih berjaya, namun belum pernah melakukan apa-apa.
+Nah kemarin dapat kebetulan job pertama bikin pop-up dengan vex untuk Hugo.
+&amp;hellip;dan beberapa hari berikutnya dapat email dari Upwork yang mengatakan: akun saya sementara ditahan dan harus melalkukan verifikasi melalui video chat.
+Video chat!!
+Ini terdengar sulit bagi saya. Karena beberapa waktu yang lalu pernah video chat via skype dengan orang inggris.</description>
+    </item>
+    
+    <item>
+      <title>Masalah Saat Upgrade Linux Mint 18</title>
+      <link>http://example.org/post/upgrade-lm-18/</link>
+      <pubDate>Wed, 31 Jan 2018 04:18:56 +0800</pubDate>
+      
+      <guid>http://example.org/post/upgrade-lm-18/</guid>
+      <description>Kemarin saya pergi ke tempat Wifi.id dan melakukan upgrade Linux Mint. Akan tetapi dapat sedikit masalah dengan mysql-server.
+Entah mengapa ini bisa terjadi&amp;hellip;
+Sebenarnya ini yang membuat saya malas upgrade Linux. Kadang sering terjadi error karena ada beberapa bugs yang belum diperbaiki.
+Namun, untungnya sudah solved dengan solusi dari https://askubuntu.com/a/762432/235594.
+Berikut ini log Terminal saya:
+petanikode@imajinasi ~ $ apt install shutter [sudo] password for petanikode: Reading package lists... Done Building dependency tree Reading state information.</description>
+    </item>
+    
+    <item>
+      <title>Eksperimen Membuat Template Blogger dengan Bootstrap 4</title>
+      <link>http://example.org/post/template-blogger/</link>
+      <pubDate>Thu, 25 Jan 2018 20:30:53 +0800</pubDate>
+      
+      <guid>http://example.org/post/template-blogger/</guid>
+      <description>Tadi malam saya coba eksperimen membuat template blogger dengan Bootstrap 4. Saya membuat blog baru (https://bs4blogger.blogspot.com) untuk eksperimen ini.
+Membuat template blog sepertinya lebih sulit daripada membuat template Hugo. Karena dokumentasi template blogger sangat minim.
+Berikut ini link dokumentasi yang bisa digunakan:
+ Pengenalan konsep dasar template blogger Penjelasan tentang CSS di Template Penjelasan tentang kode widget Variabel data di template  Saya juga menggunakan semacam cheatsheet untuk mempermudah dalam mengetahui isi dari variabel data.</description>
+    </item>
+    
+    <item>
+      <title>Tahapan Menulis Artikel di Blog</title>
+      <link>http://example.org/post/menulis-blog/</link>
+      <pubDate>Wed, 24 Jan 2018 03:01:24 +0800</pubDate>
+      
+      <guid>http://example.org/post/menulis-blog/</guid>
+      <description>Saya baru menyadari, kalau selama ini cara saya menulis memang salah. Saya menulis draft, sekaligus mengedit, dan membuat gambar ilustrasinya.
+Jadi kurang fokus pada menuangkan isi pikiran yang akan ditulis. Akibatnya pembutan artikel jadi lama dan berakhir menjadi draft.
+Setelah saya mencoba untuk fokus di satu saja, ternyata hasilnya lumayan berbeda.
+Pertama: Menulis Draft Saya menulis apa yang sedang terlintas dipikiran tanpa memperhatikan typo dan kalimat yang bagus. Tulis saja apa adanya.</description>
+    </item>
+    
+    <item>
+      <title>Belajar Menulis Buku dengan Pandoc</title>
+      <link>http://example.org/post/buku-pandoc/</link>
+      <pubDate>Tue, 23 Jan 2018 20:01:12 +0800</pubDate>
+      
+      <guid>http://example.org/post/buku-pandoc/</guid>
+      <description>Salah satu goal saya di tahun 2018 adalah membuat buku. Setidaknya bisa membuat ebook untuk catatan pribadi.
+Syukur-syukur kalau ada yang mau baca 😄.
+Pertama saya coba-coba lihat info di leanpub tentang cara menulis di sana. Namun, sepertinya berbayar $99 untuk bisa menulis di sana.
+Dulu saya juga pernah coba-coba gitbook, tapi sudah lupa.
+Nah sekarang saya menemukan Pandoc yang merupakan sebuah program CLI untuk konversi dokumen ke beberapa format seperti HTML, EPUB, dll.</description>
+    </item>
+    
+    <item>
+      <title>Binding Server Hugo ke IP LAN</title>
+      <link>http://example.org/post/hugo-server/</link>
+      <pubDate>Tue, 23 Jan 2018 02:03:56 +0800</pubDate>
+      
+      <guid>http://example.org/post/hugo-server/</guid>
+      <description>Jadi ceritanya hari ini saya dapat feedback untuk revisi pekerjaan pembuatan template Hugo.
+Kebanyakan masalahnya pada tata letak dan responsive.
+Saya ingin mengetes langsung dengan HP. Sebenarnya bisa langsung dilakukan di browser, tapi saya maunya langsung dari HP saja.
+Kondisi topologi jraingan saya:
+Modem Wifi --- Laptop||HPAlamat IP laptop saya 192.168.1.104 bisa diakses melalui LAN.
+Ketika mencoba mengakses alamat IP tersebut dari HP, yang muncul adalah server Apache.</description>
+    </item>
+    
+    <item>
+      <title>Migrasi Front-matter Hugo dengan sed</title>
+      <link>http://example.org/post/migrasi-frontmatter/</link>
+      <pubDate>Fri, 19 Jan 2018 20:05:09 +0800</pubDate>
+      
+      <guid>http://example.org/post/migrasi-frontmatter/</guid>
+      <description>Saya berencana memperbaiki template dan front-matter Petanikode. Ada 300 lebih artikelnya yang harus dimodifikasi.
+Saya rasa ini cukup merepotkan, mengedit satu-persatu front-matter setiap artikel. Apalagi jumlahnya cukup banyak.
+Akhirnyta saya menemukan sed (Stream Editor).
+Berawal dari coba-coba dari perintah ini, Front-matternya menjadi rusak. Untungnya menggunakan git, jadi masih bisa dikembalikan lagi.
+Lalu biar mudah saya membuat branch baru bernama theme-migration.
+git checkout -b theme-migration Sekarang saya bebas memodifikasinya dengan sed tanpa harus takut rusak lagi.</description>
+    </item>
+    
+    <item>
+      <title>Cara Deploy Hugo dari Gitlab ke Surge</title>
+      <link>http://example.org/post/hugo-gitlab-surge/</link>
+      <pubDate>Sat, 13 Jan 2018 17:59:45 +0800</pubDate>
+      
+      <guid>http://example.org/post/hugo-gitlab-surge/</guid>
+      <description>Saya punya project pembuatan template untuk web company profile. Sewaktu ingin memperlihatkan demo, saya menggunakan layanan hosting Surge. Karen sangat mudah sekali.
+Cukup dengan mengetik perintah:
+surge ./publicWebsite suda di-deploy ke Surge.
+Namun, tiap kali deploy, kita akan upload semua file public ke surge. Ini saya rasa kurang bagus, karena koneksi internet saya sangat terbatas (lambat dan kuota tinggal sedikit hahaha 😄).
+Karena itu, saya memanfaatkan Gitlab CI:
+Worflownya menjadi begini:</description>
+    </item>
+    
+    <item>
+      <title>Kegagalan yang Saya Lakukan di Tahun 2017</title>
+      <link>http://example.org/post/buku-2017/</link>
+      <pubDate>Tue, 02 Jan 2018 18:39:53 +0800</pubDate>
+      
+      <guid>http://example.org/post/buku-2017/</guid>
+      <description>Kegagalan yang SUKSESS saya lakukan di tahun 2017 adalah tidak bisa menyelesaikan tantangan Goodreads 😄.
+Padahal hanya membaca 10 buku dalam setahun.
+Sebenarnya saya sudah menyelsaikan beberapa buku, cuma lupa diinputkan ke Goodreads. Akhirnya tidak berhasil menyelesaikan Goodreads Challenge.
+Tidak apa-apa&amp;hellip;
+Kita coba lagi tahun ini.
+Tahun ini saya ingin membaca 10 buku, bahkan lebih.
+Semoga berhasil!</description>
+    </item>
+    
+    <item>
+      <title>Experimen Deploy Hugo dari Gitlab CI ke Github Pages</title>
+      <link>http://example.org/post/gitlab-github-pages/</link>
+      <pubDate>Mon, 01 Jan 2018 09:39:08 +0800</pubDate>
+      
+      <guid>http://example.org/post/gitlab-github-pages/</guid>
+      <description>Di awal tahun baru, sepertinya pegawai Travis CI sedang liburan. Hal ini munkin menyebabkan gangguan build di Travis CI. Akibanya lama menunggu Queue build-nya.
+Sebagai alternatif, saya menggunakan CI milik Gitlab.
+Ini adalah isi file .gitlab-ci.yml di repo blog saya:
+image:andthensome/alpine-hugo-git-bash:0.31.2before_script:- hugoversiongithub_pages:script:- rm-rfpublic- gitclone--depth1https://ardianta:$GITHUB_ACCESS_TOKEN@github.com/ardianta/ardianta.github.io.gitpublic- hugo--configconfig.production.toml- cdpublic- gitconfiguser.email&amp;#34;&amp;lt;your git email&amp;gt;&amp;#34;- gitconfig--globaluser.name&amp;#34;&amp;lt;your git name&amp;gt;&amp;#34;- gitadd-A- gitcommit-m&amp;#34;Build from $CI_SERVER_NAME $CI_PIPELINE_ID&amp;#34;- gitpushartifacts:paths:- publiconly:- masterSaya menggunakan image docker andthensome/alpine-hugo-git-bash, karena membutuhkan perintah hugo dan git saat melakukan build.</description>
+    </item>
+    
+    <item>
+      <title>Goal yang ingin Saya Capai di Tahun 2018</title>
+      <link>http://example.org/post/goal-2018/</link>
+      <pubDate>Mon, 01 Jan 2018 06:50:11 +0800</pubDate>
+      
+      <guid>http://example.org/post/goal-2018/</guid>
+      <description>Waktu sangat cepat berlalu ya&amp;hellip;
+Sekarang kita sudah sampai di tahun 2018. Artinya bumi sudah melakukan revolusi (mengelilingi matahari) sebanyak 2018x sejak tahun masehi dimulai.
+Ada beberapa goal yang ingin saya capai di tahun 2018:
+ (15%) Terbiasa menggunakan Vim Bisa membuat Game dengan Unity atau Godot Membaca 10+ buku (Goodreads Chellange) Menerbitkan Buku atau Ebook Membuat Aplikasi/Game Android dan Akun Playstore Melengkapi Tutorial di Petanikode (45%) Perbanyak latihan komunikasi dan public speaking (sampai jadi PD) Belajar Menggambar Lagi (dimulai 18 Maret 2018) Beli pen tablet Wacom (10%) Fasih berbicara bahasa inggris Belajar Teknologi Bitcoin Morning rituals: Olahraga tiap pagi (minimal push-up 10x) Morning rituals: Rapikan kamar, Nyapu halaman tiap pagi Tidur tepat Waktu sesuai jam alam  Beberapa goal mungkin tidak akan bisa dicapai.</description>
+    </item>
+    
+    <item>
+      <title>9 Ilmu (Teknologi) yang Saya Pelajari selama Tahun 2017</title>
+      <link>http://example.org/post/ilmu-2017/</link>
+      <pubDate>Sun, 31 Dec 2017 04:29:54 +0800</pubDate>
+      
+      <guid>http://example.org/post/ilmu-2017/</guid>
+      <description>Saya tidak begitu pandai membuat rencana. Kadang sering mengubah rencana secara tiba-tiba.
+Sebelum masuk tahun 2017 saya membuat rencana ingin belajar berbagai macam teknologi. Tapi malah melenceng, alias tidak sesuai dengan yang direncanakan.
+&amp;hellip;dan sekarang saya ingin me-review apa saja yang sudah dipelajari sepanjang tahun 2017.
+1. Membuat Blog dengan Hugo Akhir tahun lalu, saya mulai mengenal Hugo karena menonton video benchmark-nya di Youtube. Hugo bisa me-render 5000 halaman dalam beberapa detik.</description>
+    </item>
+    
+    <item>
+      <title>Install Docker di Linux Mint 18</title>
+      <link>http://example.org/post/install-docker/</link>
+      <pubDate>Sat, 30 Dec 2017 17:41:27 +0800</pubDate>
+      
+      <guid>http://example.org/post/install-docker/</guid>
+      <description>Pertama lakukan update:
+sudo apt-get update Berikutnya install paket-paket yang dibutuhkan:
+sudo apt-get install \  apt-transport-https \  ca-certificates \  curl \  software-properties-common Tamhakan GPG Key resmi Docker:
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - Versifikasi fingerprint 9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88
+sudo apt-key fingerprint 0EBFCD88 outputnya:
+pub 4096R/0EBFCD88 2017-02-22 Key fingerprint = 9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88 uid Docker Release (CE deb) &amp;lt;docker@docker.</description>
+    </item>
+    
+    <item>
+      <title>Menggunakan Yarn pada Angular CLI</title>
+      <link>http://example.org/post/angular-yarn/</link>
+      <pubDate>Sat, 30 Dec 2017 12:13:17 +0800</pubDate>
+      
+      <guid>http://example.org/post/angular-yarn/</guid>
+      <description>Angular default-nya menggunakan NPM. Apabila ingin mengganti package manager ke Yarn, cukup ketik perintah ini:
+ng set --global packageManager=yarn Percobaan:
+Untuk mengembalikan ke NPM:
+ng set --global packageManager=npm Kenapa Pakai Yarn?
+Menurut saya Yarn lebih cepat daripada NPM dan Yarn bisa digunakan Offline.
+Sumber: https://medium.com/@beeman/using-yarn-with-angular-cli-db2e318e43c5</description>
+    </item>
+    
+    <item>
+      <title>Langkah Awal: Belajar Reactjs</title>
+      <link>http://example.org/post/belajar-reactjs/</link>
+      <pubDate>Fri, 29 Dec 2017 04:24:49 +0800</pubDate>
+      
+      <guid>http://example.org/post/belajar-reactjs/</guid>
+      <description>Saya telat ikut kulgram Reactjs di @lombokjs, karena kehabisan kuota 😢.
+Tapi tak masalah, di Telegram masih tersimpan arsipnya.
+Langkah awal belajar React, ya pertama harus kenalan dulu dengan React-nya.
+Bagaimana sejarahnya?
+Kenapa harus menggunakan React?
+Bagaimana konsep React?
+Kira-kira itulah isi dari kulgram semalam yang nggak saya ikuti.
+Tapi pagi ini, saya mau coba-coba langsung&amp;hellip;
+Coba nginstall aja, siapa tau mau belajar lebih lanjut.
+Memulai Project React Saya akan menggunakan yarn dan create-react-app untuk memulai.</description>
+    </item>
+    
+    <item>
+      <title>Clone Commit Terakhir dari Repository Git</title>
+      <link>http://example.org/post/git-clone-depth/</link>
+      <pubDate>Tue, 26 Dec 2017 04:13:15 +0800</pubDate>
+      
+      <guid>http://example.org/post/git-clone-depth/</guid>
+      <description>Banyangkan ada 12283192311 commit yang sudah dilakukan pada repository. Lalu kita ingin clone ke lokal.
+Berapa besar file yang akan di-download?
+Pastinya cukup besar.
+Nah, bagaimana caranya clone hanya commit terakhir saja?
+Cukup dengan perintah ini:
+git clone --depth=1 &amp;lt;remote_repo_url&amp;gt; Referensi:
+ https://git-scm.com/docs/git-clone https://stackoverflow.com/a/1210012/2658551  Contoh:
+Ada 1221 commit yang sudah dibuat pada repository ini:
+Lalu tinggal di-clone aja dengan perintah tadi.</description>
+    </item>
+    
+    <item>
+      <title>Serius Nih! Cloudflare tidak Melakukan Propagasi</title>
+      <link>http://example.org/post/cloudflare-propagasi/</link>
+      <pubDate>Sun, 24 Dec 2017 18:31:41 +0800</pubDate>
+      
+      <guid>http://example.org/post/cloudflare-propagasi/</guid>
+      <description>Biasanya kalau kita ganti server hosting, lalu alamat IP domain diganti dengan server yang baru, maka membutuhkan masa propagasi.
+Propagasi bertujuan untuk mengumumkan alamat IP baru ke semua jaringan internet. Propagasi biasanya membutuhkan waktu 24 jam sampai bahkan 1 minggu.
+Pengalaman kemarin, saya pindah-pindah server hosting dari Blogger ke Gitlab, dari Gitlab ke Github.
+Propagasinya lama dan domain belum bisa diakses sampai masa propagasi selesai. Kira-kira 2&amp;ndash;3 hari baru bisa selesai.</description>
+    </item>
+    
+    <item>
+      <title>Sekarang Blog ini Menggunakan Travis CI</title>
+      <link>http://example.org/post/hugo-travis-ci/</link>
+      <pubDate>Sun, 24 Dec 2017 06:05:11 +0800</pubDate>
+      
+      <guid>http://example.org/post/hugo-travis-ci/</guid>
+      <description>Blog ini di-hosting di Github pada repositori ini: https://github.com/ardianta/ardianta.github.io.
+Setiap kali saya ingin deploy, saya harus melakukan push ke sana.
+Tapi sekarang sudah tidak lagi, karena sudah dibantu sama Travis CI. yay! 😄
+Travis CI ini bertugas untuk melakuakn build dan deploy.
+Adapun skrip yang saya gunakan adalah sebagai berikut:
+File deploy-ci.sh
+#!/bin/bash  set -e DEPLOY_REPO=&amp;#34;https://${DEPLOY_BLOG_TOKEN}@github.com/ardianta/ardianta.github.io.git&amp;#34; function main { clean get_current_site build_site deploy } function clean { echo &amp;#34;cleaning public folder&amp;#34; if [ -d &amp;#34;public&amp;#34; ]; then rm -rf public; fi } function get_current_site { echo &amp;#34;getting latest site&amp;#34; git clone --depth 1 $DEPLOY_REPO public } function build_site { echo &amp;#34;building site.</description>
+    </item>
+    
+    <item>
+      <title>Deploy Hugo ke Firebase dengan Gitlab CI</title>
+      <link>http://example.org/post/hugo-gitlab-firebase/</link>
+      <pubDate>Sat, 23 Dec 2017 22:25:46 +0800</pubDate>
+      
+      <guid>http://example.org/post/hugo-gitlab-firebase/</guid>
+      <description>Biasanya saya melakukan deploy dengan perintah firebase deploy. Akan tetapi perintah ini sama persis seperti FTP.
+Semua file akan di-upload ke Firebase. Hal ini akan membuat kuota internet saya cepat habis 😄, resiko pakai paket data.
+Lalu sebaiknya bagaimana?
+Saya ingin mencoba workflow pak Ariya. Beliau deploy Hugo ke Firebase melalui Gitlab CI.
+Gambarannya seperti ini:
+Sumber: ariya.io
+Lalu, pada repo Gitlab, saya menggunakan konfigurasi CI seperti ini:
+image:nohitme/hugo-firebase:0.31.1before_script:- hugoversion- firebase--versionhugo_firebase:stage:deployonly:- masterexcept:- devscript:- rm-rfpublic- hugo--configconfig.</description>
+    </item>
+    
+    <item>
+      <title>Menggunakan Feedburner untuk Hugo</title>
+      <link>http://example.org/post/feedburner-hugo/</link>
+      <pubDate>Fri, 22 Dec 2017 19:21:27 +0800</pubDate>
+      
+      <guid>http://example.org/post/feedburner-hugo/</guid>
+      <description>Baru saja saya selesai mendaftarkan blog ini ke Feedburner Google.
+Kenapa pakai Feedburner?
+Sebenarnya Hugo sudah mendukung RSS Feed, bisa dilihat di https://ardianta.github.io/post/index.xml.
+Akan tetapi, kalau kita ganti domain, orang-orang yang sudah berlangganan RSS Feed dari blog kita tidak akan dapat update lagi. Karena URL-nya sudah berubah.
+Nah, berbeda dengan menggunakan Feedburner.
+Kalaupun kita ganti domain, kita masih bisa mengganti alamat RSS Feed di Feedburner dan orang yang sudah berlangganan bisa tetap menerima update dari blog kita.</description>
+    </item>
+    
+    <item>
+      <title>Plug-in Komentar Disqus vs Facebook, Pilih yang mana?</title>
+      <link>http://example.org/post/disqus-vs-facebook/</link>
+      <pubDate>Fri, 22 Dec 2017 15:54:38 +0800</pubDate>
+      
+      <guid>http://example.org/post/disqus-vs-facebook/</guid>
+      <description>Dalam mengembangkan template Hugo untuk Lombokfoss, saya sedikit bingung mau pilih plugin komentar yang mana.
+Antara Disqus dan Facebook?
+Dulu sebenarnya pakai Facebook. Tapi sekarang mau diganti ke Disqus.
+Berikut ini tampilan kalau menggunakan Facebook:
+Terlihat bagus, tapi masih ada kekurangnnya:
+ Tidak bisa menulis sintak dengan format HTML Tidak bisa mengubah URL dari komentar (migrasi) Harus dibuatkan aplikasi di facebook  Kelebihannya:
+ Komentar langsung masuk ke notifikasi fans page Komentar sinkron dengan postingan di fans page Banyak penggunanya  Sementara kalau menggunakan komentar disqus, tampilannya seperti ini:</description>
+    </item>
+    
+    <item>
+      <title>Template Baru untuk Lombokfoss</title>
+      <link>http://example.org/post/template-lombokfoss/</link>
+      <pubDate>Thu, 21 Dec 2017 16:03:55 +0800</pubDate>
+      
+      <guid>http://example.org/post/template-lombokfoss/</guid>
+      <description>Setelah membuat template untuk blog ini. Sekarang giliran blog Lombokfoss yang saya buatkan templatenya.
+Pengerjaannya sangat cepat, cuma 1 hari. Karena saya copas dari template blog ini. Lalu tinggal dimodif dan diatur tata letaknya.
+Maka jadilah seperti ini.
+Halaman home:
+Halaman artikel:
+Seperti biasa, untuk tampilan saya masih mengandalkan Bootstrap 4.
+Template ini masih belum selesai.
+Pekerjaan Selanjutnya  Perbaiki tampilan untuk mobile Pasang Komentar Faceook (diganti pakai disqus) Pasang Komentar Disqus Menambahkan Google Analytic (pakai Cloudflare) Menambahkan Open Graph Menambahkan Share Button Mendaftarkan ke Google Webmaster Perbaiki Kualitas Konten Pembuatan halaman 404.</description>
+    </item>
+    
+    <item>
+      <title>Git Push, Lalu Tiba-tiba Matilampu!</title>
+      <link>http://example.org/post/git-push-matilampu/</link>
+      <pubDate>Wed, 20 Dec 2017 00:59:23 +0800</pubDate>
+      
+      <guid>http://example.org/post/git-push-matilampu/</guid>
+      <description>Apa yang akan terjadi saat menjalankan perintah git push lalu ditengah-tengah mati lampu?
+Jika pakai laptop nggak masalah, karena daya masih bisa ngambil dari baterai.
+Tapi yang pakai komputer?
+atau yang laptopnya nggak bisa nyala tanpa cas?
+Ini masalah!
+Sebenarnya kejadian ini sudah pernah saya alami sebelumnya.
+Repositori jadi rusak dan tidak bisa melakukan apa-apa.
+Solusi &amp;ldquo;bodohnya&amp;rdquo; kita harus membuat repositori baru.
+Hapus dulu database git yang sudah ada:
+rm -rf .</description>
+    </item>
+    
+    <item>
+      <title>Coba-coba Ekstensi Hugofy di VS Code</title>
+      <link>http://example.org/post/ekstensi-hugofy/</link>
+      <pubDate>Tue, 19 Dec 2017 23:20:33 +0800</pubDate>
+      
+      <guid>http://example.org/post/ekstensi-hugofy/</guid>
+      <description>Penasaran dengan ekstensi ini. Lansung saja saya coba install.
+Pada deskripsinya menjelaskan&amp;hellip;
+&amp;hellip;dengan ekstensi ini, kita bisa:
+ Buat web hugo baru Buat artikel Build site Menajalankan server dan mematikannya Download Tema  Ekstensi Hugofy ini bisa kita gunakan dengan menekan tombol Ctrl+Shift+p lalu mengetik hugofy dan memilih perintah yang ingin dijalankan.
+Tapi begitu saya coba menjalankan server, terjadi error seperti ini:
+Sebagian dari perintah-perintah Hugofy sudah biasa saya ketik lewat terminal.</description>
+    </item>
+    
+    <item>
+      <title>Membuat Tema Hugo Sendiri</title>
+      <link>http://example.org/post/tema-baru-hugo/</link>
+      <pubDate>Mon, 18 Dec 2017 15:49:46 +0800</pubDate>
+      
+      <guid>http://example.org/post/tema-baru-hugo/</guid>
+      <description>Menggunakan tema orang lain, rasanya saya kurang bebas. Karena banyak yang tidak dipahami di stuktur tema mereka.
+Akhirnya saya membuat tema sendiri untuk blog ini.
+Tema Baru Ardianta ini isi file config.toml:
+baseurl = &amp;#34;https://ardianta.github.io/&amp;#34; title = &amp;#34;Ardianta&amp;#34; theme = &amp;#34;ardianta&amp;#34; googleAnalytics = &amp;#34;UA-54154424-1&amp;#34; disqusShortname = &amp;#34;ardianta&amp;#34; [permalinks] post = &amp;#34;/blog/:slug/&amp;#34; page = &amp;#34;/:slug/&amp;#34; [params] # Site Author author = &amp;#34;Dian&amp;#34; # Description/subtitle for homepage description = &amp;#34;Hello, saya Dian. Blog ini belum jadi.</description>
+    </item>
+    
+    <item>
+      <title>Migrasi Lombokfoss ke Hugo dan Firebase</title>
+      <link>http://example.org/post/lombokfoss-firebase/</link>
+      <pubDate>Mon, 06 Nov 2017 23:44:45 +0800</pubDate>
+      
+      <guid>http://example.org/post/lombokfoss-firebase/</guid>
+      <description>Minggu ini saya melakukan migrasi blog saya Lombokfoss, karena nggak pernah diurus.
+Rencananya saya mau pakai Hugo dan hostingnya di Firebase, lalu untuk DNS saya masih percayakan pada CloudFlare.
+Saya baru pertama kali mencoba hosting di Firebase dan mengkonfigurasi kustom domainnya.
+Di CloudFlare saya set seperti ini:
+Hampir satu minggu saya tunggu, tapi belum juga bisa.
+Ternyata masalahanya cuma di pengaturan SSL Cloudflare saja.
+Harus diset &amp;ldquo;Full&amp;rdquo;:
+Setelah beberapa menit, akhirnya bisa juga dibuka di https://www.</description>
+    </item>
+    
+    <item>
+      <title>Lombokdev Meetup #002</title>
+      <link>http://example.org/post/lombokdev-meetup-2/</link>
+      <pubDate>Tue, 17 Oct 2017 23:43:40 +0800</pubDate>
+      
+      <guid>http://example.org/post/lombokdev-meetup-2/</guid>
+      <description>Acara-acara IT di Lombok tidak seramai di Jawa. Tapi kali ini ada Lombokdev Meetup ke-2 yang diselengarakan oleh komunitas Lombokdev.
+Beberapa teman yang sudah bekerja di Jawa bahkan rela pulang beberapa hari ke Lombok untuk menghadiri acara ini.
+#lombokdev #lombokdevmeetup pic.twitter.com/cUlA61gSEa
+&amp;mdash; Ardianta (@ArdiantaPargo) October 15, 2017  Materi yang disampaikan di acara ini cukup menarik dan beragam. Bisa di lihat di sini: Lombokdev/Meetup002.
+Acara ini berlokasi di Cafe Soecjipto, Ampenan.</description>
+    </item>
+    
+    <item>
+      <title>Hello World! Tulisan Pertama di Blog Hugo</title>
+      <link>http://example.org/post/hello-world/</link>
+      <pubDate>Tue, 24 Jan 2017 14:35:02 +0800</pubDate>
+      
+      <guid>http://example.org/post/hello-world/</guid>
+      <description>Hello World!
+ini adalah tulisan pertama di blog ini. Baru saja saya membuat blog dengan Hugo. Sekarang lagi dikembangkan dengan tema Hugo Bootstrap v4 Blog.
+Saya memilih Hugo, karena rasanya lebih mudah dari pada Jekyll dan Octopress. Meskipun saya belum mengerti bahasa pemrograman Go.
+Deploy saya lakukan ke Github Pages dengan dua repositori terpisah. Pertama, repositori ardianta-pargo untuk menyimpan konten, kemudian repositori ardianta.github.io untuk menyimpan halaman publik hasil render dari Hugo.</description>
+    </item>
+    
+    <item>
+      <title>Memperbaiki Laptop HP: COOLING FAN (902) ERROR</title>
+      <link>http://example.org/post/hp-cooling-fan/</link>
+      <pubDate>Sat, 06 Jun 2015 23:44:45 +0800</pubDate>
+      
+      <guid>http://example.org/post/hp-cooling-fan/</guid>
+      <description>(ini adalah tulisan impor dari blog lama)
+Ceritanya ada sebuah laptop (HP Mini) milik rekan bapak saya, setiap kali dihidupkan muncul pesan &amp;ldquo;COOLING FAN (902) ERROR&amp;rdquo;.
+Saya coba masuk ke BIOS, tidak bisa.
+Akhirnya saya membongkarnya.
+Menurut pendapat saya, mungkin baterai CMOS-nya perlu di cabut supaya konfigurasi BIOS-nya di-reset.
+Setelah membongkar dan mencabut baterai CMOS, mesih saja belum bisa.
+Belum mau menyerah, selanjutnya saya cari solusi di Google dan menemukan viedo ini:</description>
+    </item>
+    
+  </channel>
+</rss>

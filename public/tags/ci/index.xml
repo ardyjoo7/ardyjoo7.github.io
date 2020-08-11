@@ -1,0 +1,30 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>CI - Tag - Netwezen</title>
+        <link>http://example.org/tags/ci/</link>
+        <description>CI - Tag - Netwezen</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 01 Jan 2018 09:39:08 &#43;0800</lastBuildDate><atom:link href="http://example.org/tags/ci/" rel="self" type="application/rss+xml" /><item>
+    <title>Experimen Deploy Hugo dari Gitlab CI ke Github Pages</title>
+    <link>http://example.org/post/gitlab-github-pages/</link>
+    <pubDate>Mon, 01 Jan 2018 09:39:08 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/gitlab-github-pages/</guid>
+    <description><![CDATA[Di awal tahun baru, sepertinya pegawai Travis CI sedang liburan. Hal ini munkin menyebabkan gangguan build di Travis CI. Akibanya lama menunggu Queue build-nya.
+Sebagai alternatif, saya menggunakan CI milik Gitlab.
+Ini adalah isi file .gitlab-ci.yml di repo blog saya:
+image:andthensome/alpine-hugo-git-bash:0.31.2before_script:- hugoversiongithub_pages:script:- rm-rfpublic- gitclone--depth1https://ardianta:$GITHUB_ACCESS_TOKEN@github.com/ardianta/ardianta.github.io.gitpublic- hugo--configconfig.production.toml- cdpublic- gitconfiguser.email&#34;&lt;your git email&gt;&#34;- gitconfig--globaluser.name&#34;&lt;your git name&gt;&#34;- gitadd-A- gitcommit-m&#34;Build from $CI_SERVER_NAME $CI_PIPELINE_ID&#34;- gitpushartifacts:paths:- publiconly:- masterSaya menggunakan image docker andthensome/alpine-hugo-git-bash, karena membutuhkan perintah hugo dan git saat melakukan build.]]></description>
+</item><item>
+    <title>Sekarang Blog ini Menggunakan Travis CI</title>
+    <link>http://example.org/post/hugo-travis-ci/</link>
+    <pubDate>Sun, 24 Dec 2017 06:05:11 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/hugo-travis-ci/</guid>
+    <description><![CDATA[Blog ini di-hosting di Github pada repositori ini: https://github.com/ardianta/ardianta.github.io.
+Setiap kali saya ingin deploy, saya harus melakukan push ke sana.
+Tapi sekarang sudah tidak lagi, karena sudah dibantu sama Travis CI. yay! 😄
+Travis CI ini bertugas untuk melakuakn build dan deploy.
+Adapun skrip yang saya gunakan adalah sebagai berikut:
+File deploy-ci.sh
+#!/bin/bash  set -e DEPLOY_REPO=&#34;https://${DEPLOY_BLOG_TOKEN}@github.com/ardianta/ardianta.github.io.git&#34; function main { clean get_current_site build_site deploy } function clean { echo &#34;cleaning public folder&#34; if [ -d &#34;public&#34; ]; then rm -rf public; fi } function get_current_site { echo &#34;getting latest site&#34; git clone --depth 1 $DEPLOY_REPO public } function build_site { echo &#34;building site.]]></description>
+</item></channel>
+</rss>

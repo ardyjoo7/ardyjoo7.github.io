@@ -1,0 +1,48 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>tag - Tag - Netwezen</title>
+        <link>http://example.org/tags/tag/</link>
+        <description>tag - Tag - Netwezen</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 06 Jul 2020 18:04:46 &#43;0800</lastBuildDate><atom:link href="http://example.org/tags/tag/" rel="self" type="application/rss+xml" /><item>
+    <title>Masalah saat Upgrade ke Ubuntu 20.04 (Focal)</title>
+    <link>http://example.org/post/upgrade-ubuntu-focal/</link>
+    <pubDate>Mon, 06 Jul 2020 18:04:46 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/upgrade-ubuntu-focal/</guid>
+    <description><![CDATA[Hari ini saya melakukan upgrade Ubuntu 18.04 ke 20.04, sebenarnya versi ini masih belum stabil. Menurut pengumuman resminya, nanti tanggl 6 agustus akan dirilis versi stabilnya.
+Tapi, saya malah nekat upgrade.. karena ingin mencoba fitur-fitur baru yang ada di sana.
+Hasilnya:
+Mengecewakan!
+Karena saya dapat beberapa masalah.. huh! :triumph:
+1. Dolphin Tidak Bisa buka File Setelah selesai upgrade, saya langsung membuka file manager Dolphin, akan tetapi dapat pesan error.
+Error loading &#39;/usr/lib/qt/plugins/kf5/kio/file.]]></description>
+</item><item>
+    <title>Cegah Ghost Spam di Google Analytic</title>
+    <link>http://example.org/post/ghost-spam/</link>
+    <pubDate>Fri, 01 Mar 2019 20:17:20 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/ghost-spam/</guid>
+    <description><![CDATA[Pada tanggal 24 kemarin, trafik di petanikode tiba-tiba meningkat 2x lipat dari biasanya.
+Apakah ini bagus?
+Tentu saja tidak, karena trafiknya bersal dari spam.
+Entah ini disengaja atau tidak, laporan page dari web rmco.id masuk ke google analytic petanikode yang membuat saya bingung.
+Tapi untungnya saya menemukan solusinya di https://carloseo.com/removing-google-analytics-spam/
+Langkah-langkah pencegahannya:
+ Masuk ke Admin -&gt; Filter Buat Filter Baru Pilih Include Masukan alamat domain di dalam filter patterrn Simpan  Maka laporan trafik yang akan masuk ke Google Analytic hanya akan menampilkan dari domain www.]]></description>
+</item><item>
+    <title>2 Minggu Tanpa Coding</title>
+    <link>http://example.org/post/isra-mikraj-2018/</link>
+    <pubDate>Fri, 06 Apr 2018 22:47:33 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/isra-mikraj-2018/</guid>
+    <description><![CDATA[Dua minggu ini saya nggak pernah coding, karena acara lomba dalam rangka peringatan Isra&rsquo; Mikraj.
+Saya menjadi panitia di acara ini.
+Selama dua minggu ini, jarang online&hellip;
+&hellip;karena acara selesai sampai jam 10, dan beres-beres sampai jam 12.
+Akun github saya menjadi sepi.
+Tapi yang seru di acara ini:
+Bisa ngopi bareng teman-teman.
+Bisa merasakan &ldquo;lelahnya&rdquo; menjadi panitia.
+dan masih banyak lagi.]]></description>
+</item></channel>
+</rss>

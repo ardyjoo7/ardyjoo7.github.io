@@ -1,0 +1,21 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>GIMP - Tag - Netwezen</title>
+        <link>http://example.org/tags/gimp/</link>
+        <description>GIMP - Tag - Netwezen</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 22 Jun 2018 03:02:11 &#43;0800</lastBuildDate><atom:link href="http://example.org/tags/gimp/" rel="self" type="application/rss+xml" /><item>
+    <title>Animasi Pertamaku: Dibuat dengan Krita dan GIMP</title>
+    <link>http://example.org/post/animasi-pertama/</link>
+    <pubDate>Fri, 22 Jun 2018 03:02:11 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/animasi-pertama/</guid>
+    <description><![CDATA[Dulu saat masih kecil, saya cuma bisa penasaran:
+&ldquo;Bagaimana sih cara buat kartun/animasi?&rdquo;
+Setelah dewasa, saya akhirnya tahu jawabannya.
+Mulai dari Menggambar dulu&hellip; Beberapa bulan terakhir ini, saya belajar dan berlatih menggambar secara otodidak.
+Saya belajar menggambar di kertas dan di komputer menggunakan MyPaint, Krita, dan GIMP.
+Berjam-jam waktu dihabiskan. Bahkan waktu yang seharusnya dipakai buat kerja dipakai buat gambar.
+Tapi hasilnya:
+Sedikit demi sedikit saya mulai memahami cara menggunakan berbagai macam tools di tiga aplikasi tersebut.]]></description>
+</item></channel>
+</rss>

@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Github - Tag - Netwezen</title>
+        <link>http://example.org/tags/github/</link>
+        <description>Github - Tag - Netwezen</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 01 Jan 2018 09:39:08 &#43;0800</lastBuildDate><atom:link href="http://example.org/tags/github/" rel="self" type="application/rss+xml" /><item>
+    <title>Experimen Deploy Hugo dari Gitlab CI ke Github Pages</title>
+    <link>http://example.org/post/gitlab-github-pages/</link>
+    <pubDate>Mon, 01 Jan 2018 09:39:08 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/gitlab-github-pages/</guid>
+    <description><![CDATA[Di awal tahun baru, sepertinya pegawai Travis CI sedang liburan. Hal ini munkin menyebabkan gangguan build di Travis CI. Akibanya lama menunggu Queue build-nya.
+Sebagai alternatif, saya menggunakan CI milik Gitlab.
+Ini adalah isi file .gitlab-ci.yml di repo blog saya:
+image:andthensome/alpine-hugo-git-bash:0.31.2before_script:- hugoversiongithub_pages:script:- rm-rfpublic- gitclone--depth1https://ardianta:$GITHUB_ACCESS_TOKEN@github.com/ardianta/ardianta.github.io.gitpublic- hugo--configconfig.production.toml- cdpublic- gitconfiguser.email&#34;&lt;your git email&gt;&#34;- gitconfig--globaluser.name&#34;&lt;your git name&gt;&#34;- gitadd-A- gitcommit-m&#34;Build from $CI_SERVER_NAME $CI_PIPELINE_ID&#34;- gitpushartifacts:paths:- publiconly:- masterSaya menggunakan image docker andthensome/alpine-hugo-git-bash, karena membutuhkan perintah hugo dan git saat melakukan build.]]></description>
+</item></channel>
+</rss>

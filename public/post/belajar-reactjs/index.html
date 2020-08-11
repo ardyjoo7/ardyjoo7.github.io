@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>Langkah Awal: Belajar Reactjs - Netwezen</title><meta name="Description" content="Langkah awal belajar React, ya pertama harus kenalan dulu dengan React-nya. Bagaimana sejarahnya? Kenapa harus menggunakan React? Bagaimana konsep React?"><meta property="og:title" content="Langkah Awal: Belajar Reactjs" />
+<meta property="og:description" content="Langkah awal belajar React, ya pertama harus kenalan dulu dengan React-nya. Bagaimana sejarahnya? Kenapa harus menggunakan React? Bagaimana konsep React?" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/post/belajar-reactjs/" />
+<meta property="article:published_time" content="2017-12-29T04:24:49+08:00" />
+<meta property="article:modified_time" content="2017-12-29T04:24:49+08:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Langkah Awal: Belajar Reactjs"/>
+<meta name="twitter:description" content="Langkah awal belajar React, ya pertama harus kenalan dulu dengan React-nya. Bagaimana sejarahnya? Kenapa harus menggunakan React? Bagaimana konsep React?"/>
+<meta name="application-name" content="Netwezen">
+<meta name="apple-mobile-web-app-title" content="Netwezen"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://example.org/post/belajar-reactjs/" /><link rel="prev" href="http://example.org/post/git-clone-depth/" /><link rel="next" href="http://example.org/post/angular-yarn/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Langkah Awal: Belajar Reactjs",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/example.org\/post\/belajar-reactjs\/"
+        },"genre": "post","keywords": "Reactjs, Javascript","wordcount":  228 ,
+        "url": "http:\/\/example.org\/post\/belajar-reactjs\/","datePublished": "2017-12-29T04:24:49+08:00","dateModified": "2017-12-29T04:24:49+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": "Ardy Johan"},"author": {
+                "@type": "Person",
+                "name": "Ardy Johan"
+            },"description": "Langkah awal belajar React, ya pertama harus kenalan dulu dengan React-nya. Bagaimana sejarahnya? Kenapa harus menggunakan React? Bagaimana konsep React?"
+    }
+    </script></head>
+    <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : '' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Netwezen"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="https://ryk.my.id/images/favicon.png"
+        data-srcset="https://ryk.my.id/images/favicon.png, https://ryk.my.id/images/favicon.png 1.5x, https://ryk.my.id/images/favicon.png 2x"
+        data-sizes="auto"
+        alt="https://ryk.my.id/images/favicon.png"
+        title="https://ryk.my.id/images/favicon.png" /><span id="id-1" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/post/"> Post </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/categories/documentation/"> Docs </a><a class="menu-item" href="/about/"> About </a><a class="menu-item" href="https://github.com/dillonzq/LoveIt" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Netwezen"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="https://ryk.my.id/images/favicon.png"
+        data-srcset="https://ryk.my.id/images/favicon.png, https://ryk.my.id/images/favicon.png 1.5x, https://ryk.my.id/images/favicon.png 2x"
+        data-sizes="auto"
+        alt="https://ryk.my.id/images/favicon.png"
+        title="https://ryk.my.id/images/favicon.png" /><span id="id-2" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/post/" title="">Post</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/categories/documentation/" title="">Docs</a><a class="menu-item" href="/about/" title="">About</a><a class="menu-item" href="https://github.com/dillonzq/LoveIt" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="page single special"><h1 class="single-title animated pulse faster">Langkah Awal: Belajar Reactjs</h1><div class="content" id="content"><p>Saya telat ikut kulgram Reactjs di <a href="https://t.me/lombokjs" target="_blank" rel="noopener noreffer">@lombokjs</a>,
+karena kehabisan kuota 😢.</p>
+<p>Tapi tak masalah, di Telegram masih tersimpan arsipnya.</p>
+<p>Langkah awal belajar React, ya pertama harus kenalan dulu 
+dengan React-nya.</p>
+<p>Bagaimana sejarahnya?</p>
+<p>Kenapa harus menggunakan React?</p>
+<p>Bagaimana konsep React?</p>
+<p>Kira-kira itulah isi dari kulgram semalam yang nggak saya ikuti.</p>
+<p>Tapi pagi ini, saya mau coba-coba langsung&hellip;</p>
+<p>Coba nginstall aja, siapa tau mau belajar lebih lanjut.</p>
+<h2 id="memulai-project-react">Memulai Project React</h2>
+<p>Saya akan menggunakan <code>yarn</code> dan <code>create-react-app</code> untuk memulai.</p>
+<p>Pertama, kita install dulu <code>yarn</code>.</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg <span class="p">|</span> sudo apt-key add -
+<span class="nb">echo</span> <span class="s2">&#34;deb https://dl.yarnpkg.com/debian/ stable main&#34;</span> <span class="p">|</span> sudo tee /etc/apt/sources.list.d/yarn.list
+sudo apt-get update <span class="o">&amp;&amp;</span> sudo apt-get install yarn
+</code></pre></div><p>Untuk sistem operasi yang lain cek di sini: <a href="https://yarnpkg.com/lang/en/docs/install/">https://yarnpkg.com/lang/en/docs/install/</a></p>
+<p>Kenapa tidak pakai <code>npm</code>?</p>
+<p>Karena merasa pakai <code>yarn</code> lebih kenceng 😄.</p>
+<p>Habis install <code>yarn</code>, sekarang kita intall <code>create-react-app</code>.</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">sudo yarn global add create-react-app
+</code></pre></div><p>Sebenarnya bisa langsung pakai CDN, tapi biar keren dikit kita pakai ini aja.</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img/react/instalasi-create-react.png"
+        data-srcset="/img/react/instalasi-create-react.png, /img/react/instalasi-create-react.png 1.5x, /img/react/instalasi-create-react.png 2x"
+        data-sizes="auto"
+        alt="/img/react/instalasi-create-react.png"
+        title="Instalasi create-react-app" /></p>
+<p>Setelah itu, baru kita bisa baut project React.</p>
+<p>Perintahnya:</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">create-react-app my-react-app
+</code></pre></div><p>Habis itu, kita buka dengan teks editor andalan, yaitu VS Code:</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">code my-ract-app
+</code></pre></div><p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img/react/code-my-react.png"
+        data-srcset="/img/react/code-my-react.png, /img/react/code-my-react.png 1.5x, /img/react/code-my-react.png 2x"
+        data-sizes="auto"
+        alt="/img/react/code-my-react.png"
+        title="Buka project react dengan VS Code" /></p>
+<p>&hellip;dan ini lah penampakannya:</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img/react/reactjs-vscode.png"
+        data-srcset="/img/react/reactjs-vscode.png, /img/react/reactjs-vscode.png 1.5x, /img/react/reactjs-vscode.png 2x"
+        data-sizes="auto"
+        alt="/img/react/reactjs-vscode.png"
+        title="Buka project react dengan VS Code" /></p>
+<p>Terakhir, tinggal ketik perintah <code>yarn start</code> untuk <em>build</em> dan menjalankan server.</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img/react/yarn-start.png"
+        data-srcset="/img/react/yarn-start.png, /img/react/yarn-start.png 1.5x, /img/react/yarn-start.png 2x"
+        data-sizes="auto"
+        alt="/img/react/yarn-start.png"
+        title="Start server react" /></p>
+<p>Lalu, browser akan terbuka otomatis dan hasilnya:</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img/react/react-di-browser.png"
+        data-srcset="/img/react/react-di-browser.png, /img/react/react-di-browser.png 1.5x, /img/react/react-di-browser.png 2x"
+        data-sizes="auto"
+        alt="/img/react/react-di-browser.png"
+        title="Start server react" /></p>
+<p>Mantap 😍&hellip;</p>
+<h2 id="akhir-kata">Akhir Kata</h2>
+<p>Kelihatannya menarik untuk dipelajari lebih dalam. Karena di Indonesia
+juga banyak yang menggunakannya.</p>
+<p>Mungkin nanti saya akan masukkan ke dalam <em>list</em> untuk dipelajari di tahun depan (2018).</p>
+</div></div></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.74.3">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2020</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Ardy Johan</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/algoliasearch/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/typeit/typeit.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{},"data":{"id-1":"Netwezen","id-2":"Netwezen"},"search":{"algoliaAppID":"PASDMWALPK","algoliaIndex":"index.en","algoliaSearchKey":"b42948e51daaa93df92381c8e2ac0f93","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"algolia"},"typeit":{"cursorChar":null,"cursorSpeed":null,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":null,"speed":null}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

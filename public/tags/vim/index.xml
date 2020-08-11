@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>vim - Tag - Netwezen</title>
+        <link>http://example.org/tags/vim/</link>
+        <description>vim - Tag - Netwezen</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 12 Feb 2018 23:20:53 &#43;0800</lastBuildDate><atom:link href="http://example.org/tags/vim/" rel="self" type="application/rss+xml" /><item>
+    <title>Satu Minggu Belajar Keymap VIM</title>
+    <link>http://example.org/post/keyboard-vim/</link>
+    <pubDate>Mon, 12 Feb 2018 23:20:53 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/keyboard-vim/</guid>
+    <description><![CDATA[Kira-kira sudah hampir satu minggu saya membiasakan diri menggunakan keymap VIM dengan menginstall exension VIM di Google Chrome dan VS Code.
+Di Google Chome saya install Vimum. Sedangkan di VS Code saya install vim (emulator).
+Saya mulai terbiasa menggunakan tombol navigasi h,j,k, dan l dan merasakan lebih mudah daripada menekan tombol navigasi panah.
+Biasanya saya menugaskan jari kelingking untuk menekan tomol panah. Namun setelah menggunakan tombol navigasi VIM, saya malah jarang menekan tombol itu.]]></description>
+</item></channel>
+</rss>

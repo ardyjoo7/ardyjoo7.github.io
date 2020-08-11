@@ -1,0 +1,23 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Reactjs - Tag - Netwezen</title>
+        <link>http://example.org/tags/reactjs/</link>
+        <description>Reactjs - Tag - Netwezen</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 29 Dec 2017 04:24:49 &#43;0800</lastBuildDate><atom:link href="http://example.org/tags/reactjs/" rel="self" type="application/rss+xml" /><item>
+    <title>Langkah Awal: Belajar Reactjs</title>
+    <link>http://example.org/post/belajar-reactjs/</link>
+    <pubDate>Fri, 29 Dec 2017 04:24:49 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/belajar-reactjs/</guid>
+    <description><![CDATA[Saya telat ikut kulgram Reactjs di @lombokjs, karena kehabisan kuota 😢.
+Tapi tak masalah, di Telegram masih tersimpan arsipnya.
+Langkah awal belajar React, ya pertama harus kenalan dulu dengan React-nya.
+Bagaimana sejarahnya?
+Kenapa harus menggunakan React?
+Bagaimana konsep React?
+Kira-kira itulah isi dari kulgram semalam yang nggak saya ikuti.
+Tapi pagi ini, saya mau coba-coba langsung&hellip;
+Coba nginstall aja, siapa tau mau belajar lebih lanjut.
+Memulai Project React Saya akan menggunakan yarn dan create-react-app untuk memulai.]]></description>
+</item></channel>
+</rss>

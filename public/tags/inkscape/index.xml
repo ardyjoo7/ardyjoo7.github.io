@@ -1,0 +1,19 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Inkscape - Tag - Netwezen</title>
+        <link>http://example.org/tags/inkscape/</link>
+        <description>Inkscape - Tag - Netwezen</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 06 Feb 2018 16:29:16 &#43;0800</lastBuildDate><atom:link href="http://example.org/tags/inkscape/" rel="self" type="application/rss+xml" /><item>
+    <title>Install Inkscape Terbaru dari PPA Resmi</title>
+    <link>http://example.org/post/ppa-inkscape/</link>
+    <pubDate>Tue, 06 Feb 2018 16:29:16 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/ppa-inkscape/</guid>
+    <description><![CDATA[Saya menggunakan Inkscape 0.91, kadang sering stuck saat melakukan dragging dengan tombol spasi dan mouse.
+Mungkin saja di versi 0.92 sudah diperbaiki. Oya, versi 0.91 ini dirilis pada tahun 2015, sedangkan 0.92 pada tahun 2017.
+Saya ingin upgrade ke 0.92, namun belum tersedia di repositori resmi.
+Akhirnya menemukan PPA ini:
+sudo add-apt-repository ppa:inkscape.dev/stable sudo apt-get update Dan sekarang saya sudah bisa install Inkscape 0.92, yay!
+Sumber: https://code.launchpad.net/~inkscape.dev/+archive/ubuntu/stable]]></description>
+</item></channel>
+</rss>

@@ -1,0 +1,20 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>laptop - Tag - Netwezen</title>
+        <link>http://example.org/tags/laptop/</link>
+        <description>laptop - Tag - Netwezen</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 06 Jun 2015 23:44:45 &#43;0800</lastBuildDate><atom:link href="http://example.org/tags/laptop/" rel="self" type="application/rss+xml" /><item>
+    <title>Memperbaiki Laptop HP: COOLING FAN (902) ERROR</title>
+    <link>http://example.org/post/hp-cooling-fan/</link>
+    <pubDate>Sat, 06 Jun 2015 23:44:45 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/hp-cooling-fan/</guid>
+    <description><![CDATA[(ini adalah tulisan impor dari blog lama)
+Ceritanya ada sebuah laptop (HP Mini) milik rekan bapak saya, setiap kali dihidupkan muncul pesan &ldquo;COOLING FAN (902) ERROR&rdquo;.
+Saya coba masuk ke BIOS, tidak bisa.
+Akhirnya saya membongkarnya.
+Menurut pendapat saya, mungkin baterai CMOS-nya perlu di cabut supaya konfigurasi BIOS-nya di-reset.
+Setelah membongkar dan mencabut baterai CMOS, mesih saja belum bisa.
+Belum mau menyerah, selanjutnya saya cari solusi di Google dan menemukan viedo ini:]]></description>
+</item></channel>
+</rss>

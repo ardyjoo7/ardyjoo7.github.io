@@ -1,0 +1,25 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>gempa - Tag - Netwezen</title>
+        <link>http://example.org/tags/gempa/</link>
+        <description>gempa - Tag - Netwezen</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 29 Jul 2018 10:14:57 &#43;0800</lastBuildDate><atom:link href="http://example.org/tags/gempa/" rel="self" type="application/rss+xml" /><item>
+    <title>Gempa Bumi di Lombok dan Coding</title>
+    <link>http://example.org/post/gemba-coding/</link>
+    <pubDate>Sun, 29 Jul 2018 10:14:57 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/post/gemba-coding/</guid>
+    <description><![CDATA[Minggu, 29 Juli 2018. Pagi ini Lombok diguncang gempa 6 SR.
+Saat itu, saya masih tertidur&hellip;
+&hellip;dan dibangunkan oleh gempa ini.
+Laptop saya masih menyala, karena semalam tiduran sambil ngoding.
+Menyelesaikan tugas submission 4 dari Dicoding.
+Android Studio masih terbuka&hellip;
+Menampilkan baris-baris kode Kotlin.
+Gempa makin besar!
+Yang saya pikirkan pertama kali saat itu:
+&ldquo;Bagaimana nih menyelamatkan laptop saya&rdquo;
+Haha, keselamatan sendiri tidak dipikirkan.
+Sementara ibu saya sudah berteriak menyuruh saya keluar.]]></description>
+</item></channel>
+</rss>

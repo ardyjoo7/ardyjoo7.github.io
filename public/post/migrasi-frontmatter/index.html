@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>Migrasi Front-matter Hugo dengan sed - Netwezen</title><meta name="Description" content="Cara saya modifikasi semua front-matter di artikel hugo dengan sed"><meta property="og:title" content="Migrasi Front-matter Hugo dengan sed" />
+<meta property="og:description" content="Cara saya modifikasi semua front-matter di artikel hugo dengan sed" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/post/migrasi-frontmatter/" />
+<meta property="article:published_time" content="2018-01-19T20:05:09+08:00" />
+<meta property="article:modified_time" content="2018-01-19T20:05:09+08:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Migrasi Front-matter Hugo dengan sed"/>
+<meta name="twitter:description" content="Cara saya modifikasi semua front-matter di artikel hugo dengan sed"/>
+<meta name="application-name" content="Netwezen">
+<meta name="apple-mobile-web-app-title" content="Netwezen"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://example.org/post/migrasi-frontmatter/" /><link rel="prev" href="http://example.org/post/hugo-gitlab-surge/" /><link rel="next" href="http://example.org/post/hugo-server/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Migrasi Front-matter Hugo dengan sed",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/example.org\/post\/migrasi-frontmatter\/"
+        },"genre": "post","keywords": "hugo, blog","wordcount":  209 ,
+        "url": "http:\/\/example.org\/post\/migrasi-frontmatter\/","datePublished": "2018-01-19T20:05:09+08:00","dateModified": "2018-01-19T20:05:09+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": "Ardy Johan"},"author": {
+                "@type": "Person",
+                "name": "Ardy Johan"
+            },"description": "Cara saya modifikasi semua front-matter di artikel hugo dengan sed"
+    }
+    </script></head>
+    <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : '' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Netwezen"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="https://ryk.my.id/images/favicon.png"
+        data-srcset="https://ryk.my.id/images/favicon.png, https://ryk.my.id/images/favicon.png 1.5x, https://ryk.my.id/images/favicon.png 2x"
+        data-sizes="auto"
+        alt="https://ryk.my.id/images/favicon.png"
+        title="https://ryk.my.id/images/favicon.png" /><span id="id-1" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/post/"> Post </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/categories/documentation/"> Docs </a><a class="menu-item" href="/about/"> About </a><a class="menu-item" href="https://github.com/dillonzq/LoveIt" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Netwezen"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="https://ryk.my.id/images/favicon.png"
+        data-srcset="https://ryk.my.id/images/favicon.png, https://ryk.my.id/images/favicon.png 1.5x, https://ryk.my.id/images/favicon.png 2x"
+        data-sizes="auto"
+        alt="https://ryk.my.id/images/favicon.png"
+        title="https://ryk.my.id/images/favicon.png" /><span id="id-2" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/post/" title="">Post</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/categories/documentation/" title="">Docs</a><a class="menu-item" href="/about/" title="">About</a><a class="menu-item" href="https://github.com/dillonzq/LoveIt" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="page single special"><h1 class="single-title animated pulse faster">Migrasi Front-matter Hugo dengan sed</h1><div class="content" id="content"><p>Saya berencana memperbaiki template dan front-matter Petanikode.
+Ada 300 lebih artikelnya yang harus dimodifikasi.</p>
+<p>Saya rasa ini cukup merepotkan, mengedit satu-persatu front-matter
+setiap artikel. Apalagi jumlahnya cukup banyak.</p>
+<p>Akhirnyta saya menemukan <code>sed</code> (Stream Editor).</p>
+<p>Berawal dari coba-coba dari <a href="https://unix.stackexchange.com/questions/112023/how-can-i-replace-a-string-in-a-files" target="_blank" rel="noopener noreffer">perintah ini</a>, 
+Front-matternya menjadi rusak. Untungnya menggunakan git, jadi masih bisa dikembalikan lagi.</p>
+<p>Lalu biar mudah saya membuat <em>branch</em> baru bernama <code>theme-migration</code>.</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">git checkout -b theme-migration
+</code></pre></div><p>Sekarang saya bebas memodifikasinya dengan <code>sed</code> tanpa harus takut rusak lagi.
+Karena kalau rusak, kita bisa bikin lagi <em>branch</em> baru dari <em>branch</em> <code>master</code>.</p>
+<p>Ini adalah log catatan di <em>branch</em> <code>theme-migration</code>:</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img/sed/git-log.png"
+        data-srcset="/img/sed/git-log.png, /img/sed/git-log.png 1.5x, /img/sed/git-log.png 2x"
+        data-sizes="auto"
+        alt="/img/sed/git-log.png"
+        title="Git log" /></p>
+<p>Kebanyakan yang saya lakukan adalah menghapus dan mengubah agar
+menjadi lebih sederhana.</p>
+<p>Contoh:</p>
+<p>Mengubah <code>src:</code> menjadi <code>image:</code></p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">sed -i -- <span class="s1">&#39;s/src:/image:/g&#39;</span> ./content/post/*
+</code></pre></div><p>Tapi sebelum itu, saya coba-coba dulu melakukan print dengan perintah:</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">sed -n -- <span class="s1">&#39;/src:/p&#39;</span> ./content/post/*
+</code></pre></div><p>Kalau sudah yakin bari menjalankan perintah yang atas.</p>
+<p>Saya belum begitu paham dengan <code>sed</code> terutama pada <em>regex</em>.
+Namun, bisa diperlajari pada <a href="https://www.tutorialspoint.com/sed/index.htm" target="_blank" rel="noopener noreffer">tutorialspoint</a>.</p>
+<p>Kedepannya, saya akan menggunakan <em>archetype</em> ini untuk postingan terbaru
+di Petanikode:</p>
+<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml">---<span class="w">
+</span><span class="w"></span><span class="k">draft</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span><span class="w"></span><span class="k">date</span><span class="p">:</span><span class="w"> </span>{{<span class="w"> </span>.Date<span class="w"> </span>}}<span class="w">
+</span><span class="w"></span><span class="k">updated</span><span class="p">:</span><span class="w"> </span>{{<span class="w"> </span>.Date<span class="w"> </span>}}<span class="w">
+</span><span class="w"></span><span class="k">type</span><span class="p">:</span><span class="w"> </span>post<span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="k">title</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;{{ replace .TranslationBaseName &#34;</span>-<span class="s2">&#34; &#34;</span><span class="w"> </span><span class="s2">&#34; | title }}&#34;</span><span class="w">
+</span><span class="w"></span><span class="k">slug</span><span class="p">:</span><span class="w"> </span>{{<span class="w"> </span>.BaseFileName<span class="w"> </span>}}<span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="k">topik</span><span class="p">:</span><span class="w">
+</span><span class="w">    </span>- Python<span class="w">
+</span><span class="w">    </span>- Java<span class="w">
+</span><span class="w">    </span>- Javascript<span class="w">
+</span><span class="w">    </span>- PHP<span class="w">
+</span><span class="w">    </span>- HTML<span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="k">kategori</span><span class="p">:</span><span class="w">
+</span><span class="w">    </span>- Pemrograman<span class="w">
+</span><span class="w">    </span>- Web<span class="w">
+</span><span class="w">    </span>- Desktop<span class="w">
+</span><span class="w">    </span>- Mobile<span class="w">
+</span><span class="w">    </span>- Jaringan<span class="w">
+</span><span class="w">    </span>- Game<span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="k">image</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;/img/&#34;</span><span class="w">
+</span><span class="w"></span><span class="k">thumbnail</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;/img/&#34;</span><span class="w">
+</span><span class="w"></span><span class="k">description</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;{{ replace .TranslationBaseName &#34;</span>-<span class="s2">&#34; &#34;</span><span class="w"> </span><span class="s2">&#34; | title }}&#34;</span><span class="w">
+</span><span class="w"></span>---<span class="w">
+</span></code></pre></div><p>Setelah selesai mengedit front-matter dengan <code>sed</code>, berikutnya melakukan <em>testing</em> 
+dan <em>merge</em> ke <em>branch</em> <code>master</code>. Terakhir melakuan <em>deploy</em> dan beres! 😄</p>
+</div></div></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.74.3">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2020</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Ardy Johan</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/algoliasearch/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/typeit/typeit.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{},"data":{"id-1":"Netwezen","id-2":"Netwezen"},"search":{"algoliaAppID":"PASDMWALPK","algoliaIndex":"index.en","algoliaSearchKey":"b42948e51daaa93df92381c8e2ac0f93","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"algolia"},"typeit":{"cursorChar":null,"cursorSpeed":null,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":null,"speed":null}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>
